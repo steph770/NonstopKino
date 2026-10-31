@@ -89,6 +89,11 @@ function votesStr(v) {
   if (v >= 1e3) return `${Math.round(v / 1e3)} Tsd. Stimmen`;
   return `${v} Stimmen`;
 }
+function votesShort(v) {
+  if (v >= 1e6) return `${deNum(v / 1e6)} Mio. Stimmen`;
+  if (v >= 1e4) return `${Math.round(v / 1e3)} Tsd. Stimmen`;
+  return `${v.toLocaleString("de-AT")} Stimmen`;
+}
 function metaClass(m) { return m >= 61 ? "good" : m >= 40 ? "mid" : "bad"; }
 
 function whenRange(key, now) {
@@ -162,10 +167,17 @@ function activeCount() {
 }
 
 /* ---------- Darstellung ---------- */
+window.posterFail = (img) => {
+  const d = document.createElement("div");
+  d.className = `${img.className} empty`;
+  d.setAttribute("aria-hidden", "true");
+  d.textContent = img.dataset.initial || "";
+  img.replaceWith(d);
+};
 function posterHTML(f, cls = "poster", size = "w185") {
   if (f.poster) {
     const src = f.poster.replace("{size}", size);
-    return `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" decoding="async" onerror="this.removeAttribute('src');this.onerror=null">`;
+    return `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" decoding="async" data-initial="${esc((f.title || "?").trim().charAt(0))}" onerror="posterFail(this)">`;
   }
   return `<div class="${cls} empty" aria-hidden="true">${esc((f.title || "?").trim().charAt(0))}</div>`;
 }
@@ -182,7 +194,7 @@ function ticketHTML({ f, shows }, now) {
   const first = shows[0];
   const more = shows.length - 1;
   const score = f.imdbRating != null
-    ? `<span class="score">${deNum(f.imdbRating)}</span><span class="score-label">IMDb</span>`
+    ? `<span class="score">${deNum(f.imdbRating)}</span><span class="score-label">IMDb${f.imdbVotes ? `<br>${votesShort(f.imdbVotes)}` : ""}</span>`
     : `<span class="score none">–</span><span class="score-label">keine IMDb-Wertung</span>`;
   const meta = f.metascore != null ? `<span class="meta ${metaClass(f.metascore)}" title="Metascore">Meta ${f.metascore}</span>` : "";
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
