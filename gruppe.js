@@ -6,22 +6,36 @@
 
 const SDK = "https://www.gstatic.com/firebasejs/10.14.1";
 
-export async function connect({ code, config, onMembers, onVotes, onError }) {
-  if (code === "test") return localBackend({ onMembers, onVotes });
-  if (!config || !config.projectId) throw new Error("Firebase ist noch nicht eingerichtet.");
+export async function connect({ code, config, onMembers, onVotes, onOnline, onError }) {
+  if (code === "test") return localBackend({ onMembers, onVotes, onOnline });
+  if (!config || !config.projectId) throw Object.assign(new Error("Firebase ist noch nicht eingerichtet."), { code: "no-config" });
 
-  const { initializeApp } = await import(`${SDK}/firebase-app.js`);
-  const fs = await import(`${SDK}/firebase-firestore.js`);
-  const app = initializeApp(config);
+  let appMod, fs;
+  try {
+    appMod = await import(`${SDK}/firebase-app.js`);
+    fs = await import(`${SDK}/firebase-firestore.js`);
+  } catch (e) {
+    throw Object.assign(new Error("Firebase-Bibliothek konnte nicht geladen werden."), { code: "sdk-blocked" });
+  }
+  const app = appMod.initializeApp(config);
   const db = fs.getFirestore(app);
 
+  // "online" erst melden, wenn wirklich Daten vom Server kamen (nicht nur aus dem Zwischenspeicher)
+  let online = false;
+  const mark = (snap) => {
+    if (!online && !snap.metadata.fromCache) { online = true; onOnline && onOnline(); }
+  };
   const fail = (err) => onError && onError(err);
-  fs.onSnapshot(fs.collection(db, "gruppen", code, "mitglieder"), (snap) => {
+  const opts = { includeMetadataChanges: true };
+
+  fs.onSnapshot(fs.collection(db, "gruppen", code, "mitglieder"), opts, (snap) => {
+    mark(snap);
     const m = {};
     snap.forEach((d) => { m[d.id] = d.data(); });
     onMembers(m);
   }, fail);
-  fs.onSnapshot(fs.collection(db, "gruppen", code, "stimmen"), (snap) => {
+  fs.onSnapshot(fs.collection(db, "gruppen", code, "stimmen"), opts, (snap) => {
+    mark(snap);
     const v = {};
     snap.forEach((d) => { v[d.id] = d.data(); });
     onVotes(v);
@@ -34,12 +48,12 @@ export async function connect({ code, config, onMembers, onVotes, onError }) {
 }
 
 // Nur zum Ausprobieren ohne Firebase (Einladungslink mit #gruppe=test): speichert im Browser.
-function localBackend({ onMembers, onVotes }) {
+function localBackend({ onMembers, onVotes, onOnline }) {
   const KEY = "kinosieb.testgruppe";
   const read = () => { try { return JSON.parse(localStorage.getItem(KEY)) || { m: {}, v: {} }; } catch (e) { return { m: {}, v: {} }; } };
   const write = (db) => { try { localStorage.setItem(KEY, JSON.stringify(db)); } catch (e) { /* egal */ } };
   const emit = () => { const db = read(); onMembers(db.m); onVotes(db.v); };
-  setTimeout(emit, 0);
+  setTimeout(() => { emit(); onOnline && onOnline(); }, 0);
   return {
     join: async (id, name) => { const db = read(); db.m[id] = { ...(db.m[id] || {}), name }; write(db); emit(); },
     set: async (filmId, id, entry) => {

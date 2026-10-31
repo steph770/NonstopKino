@@ -9,11 +9,11 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="app.css?v=12">
-<link rel="stylesheet" href="stil-film.css?v=12">
-<link rel="stylesheet" href="stil-sessel.css?v=12">
-<link rel="stylesheet" href="stil-leinwand.css?v=12">
-<link rel="stylesheet" href="stil-popcorn.css?v=12">
+<link rel="stylesheet" href="app.css?v=13">
+<link rel="stylesheet" href="stil-film.css?v=13">
+<link rel="stylesheet" href="stil-sessel.css?v=13">
+<link rel="stylesheet" href="stil-leinwand.css?v=13">
+<link rel="stylesheet" href="stil-popcorn.css?v=13">
 <script>
   // Stil vor dem ersten Zeichnen setzen, damit nichts flackert
   (function () {
@@ -82,7 +82,7 @@
 
 <dialog id="who" class="sheet" aria-label="Wer bist du?">
   <div class="sheet-head">
-    <h2>Wer bist du?</h2>
+    <h2 id="whoTitle">Wer bist du?</h2>
     <button type="button" class="ghost" data-who-close>Später</button>
   </div>
   <div class="sheet-body" id="whoBody"></div>
@@ -92,7 +92,9 @@
   <div class="detail-inner" id="detailBody"></div>
 </dialog>
 
-<script src="firebase-config.js?v=12"></script>
-<script src="app.js?v=12" defer></script>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="firebase-config.js?v=13"></script>
+<script src="app.js?v=13" defer></script>
 </body>
 </html>

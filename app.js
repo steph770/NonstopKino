@@ -98,7 +98,7 @@ function metaClass(m) { return m >= 61 ? "good" : m >= 40 ? "mid" : "bad"; }
 
 /* ---------- Gruppe & Bewertungen ---------- */
 const SCALE = [["🙅", "nein"], ["🤷", "vielleicht"], ["🙂", "gern"], ["🤩", "unbedingt"]];
-const GROUP = { code: null, api: null, me: null, members: {}, votes: {}, error: "" };
+const GROUP = { code: null, api: null, me: null, members: {}, votes: {}, error: "", status: "aus" };
 
 function personId(name) { return norm(name).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 30) || "gast"; }
 function loadMe() { try { return JSON.parse(localStorage.getItem("kinosieb.ich")); } catch (e) { return null; } }
@@ -146,7 +146,12 @@ function votesLine(f) {
   return chips.length ? `<span class="votes">${chips.join("")}</span>` : "";
 }
 function groupSectionHTML(f) {
-  if (!GROUP.code) return "";
+  if (!GROUP.code) {
+    return `<section class="d-group"><h3>Gemeinsam bewerten</h3><p class="d-note">Dieses Gerät ist noch mit keiner Gruppe verbunden. Öffne euren Einladungslink oder füge ihn hier ein.</p><button type="button" class="primary" data-join-open>Einladungslink einfügen</button></section>`;
+  }
+  if (GROUP.status === "fehler") {
+    return `<section class="d-group"><h3>Gemeinsam bewerten</h3><p class="d-note bad">🔴 Bewertungen nicht verbunden. ${esc(GROUP.error)}</p><button type="button" class="primary" data-reconnect>Neu verbinden</button></section>`;
+  }
   if (!GROUP.me) {
     return `<section class="d-group"><h3>Eure Bewertungen</h3><p class="d-note">Wähle zuerst deinen Namen, dann kannst du mitbewerten.</p><button type="button" class="primary" data-who-open>Namen wählen</button></section>`;
   }
@@ -165,47 +170,112 @@ function groupSectionHTML(f) {
     <ul class="group-list">${list}</ul>
   </section>`;
 }
+const FAIL_TEXT = {
+  "permission-denied": "Zugriff verweigert: Gruppen-Code und Firestore-Regeln passen nicht zusammen.",
+  "not-found": "Die Firestore-Datenbank wurde nicht gefunden.",
+  "failed-precondition": "Die Firestore-Datenbank ist noch nicht fertig eingerichtet.",
+  "unavailable": "Die Bewertungs-Datenbank ist nicht erreichbar. Internet prüfen; ein Werbeblocker (z. B. Brave Shields) kann die Verbindung sperren.",
+  "sdk-blocked": "Firebase konnte nicht geladen werden. Ein Werbeblocker (z. B. Brave Shields) sperrt vermutlich gstatic.com.",
+  "no-config": "Firebase ist in der App noch nicht eingetragen.",
+  "timeout": "Keine Antwort von der Bewertungs-Datenbank. Ein Werbeblocker (z. B. Brave Shields) sperrt vermutlich die Verbindung zu Firebase.",
+};
 function groupFail(e) {
-  const code = e && e.code;
-  GROUP.error = code === "permission-denied"
-    ? "Der Gruppen-Code passt nicht zu den Firebase-Regeln."
-    : (e && e.message) || "Unbekannter Fehler";
+  const code = (e && e.code) || "";
+  GROUP.status = "fehler";
+  GROUP.error = FAIL_TEXT[code] || `${(e && e.message) || "Unbekannter Fehler"}${code ? ` (${code})` : ""}`;
   renderGroupInfo();
+  refreshDetail();
+}
+let toastTimer;
+function toast(msg, kind = "") {
+  const el = $("#toast");
+  if (!el) return;
+  el.textContent = msg;
+  el.className = `toast show ${kind}`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = "toast"; }, kind === "bad" ? 6000 : 2200);
 }
 function setMine(filmId, patch) {
-  if (!GROUP.me || !GROUP.api) return;
+  if (!GROUP.me) { openWho(); return; }
+  if (!GROUP.api) {
+    toast(GROUP.error ? `Nicht gespeichert. ${GROUP.error}` : "Verbindung zur Bewertungs-Datenbank wird noch aufgebaut, bitte gleich nochmal tippen.", "bad");
+    return;
+  }
+  const before = entriesFor(filmId)[GROUP.me.id];
   const cur = { v: null, s: false, ...mine(filmId) };
   const next = { ...cur, ...patch };
   GROUP.votes[filmId] = { ...entriesFor(filmId), [GROUP.me.id]: next };
   refreshAll();
-  GROUP.api.set(filmId, GROUP.me.id, { v: next.v, s: next.s }).catch(groupFail);
+  let done = false;
+  const slow = setTimeout(() => {
+    if (!done) toast("Noch nicht gespeichert: keine Antwort von der Datenbank. Ein Werbeblocker (z. B. Brave Shields) könnte Firebase sperren.", "bad");
+  }, 8000);
+  GROUP.api.set(filmId, GROUP.me.id, { v: next.v, s: next.s })
+    .then(() => { done = true; clearTimeout(slow); toast("Gespeichert ✓"); })
+    .catch((e) => {
+      done = true; clearTimeout(slow);
+      GROUP.votes[filmId] = { ...entriesFor(filmId), [GROUP.me.id]: before };
+      if (!before) delete GROUP.votes[filmId][GROUP.me.id];
+      refreshAll();
+      groupFail(e);
+      toast(`Nicht gespeichert. ${GROUP.error}`, "bad");
+    });
+}
+function refreshDetail() {
+  const dlg = $("#detail");
+  if (!dlg || !dlg.open || !DATA) return;
+  const st = dlg.scrollTop;
+  const f = DATA.films.find((x) => x.id === $("#detailBody").dataset.id);
+  if (f) renderDetail(f);
+  dlg.scrollTop = st;
 }
 let refreshTimer;
 function scheduleRefresh() { clearTimeout(refreshTimer); refreshTimer = setTimeout(refreshAll, 60); }
 function refreshAll() {
   if (!DATA || !DATA.films) return;
   renderList();
-  const dlg = $("#detail");
-  if (dlg.open) {
-    const st = dlg.scrollTop;
-    const f = DATA.films.find((x) => x.id === $("#detailBody").dataset.id);
-    if (f) renderDetail(f);
-    dlg.scrollTop = st;
-  }
+  refreshDetail();
   renderGroupInfo();
 }
 function renderGroupInfo() {
   const el = $("#gruppeInfo");
   if (!el) return;
-  if (!GROUP.code) { el.textContent = "Gemeinsame Bewertungen: Öffne den Einladungslink eurer Gruppe."; return; }
-  if (GROUP.error) { el.textContent = `Bewertungen gerade nicht erreichbar. ${GROUP.error}`; return; }
+  if (!GROUP.code) {
+    el.innerHTML = `Gemeinsame Bewertungen: Dieses Gerät ist mit keiner Gruppe verbunden. <button type="button" class="linkbtn" data-join-open>Einladungslink einfügen</button>`;
+    return;
+  }
+  const dot = { online: "🟢", verbinde: "🟡", fehler: "🔴" }[GROUP.status] || "⚪";
+  if (GROUP.status === "fehler") {
+    el.innerHTML = `${dot} Bewertungen nicht verbunden. ${esc(GROUP.error)} <button type="button" class="linkbtn" data-reconnect>Neu verbinden</button>`;
+    return;
+  }
   const n = groupMembers().length;
+  const state = GROUP.status === "online" ? "verbunden" : "verbinde …";
   el.innerHTML = GROUP.me
-    ? `Du bewertest als <b>${esc(GROUP.me.name)}</b>, ${n} ${n === 1 ? "Person" : "Personen"} in der Gruppe. <button type="button" class="linkbtn" data-who-open>Name ändern</button>`
-    : `<button type="button" class="linkbtn" data-who-open>Namen wählen</button>, um mitzubewerten.`;
+    ? `${dot} Bewertungen ${state}. Du bewertest als <b>${esc(GROUP.me.name)}</b>, ${n} ${n === 1 ? "Person" : "Personen"} in der Gruppe. <button type="button" class="linkbtn" data-who-open>Name ändern</button>`
+    : `${dot} Bewertungen ${state}. <button type="button" class="linkbtn" data-who-open>Namen wählen</button>, um mitzubewerten.`;
+}
+function openJoin() {
+  $("#whoTitle").textContent = "Gruppe verbinden";
+  $("#whoBody").innerHTML = `
+    <p class="hint">Füge den Einladungslink eurer Gruppe ein (oder nur den Code nach "gruppe=").</p>
+    <label class="who-new"><span>Einladungslink</span><input id="joinCode" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="https://…#gruppe=…"></label>
+    <button type="button" class="primary" data-join>Verbinden</button>`;
+  const dlg = $("#who");
+  if (!dlg.open) dlg.showModal();
+}
+function joinWith(text) {
+  const t = (text || "").trim();
+  const m = t.match(/gruppe=([A-Za-z0-9_-]{4,})/);
+  const code = m ? m[1] : (/^[A-Za-z0-9_-]{4,}$/.test(t) ? t : "");
+  if (!code) { toast("Das sieht nicht nach einem Einladungslink aus.", "bad"); return; }
+  try { localStorage.setItem("kinosieb.gruppe", code); } catch (e) { /* egal */ }
+  $("#who").close();
+  location.reload();
 }
 function openWho() {
-  if (!GROUP.code) return;
+  if (!GROUP.code) return openJoin();
+  $("#whoTitle").textContent = "Wer bist du?";
   const list = groupMembers();
   $("#whoBody").innerHTML = `
     ${list.length ? `<p class="hint">Schon in der Gruppe:</p><div class="opts">${list.map((p) => `<button type="button" class="opt" data-who="${esc(p.id)}" aria-pressed="${!!(GROUP.me && GROUP.me.id === p.id)}">${esc(p.name)}</button>`).join("")}</div>` : ""}
@@ -235,14 +305,18 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=12");
+    const mod = await import("./gruppe.js?v=13");
+    GROUP.status = "verbinde";
+    renderGroupInfo();
     GROUP.api = await mod.connect({
       code: GROUP.code,
       config: window.KINOSIEB_FIREBASE,
-      onMembers: (m) => { GROUP.members = m || {}; GROUP.error = ""; scheduleRefresh(); },
-      onVotes: (v) => { GROUP.votes = v || {}; GROUP.error = ""; scheduleRefresh(); },
+      onMembers: (m) => { GROUP.members = m || {}; scheduleRefresh(); },
+      onVotes: (v) => { GROUP.votes = v || {}; scheduleRefresh(); },
+      onOnline: () => { GROUP.status = "online"; GROUP.error = ""; scheduleRefresh(); },
       onError: groupFail,
     });
+    setTimeout(() => { if (GROUP.status === "verbinde") groupFail({ code: "timeout" }); }, 12000);
     if (GROUP.me) GROUP.api.join(GROUP.me.id, GROUP.me.name).catch(groupFail);
     else setTimeout(openWho, 700);
   } catch (e) {
@@ -596,6 +670,9 @@ function bind() {
     }
     if (t.hasAttribute("data-who-open")) return openWho();
     if (t.hasAttribute("data-who-close")) return $("#who").close();
+    if (t.hasAttribute("data-join-open")) return openJoin();
+    if (t.hasAttribute("data-join")) return joinWith($("#joinCode").value);
+    if (t.hasAttribute("data-reconnect")) return location.reload();
     if (t.dataset.who) {
       const p = groupMembers().find((x) => x.id === t.dataset.who);
       return p && chooseMe(p.id, p.name);
