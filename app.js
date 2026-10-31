@@ -26,7 +26,7 @@ const SORTS = ["imdb", "meta", "next", "title"];
 
 const DEFAULTS = {
   sort: "imdb",
-  when: "all",
+  when: "week",
   cinemas: [],
   versions: [],
   genres: [],
@@ -159,7 +159,7 @@ function compute() {
 }
 
 function activeCount() {
-  return (state.when !== "all" ? 1 : 0) + state.cinemas.length + state.versions.length + state.genres.length +
+  return (state.when !== DEFAULTS.when ? 1 : 0) + state.cinemas.length + state.versions.length + state.genres.length +
     state.origins.length + (state.metaMin ? 1 : 0) + (state.falter ? 1 : 0);
 }
 
@@ -220,7 +220,7 @@ function renderList() {
 }
 
 const CHIP_DEFS = [
-  ["when", "Wann", () => (state.when !== "all" ? WHEN.find((w) => w[0] === state.when)[1] : "")],
+  ["when", "Wann", () => (state.when !== DEFAULTS.when ? WHEN.find((w) => w[0] === state.when)[1] : "")],
   ["cinemas", "Kino", () => state.cinemas.length],
   ["versions", "Fassung", () => state.versions.length],
   ["genres", "Genre", () => state.genres.length],
@@ -231,6 +231,10 @@ function renderChips() {
   $("#chips").innerHTML = CHIP_DEFS.map(([key, label, val]) => {
     const v = val();
     const on = !!v;
+    if (key === "when") {
+      const cur = WHEN.find((w) => w[0] === state.when)[1];
+      return `<button type="button" class="chip${on ? " on" : ""}" data-open="when">${esc(cur)}</button>`;
+    }
     const extra = on ? `<span class="n">${typeof v === "number" ? v : esc(v)}</span>` : "";
     return `<button type="button" class="chip${on ? " on" : ""}" data-open="${key}">${label}${extra}</button>`;
   }).join("");
