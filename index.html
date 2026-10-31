@@ -9,11 +9,11 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="app.css?v=10">
-<link rel="stylesheet" href="stil-film.css?v=10">
-<link rel="stylesheet" href="stil-sessel.css?v=10">
-<link rel="stylesheet" href="stil-leinwand.css?v=10">
-<link rel="stylesheet" href="stil-popcorn.css?v=10">
+<link rel="stylesheet" href="app.css?v=12">
+<link rel="stylesheet" href="stil-film.css?v=12">
+<link rel="stylesheet" href="stil-sessel.css?v=12">
+<link rel="stylesheet" href="stil-leinwand.css?v=12">
+<link rel="stylesheet" href="stil-popcorn.css?v=12">
 <script>
   // Stil vor dem ersten Zeichnen setzen, damit nichts flackert
   (function () {
@@ -56,13 +56,14 @@
 
   <footer class="foot">
     <p class="gruppe" id="gruppeInfo"></p>
-    <p class="stilwahl" role="group" aria-label="Aussehen">Aussehen:
+    <div class="stilwahl" role="group" aria-labelledby="stilLabel">
+      <p id="stilLabel">Aussehen</p>
       <button type="button" data-stil="karte">Kinokarte</button>
       <button type="button" data-stil="film">Leuchttisch</button>
       <button type="button" data-stil="sessel">Kinosessel</button>
       <button type="button" data-stil="leinwand">Leinwand</button>
       <button type="button" data-stil="popcorn">Popcorn</button>
-    </p>
+    </div>
     <p>Programm von nonstopkino.at. IMDb-Wertungen: Information courtesy of IMDb (imdb.com), used with permission. Weitere Filmdaten von TMDB und OMDb (Metascore). Dieses Projekt nutzt die TMDB-API, ist aber nicht von TMDB unterstützt oder zertifiziert. Privates Projekt ohne Verbindung zu nonstop. Angaben ohne Gewähr, vor dem Kinobesuch beim Kino prüfen.</p>
   </footer>
 </div>
@@ -91,7 +92,7 @@
   <div class="detail-inner" id="detailBody"></div>
 </dialog>
 
-<script src="firebase-config.js?v=10"></script>
-<script src="app.js?v=10" defer></script>
+<script src="firebase-config.js?v=12"></script>
+<script src="app.js?v=12" defer></script>
 </body>
 </html>

@@ -59,7 +59,7 @@
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
 }
 :root[data-stil="leinwand"] .brand h1 { text-shadow: 0 0 22px rgba(205, 220, 255, 0.35); }
-:root[data-stil="leinwand"] .bar { background: rgba(19, 17, 26, 0.94); }
+:root[data-stil="leinwand"] .bar { background: var(--hall); box-shadow: 0 8px 14px -8px rgba(0, 0, 0, 0.8); }
 
 /* Jede Karte als beleuchtete Leinwand */
 :root[data-stil="leinwand"] .list { gap: 22px; padding-top: 20px; }

@@ -37,6 +37,8 @@
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+/* Sicherheitsnetz: nie seitlich scrollen (clip statt hidden, damit die Leiste oben kleben bleibt) */
+html, body { overflow-x: clip; max-width: 100%; }
 body {
   margin: 0;
   background: var(--plush);
@@ -91,6 +93,7 @@ a { color: var(--brass); }
   padding-top: max(10px, env(safe-area-inset-top));
   background: var(--plush);
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 14px -10px rgba(0, 0, 0, 0.6);
 }
 .sortrow {
   display: grid;
@@ -290,6 +293,26 @@ a { color: var(--brass); }
 .empty-state { padding: 40px 8px; text-align: center; color: var(--muted); }
 .empty-state h2 { font: 600 26px/1.1 var(--display); color: var(--ink); margin: 0 0 8px; }
 .empty-state button { margin-top: 14px; }
+
+/* Stilwahl im Fußbereich: Raster, das in jede Handybreite passt */
+.stilwahl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+  margin: 0 0 16px;
+}
+.stilwahl p { grid-column: 1 / -1; margin: 0; font-size: 13px; color: var(--muted); }
+.stilwahl button {
+  min-width: 0;
+  padding: 8px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-s);
+  background: transparent;
+  color: var(--ink);
+  font-size: 14px;
+  cursor: pointer;
+}
+.stilwahl button[aria-pressed="true"] { background: var(--ink); color: var(--plush); border-color: var(--ink); }
 
 .foot { grid-area: foot; padding: 8px 16px calc(env(safe-area-inset-bottom) + 28px); font-size: 12px; color: var(--dim); max-width: 70ch; }
 

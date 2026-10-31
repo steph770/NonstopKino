@@ -185,17 +185,6 @@
 :root[data-stil="film"] .d-hero .poster.empty { box-shadow: 0 0 0 4px #000, 0 0 40px rgba(255, 220, 160, 0.18); }
 :root[data-stil="film"] .d-links a.trailer { background: var(--bulb); color: #1d130a; border-color: var(--bulb); }
 
-/* Stilwahl im Fußbereich */
-.stilwahl { display: flex; gap: 8px; align-items: center; margin: 0 0 12px; font-size: 13px; }
-.stilwahl button {
-  background: transparent;
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  padding: 4px 12px;
-  cursor: pointer;
-  color: var(--ink);
-}
-.stilwahl button[aria-pressed="true"] { background: var(--ink); color: var(--plush); }
 
 /* Vorlauf-Countdown beim ersten Öffnen */
 .leader {
