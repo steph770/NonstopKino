@@ -27,7 +27,6 @@ DATA = ROOT / "data"
 DEBUG = ROOT / "debug"
 CACHE_FILE = DATA / "cache.json"
 OUT_FILE = DATA / "data.json"
-FALTER_FILE = ROOT / "falter-tipps.txt"
 OVERRIDES_FILE = ROOT / "overrides.json"
 
 BASE = "https://nonstopkino.at"
@@ -570,34 +569,6 @@ def omdb(imdb_id: str) -> dict:
     }
 
 
-# ---------------------------------------------------------------- Falter
-
-def falter_titles() -> list[str]:
-    if not FALTER_FILE.exists():
-        return []
-    out = []
-    for line in FALTER_FILE.read_text(encoding="utf-8").splitlines():
-        line = line.split("#", 1)[0].strip()
-        if line:
-            out.append(line)
-    return out
-
-
-def is_falter(film: dict, tips: list[str]) -> bool:
-    names = [film.get("title", ""), film.get("originalTitle", "")]
-    for tip in tips:
-        nt = norm(tip)
-        for n in names:
-            nn = norm(n)
-            if not nn or not nt:
-                continue
-            if nn == nt or sim(nn, nt) >= 0.88:
-                return True
-            if len(nt) >= 5 and (nt in nn or nn in nt):
-                return True
-    return False
-
-
 # ---------------------------------------------------------------- Hauptablauf
 
 def main() -> int:
@@ -632,7 +603,6 @@ def main() -> int:
             f["screenings"].append(s)
     log(f"  {len(by_slug)} verschiedene Filme in {REGION}")
 
-    tips = falter_titles()
     out_films = []
     cinema_sites: dict[str, str] = cache.setdefault("cinemaSites", {})
     dumped_movie = False
@@ -758,7 +728,6 @@ def main() -> int:
             "nonstopUrl": f["href"],
             "screenings": screenings,
         }
-        film["falter"] = is_falter(film, tips)
         out_films.append(film)
 
     # alte Cache-Einträge (länger als 60 Tage nicht im Programm) aufräumen
@@ -775,7 +744,7 @@ def main() -> int:
     rated = sum(1 for x in out_films if x["imdbRating"] is not None)
     matched = sum(1 for x in out_films if x["genres"])
     log(f"Fertig: {len(out_films)} Filme, {sum(len(x['screenings']) for x in out_films)} Vorstellungen, "
-        f"{matched} mit TMDB-Daten, {rated} mit IMDb-Wertung, {sum(x['falter'] for x in out_films)} Falter-Tipps.")
+        f"{matched} mit TMDB-Daten, {rated} mit IMDb-Wertung.")
     if not TMDB_KEY:
         log("Hinweis: TMDB_API_KEY fehlt, Filme ohne Genre/Plakat/Herkunft.")
     if not OMDB_KEY:

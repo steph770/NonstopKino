@@ -1,4 +1,0 @@
-# Falter-Kinotipps der aktuellen Woche
-# Pro Zeile ein Filmtitel, so wie er im Falter-Kino-Newsletter steht.
-# Zeilen mit # werden ignoriert. Jeden Freitag einfach die alten Titel durch die neuen ersetzen.
-# Nach dem Speichern auf GitHub läuft das Update automatisch und markiert die Filme in der App.

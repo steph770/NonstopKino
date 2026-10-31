@@ -32,7 +32,6 @@ const DEFAULTS = {
   genres: [],
   origins: [],
   metaMin: 0,
-  falter: false,
   q: "",
 };
 
@@ -128,7 +127,6 @@ function filmPasses(film) {
   if (state.genres.length && !film.genres.some((g) => state.genres.includes(g))) return false;
   if (state.origins.length && !state.origins.includes(film.origin || "")) return false;
   if (state.metaMin && !(film.metascore >= state.metaMin)) return false;
-  if (state.falter && !film.falter) return false;
   if (state.q) {
     const q = norm(state.q);
     const hay = norm([film.title, film.originalTitle, film.director].join(" "));
@@ -160,7 +158,7 @@ function compute() {
 
 function activeCount() {
   return (state.when !== DEFAULTS.when ? 1 : 0) + state.cinemas.length + state.versions.length + state.genres.length +
-    state.origins.length + (state.metaMin ? 1 : 0) + (state.falter ? 1 : 0);
+    state.origins.length + (state.metaMin ? 1 : 0);
 }
 
 /* ---------- Darstellung ---------- */
@@ -187,7 +185,6 @@ function ticketHTML({ f, shows }, now) {
     ? `<span class="score">${deNum(f.imdbRating)}</span><span class="score-label">IMDb</span>`
     : `<span class="score none">–</span><span class="score-label">keine IMDb-Wertung</span>`;
   const meta = f.metascore != null ? `<span class="meta ${metaClass(f.metascore)}" title="Metascore">Meta ${f.metascore}</span>` : "";
-  const falter = f.falter ? `<span class="falter">Falter</span>` : "";
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
   return `<button class="ticket" type="button" data-id="${esc(f.id)}">
     ${posterHTML(f)}
@@ -199,7 +196,7 @@ function ticketHTML({ f, shows }, now) {
         <span class="vtag" title="${esc(VERSION_INFO[first.version] || first.version)}">${esc(first.version)}</span>
         ${more > 0 ? `<span class="more">+${more} weitere</span>` : ""}</span>
     </span>
-    <span class="stub">${score}${meta}${falter}</span>
+    <span class="stub">${score}${meta}</span>
   </button>`;
 }
 
@@ -225,7 +222,7 @@ const CHIP_DEFS = [
   ["versions", "Fassung", () => state.versions.length],
   ["genres", "Genre", () => state.genres.length],
   ["origins", "Herkunft", () => state.origins.length],
-  ["critics", "Kritik", () => (state.metaMin ? 1 : 0) + (state.falter ? 1 : 0)],
+  ["critics", "Metascore", () => (state.metaMin ? `ab ${state.metaMin}` : "")],
 ];
 function renderChips() {
   $("#chips").innerHTML = CHIP_DEFS.map(([key, label, val]) => {
@@ -276,13 +273,10 @@ function filterHTML() {
   <section class="fgroup" id="f-origins"><h3>Herkunft</h3><div class="vlist">
     ${ORIGINS.map(([k, l, d]) => `<button type="button" class="opt" data-group="origins" data-value="${k}" aria-pressed="${state.origins.includes(k)}"><span>${l}</span><span>${d}</span></button>`).join("")}
   </div></section>
-  <section class="fgroup" id="f-critics"><h3>Kritik</h3>
+  <section class="fgroup" id="f-critics"><h3>Metascore</h3>
     <p class="hint">Metascore ist der Durchschnitt der Profi-Kritiken auf Metacritic (0 bis 100).</p>
     <div class="opts">
       ${META_STEPS.map((m) => optBtn("metaMin", m, m ? `Metascore ab ${m}` : "Alle", state.metaMin === m)).join("")}
-    </div>
-    <div class="opts" style="margin-top:10px">
-      ${optBtn("falter", "1", "Nur Falter-Tipps", state.falter)}
     </div>
   </section>`;
 }
@@ -296,7 +290,6 @@ function renderFilters() {
 function toggle(group, value) {
   if (group === "when") state.when = value;
   else if (group === "metaMin") state.metaMin = Number(value);
-  else if (group === "falter") state.falter = !state.falter;
   else {
     const arr = state[group];
     const i = arr.indexOf(value);
@@ -355,7 +348,6 @@ function renderDetail(f) {
   if (f.imdbRating != null) scores.push(`<span class="d-score"><span class="score">${deNum(f.imdbRating)}</span><span class="score-label">IMDb${f.imdbVotes ? `, ${votesStr(f.imdbVotes)}` : ""}</span></span>`);
   else scores.push(`<span class="d-score"><span class="score none">–</span><span class="score-label">noch keine IMDb-Wertung</span></span>`);
   if (f.metascore != null) scores.push(`<span class="meta ${metaClass(f.metascore)}">Metascore ${f.metascore}</span>`);
-  if (f.falter) scores.push(`<span class="falter">Falter-Tipp</span>`);
 
   const facts = [factsLine(f), f.director ? `Regie: ${f.director}` : ""].filter(Boolean).join(". ");
   const links = [
