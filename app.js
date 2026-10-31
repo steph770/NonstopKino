@@ -22,7 +22,7 @@ const WHEN = [
   ["all", "Alles"],
 ];
 const META_STEPS = [0, 60, 70, 80];
-const SORTS = ["imdb", "meta", "next", "title"];
+const SORTS = ["imdb", "meta", "group", "next", "title"];
 
 const DEFAULTS = {
   sort: "imdb",
@@ -96,6 +96,160 @@ function votesShort(v) {
 }
 function metaClass(m) { return m >= 61 ? "good" : m >= 40 ? "mid" : "bad"; }
 
+/* ---------- Gruppe & Bewertungen ---------- */
+const SCALE = [["🙅", "nein"], ["🤷", "vielleicht"], ["🙂", "gern"], ["🤩", "unbedingt"]];
+const GROUP = { code: null, api: null, me: null, members: {}, votes: {}, error: "" };
+
+function personId(name) { return norm(name).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 30) || "gast"; }
+function loadMe() { try { return JSON.parse(localStorage.getItem("kinosieb.ich")); } catch (e) { return null; } }
+function saveMe(me) { try { localStorage.setItem("kinosieb.ich", JSON.stringify(me)); } catch (e) { /* egal */ } }
+
+function groupMembers() {
+  const m = { ...GROUP.members };
+  if (GROUP.me && !m[GROUP.me.id]) m[GROUP.me.id] = { name: GROUP.me.name };
+  return Object.entries(m).map(([id, v]) => ({ id, name: (v && v.name) || id })).sort((a, b) => a.name.localeCompare(b.name, "de"));
+}
+function shortLabels() {
+  const list = groupMembers();
+  const out = {};
+  for (const p of list) {
+    const me = norm(p.name);
+    const others = list.filter((q) => q.id !== p.id).map((q) => norm(q.name));
+    let n = 1;
+    while (n < me.length && others.some((o) => o.startsWith(me.slice(0, n)))) n++;
+    const s = p.name.slice(0, n);
+    out[p.id] = s.charAt(0).toUpperCase() + s.slice(1);
+  }
+  return out;
+}
+function entriesFor(filmId) { return GROUP.votes[filmId] || {}; }
+function mine(filmId) { return (GROUP.me && entriesFor(filmId)[GROUP.me.id]) || {}; }
+function seenByMe(f) { return !!(GROUP.code && mine(f.id).s); }
+function groupScore(f) {
+  let sum = 0, n = 0, top = 0;
+  for (const e of Object.values(entriesFor(f.id))) {
+    if (e && typeof e.v === "number") { sum += e.v; n++; if (e.v === 3) top++; }
+  }
+  return { sum, n, top };
+}
+function votesLine(f) {
+  if (!GROUP.code) return "";
+  const labels = shortLabels();
+  const chips = [];
+  for (const p of groupMembers()) {
+    const e = entriesFor(f.id)[p.id];
+    if (!e || (typeof e.v !== "number" && !e.s)) continue;
+    const has = typeof e.v === "number";
+    const title = `${p.name}: ${has ? SCALE[e.v][1] : "nicht bewertet"}${e.s ? ", schon gesehen" : ""}`;
+    chips.push(`<span class="vchip${GROUP.me && p.id === GROUP.me.id ? " me" : ""}" title="${esc(title)}">${esc(labels[p.id])}${has ? ` ${SCALE[e.v][0]}` : ""}${e.s ? " ✓" : ""}</span>`);
+  }
+  return chips.length ? `<span class="votes">${chips.join("")}</span>` : "";
+}
+function groupSectionHTML(f) {
+  if (!GROUP.code) return "";
+  if (!GROUP.me) {
+    return `<section class="d-group"><h3>Eure Bewertungen</h3><p class="d-note">Wähle zuerst deinen Namen, dann kannst du mitbewerten.</p><button type="button" class="primary" data-who-open>Namen wählen</button></section>`;
+  }
+  const my = mine(f.id);
+  const btns = SCALE.map(([emo, label], v) => `<button type="button" class="rate" data-vote="${v}" aria-pressed="${my.v === v}"><span class="emo" aria-hidden="true">${emo}</span><span>${label}</span></button>`).join("");
+  const list = groupMembers().map((p) => {
+    const e = entriesFor(f.id)[p.id] || {};
+    const has = typeof e.v === "number";
+    const what = `${has ? `${SCALE[e.v][0]} ${SCALE[e.v][1]}` : "noch nicht bewertet"}${e.s ? ", schon gesehen" : ""}`;
+    return `<li><span class="who">${esc(p.name)}${p.id === GROUP.me.id ? " (du)" : ""}</span><span class="what${has || e.s ? "" : " none"}">${what}</span></li>`;
+  }).join("");
+  return `<section class="d-group">
+    <h3>Wie gern willst du ihn sehen?</h3>
+    <div class="rates" role="group" aria-label="Deine Bewertung">${btns}</div>
+    <button type="button" class="seen-toggle" data-seen aria-pressed="${!!my.s}">${my.s ? "✓ Schon gesehen" : "Schon gesehen? Hier abhaken"}</button>
+    <ul class="group-list">${list}</ul>
+  </section>`;
+}
+function groupFail(e) {
+  const code = e && e.code;
+  GROUP.error = code === "permission-denied"
+    ? "Der Gruppen-Code passt nicht zu den Firebase-Regeln."
+    : (e && e.message) || "Unbekannter Fehler";
+  renderGroupInfo();
+}
+function setMine(filmId, patch) {
+  if (!GROUP.me || !GROUP.api) return;
+  const cur = { v: null, s: false, ...mine(filmId) };
+  const next = { ...cur, ...patch };
+  GROUP.votes[filmId] = { ...entriesFor(filmId), [GROUP.me.id]: next };
+  refreshAll();
+  GROUP.api.set(filmId, GROUP.me.id, { v: next.v, s: next.s }).catch(groupFail);
+}
+let refreshTimer;
+function scheduleRefresh() { clearTimeout(refreshTimer); refreshTimer = setTimeout(refreshAll, 60); }
+function refreshAll() {
+  if (!DATA || !DATA.films) return;
+  renderList();
+  const dlg = $("#detail");
+  if (dlg.open) {
+    const st = dlg.scrollTop;
+    const f = DATA.films.find((x) => x.id === $("#detailBody").dataset.id);
+    if (f) renderDetail(f);
+    dlg.scrollTop = st;
+  }
+  renderGroupInfo();
+}
+function renderGroupInfo() {
+  const el = $("#gruppeInfo");
+  if (!el) return;
+  if (!GROUP.code) { el.textContent = "Gemeinsame Bewertungen: Öffne den Einladungslink eurer Gruppe."; return; }
+  if (GROUP.error) { el.textContent = `Bewertungen gerade nicht erreichbar. ${GROUP.error}`; return; }
+  const n = groupMembers().length;
+  el.innerHTML = GROUP.me
+    ? `Du bewertest als <b>${esc(GROUP.me.name)}</b>, ${n} ${n === 1 ? "Person" : "Personen"} in der Gruppe. <button type="button" class="linkbtn" data-who-open>Name ändern</button>`
+    : `<button type="button" class="linkbtn" data-who-open>Namen wählen</button>, um mitzubewerten.`;
+}
+function openWho() {
+  if (!GROUP.code) return;
+  const list = groupMembers();
+  $("#whoBody").innerHTML = `
+    ${list.length ? `<p class="hint">Schon in der Gruppe:</p><div class="opts">${list.map((p) => `<button type="button" class="opt" data-who="${esc(p.id)}" aria-pressed="${!!(GROUP.me && GROUP.me.id === p.id)}">${esc(p.name)}</button>`).join("")}</div>` : ""}
+    <label class="who-new"><span>${list.length ? "Oder neu dazukommen:" : "Dein Vorname:"}</span><input id="whoName" type="text" maxlength="24" autocomplete="given-name" placeholder="Vorname"></label>
+    <button type="button" class="primary" data-who-new>Beitreten</button>`;
+  const dlg = $("#who");
+  if (!dlg.open) dlg.showModal();
+}
+function chooseMe(id, name) {
+  GROUP.me = { id, name };
+  saveMe(GROUP.me);
+  if (GROUP.api) GROUP.api.join(id, name).catch(groupFail);
+  $("#who").close();
+  refreshAll();
+}
+function readGroupCode() {
+  const m = location.hash.match(/gruppe=([A-Za-z0-9_-]{4,})/);
+  if (m) {
+    try { localStorage.setItem("kinosieb.gruppe", m[1]); } catch (e) { /* egal */ }
+    history.replaceState(null, "", location.pathname + location.search);
+    return m[1];
+  }
+  try { return localStorage.getItem("kinosieb.gruppe"); } catch (e) { return null; }
+}
+async function connectGroup() {
+  if (!GROUP.code) { renderGroupInfo(); return; }
+  GROUP.me = loadMe();
+  renderGroupInfo();
+  try {
+    const mod = await import("./gruppe.js?v=7");
+    GROUP.api = await mod.connect({
+      code: GROUP.code,
+      config: window.KINOSIEB_FIREBASE,
+      onMembers: (m) => { GROUP.members = m || {}; GROUP.error = ""; scheduleRefresh(); },
+      onVotes: (v) => { GROUP.votes = v || {}; GROUP.error = ""; scheduleRefresh(); },
+      onError: groupFail,
+    });
+    if (GROUP.me) GROUP.api.join(GROUP.me.id, GROUP.me.name).catch(groupFail);
+    else setTimeout(openWho, 700);
+  } catch (e) {
+    groupFail(e);
+  }
+}
+
 function whenRange(key, now) {
   const today = startOfDay(now);
   switch (key) {
@@ -156,8 +310,13 @@ function compute() {
     meta: (a, b) => nullsLast(a.f.metascore, b.f.metascore) || (b.f.metascore || 0) - (a.f.metascore || 0) || byTitle(a, b),
     next: (a, b) => a.shows[0]._d - b.shows[0]._d || byTitle(a, b),
     title: byTitle,
+    group: (a, b) => {
+      const A = groupScore(a.f), B = groupScore(b.f);
+      return (B.n > 0) - (A.n > 0) || B.sum - A.sum || B.top - A.top || sorters.imdb(a, b);
+    },
   };
-  rows.sort(sorters[state.sort]);
+  const sorter = sorters[state.sort === "group" && !GROUP.code ? "imdb" : state.sort] || sorters.imdb;
+  rows.sort((a, b) => (seenByMe(a.f) - seenByMe(b.f)) || sorter(a, b));
   return { rows, now };
 }
 
@@ -199,7 +358,7 @@ function ticketHTML({ f, shows }, now, i = 0) {
   const meta = f.metascore != null ? `<span class="meta ${metaClass(f.metascore)}" title="Metascore">Meta ${f.metascore}</span>` : "";
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
   const n = String(i + 1).padStart(2, "0");
-  return `<button class="ticket" type="button" data-id="${esc(f.id)}">
+  return `<button class="ticket${seenByMe(f) ? " is-seen" : ""}" type="button" data-id="${esc(f.id)}">
     <span class="edge" aria-hidden="true">▸ ${n}&emsp;&emsp;▸ ${n}A&emsp;&emsp;KINOSIEB 35&emsp;&emsp;▸ ${n}</span>
     ${posterHTML(f)}
     <span class="body">
@@ -209,6 +368,7 @@ function ticketHTML({ f, shows }, now, i = 0) {
       <span class="next"><b>${dayWord(first._d, now)} ${timeStr(first._d)}</b> ${esc(first.cinema)}
         <span class="vtag" title="${esc(VERSION_INFO[first.version] || first.version)}">${esc(first.version)}</span>
         ${more > 0 ? `<span class="more">+${more} weitere</span>` : ""}</span>
+      ${votesLine(f)}
     </span>
     <span class="stub">${score}${meta}</span>
   </button>`;
@@ -227,7 +387,10 @@ function renderList() {
   }
   $("#showN").textContent = rows.length ? `${rows.length} ${rows.length === 1 ? "Film" : "Filme"} anzeigen` : "Keine Treffer";
   renderChips();
-  document.querySelectorAll(".sortrow button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.sort === state.sort)));
+  const gb = document.querySelector('.sortrow [data-sort="group"]');
+  if (gb) gb.hidden = !GROUP.code;
+  const eff = state.sort === "group" && !GROUP.code ? "imdb" : state.sort;
+  document.querySelectorAll(".sortrow button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.sort === eff)));
 }
 
 const CHIP_DEFS = [
@@ -385,6 +548,7 @@ function renderDetail(f) {
     </div>
     ${f.overview ? `<p class="d-overview">${esc(f.overview)}</p>` : ""}
     <div class="d-links">${links}</div>
+    ${groupSectionHTML(f)}
     <section class="d-shows">
       <div class="d-shows-head"><h3>Vorstellungen in Wien</h3>
         ${filtered || detailAll ? `<button type="button" data-toggle-all>${detailAll ? "Nur passend zu meinen Filtern" : `Alle ${allCount} zeigen`}</button>` : ""}
@@ -417,6 +581,26 @@ function bind() {
     if (t.dataset.group) return toggle(t.dataset.group, t.dataset.value);
     if (t.dataset.sort) { state.sort = t.dataset.sort; saveState(); return renderList(); }
     if (t.dataset.stil) return applyStil(t.dataset.stil);
+    if (t.dataset.vote !== undefined) {
+      const id = $("#detailBody").dataset.id;
+      const v = Number(t.dataset.vote);
+      return setMine(id, { v: mine(id).v === v ? null : v });
+    }
+    if (t.hasAttribute("data-seen")) {
+      const id = $("#detailBody").dataset.id;
+      return setMine(id, { s: !mine(id).s });
+    }
+    if (t.hasAttribute("data-who-open")) return openWho();
+    if (t.hasAttribute("data-who-close")) return $("#who").close();
+    if (t.dataset.who) {
+      const p = groupMembers().find((x) => x.id === t.dataset.who);
+      return p && chooseMe(p.id, p.name);
+    }
+    if (t.hasAttribute("data-who-new")) {
+      const name = ($("#whoName").value || "").trim();
+      if (!name) { $("#whoName").focus(); return; }
+      return chooseMe(personId(name), name);
+    }
     if (t.hasAttribute("data-reset") || t.id === "reset") return resetFilters();
     if (t.hasAttribute("data-close")) return $("#sheet").close();
     if (t.hasAttribute("data-close-detail")) return closeDetail();
@@ -482,6 +666,7 @@ async function init() {
   tileTitle();
   applyStil(currentStil());
   countdown();
+  GROUP.code = readGroupCode();
   try {
     const res = await fetch("data/data.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -504,6 +689,7 @@ async function init() {
   $("#status").textContent = statusText();
   renderFilters();
   renderList();
+  connectGroup();
   const m = location.hash.match(/^#film=(.+)$/);
   if (m) openDetail(decodeURIComponent(m[1]));
 }

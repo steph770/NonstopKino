@@ -9,8 +9,8 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="app.css?v=6">
-<link rel="stylesheet" href="stil-film.css?v=6">
+<link rel="stylesheet" href="app.css?v=7">
+<link rel="stylesheet" href="stil-film.css?v=7">
 <script>
   // Stil vor dem ersten Zeichnen setzen, damit nichts flackert
   (function () {
@@ -39,7 +39,8 @@
   <div class="bar">
     <div class="sortrow" role="radiogroup" aria-label="Sortieren nach">
       <button type="button" data-sort="imdb" role="radio">IMDb</button>
-      <button type="button" data-sort="meta" role="radio">Metascore</button>
+      <button type="button" data-sort="meta" role="radio" title="Metascore">Meta</button>
+      <button type="button" data-sort="group" role="radio" title="Nach Interesse der Gruppe" hidden>Gruppe</button>
       <button type="button" data-sort="next" role="radio">Nächste</button>
       <button type="button" data-sort="title" role="radio">A–Z</button>
     </div>
@@ -51,6 +52,7 @@
   <main class="list" id="list" aria-live="polite"></main>
 
   <footer class="foot">
+    <p class="gruppe" id="gruppeInfo"></p>
     <p class="stilwahl" role="group" aria-label="Aussehen">Aussehen:
       <button type="button" data-stil="karte">Kinokarte</button>
       <button type="button" data-stil="film">Leuchttisch</button>
@@ -71,10 +73,19 @@
   </div>
 </dialog>
 
+<dialog id="who" class="sheet" aria-label="Wer bist du?">
+  <div class="sheet-head">
+    <h2>Wer bist du?</h2>
+    <button type="button" class="ghost" data-who-close>Später</button>
+  </div>
+  <div class="sheet-body" id="whoBody"></div>
+</dialog>
+
 <dialog id="detail" class="detail" aria-label="Filmdetails">
   <div class="detail-inner" id="detailBody"></div>
 </dialog>
 
-<script src="app.js?v=6" defer></script>
+<script src="firebase-config.js?v=7"></script>
+<script src="app.js?v=7" defer></script>
 </body>
 </html>
