@@ -1,0 +1,243 @@
+/* Stil "Leuchttisch": Filmstreifen auf dem Leuchttisch, Kinoreklame mit Steckbuchstaben.
+   Aktiv, wenn <html data-stil="film"> gesetzt ist. */
+
+:root[data-stil="film"] {
+  --lightbox: #e7eae4;
+  --lightbox-hi: #f7f8f3;
+  --film: #17110d;
+  --frame: #251c16;
+  --frame-hi: #30241c;
+  --edge: #ea7c2c;
+  --bulb: #ffd479;
+  --marquee: #a3172a;
+  --marquee-deep: #7d0f1f;
+
+  --plush: var(--film);
+  --plush-2: var(--frame);
+  --plush-3: #35281f;
+  --ink: #f4ecdf;
+  --muted: #cbb9a6;
+  --dim: #927e6e;
+  --brass: var(--bulb);
+  --seat: #c41f34;
+  --line: rgba(244, 236, 223, 0.12);
+  --line-strong: rgba(244, 236, 223, 0.28);
+  color-scheme: light;
+}
+
+:root[data-stil="film"] body {
+  background:
+    radial-gradient(120% 70% at 50% 0%, var(--lightbox-hi) 0%, var(--lightbox) 60%, #dfe2dc 100%) fixed;
+  color: #1c1511;
+}
+
+/* Feines Filmkorn über allem */
+:root[data-stil="film"] body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.4 -.2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Bereiche auf dem hellen Leuchttisch bekommen dunkle Schrift */
+:root[data-stil="film"] .top,
+:root[data-stil="film"] .side,
+:root[data-stil="film"] .foot {
+  --ink: #1c1511;
+  --muted: #5d5045;
+  --dim: #7a6b5f;
+  --line: rgba(28, 21, 17, 0.14);
+  --line-strong: rgba(28, 21, 17, 0.32);
+  --plush: var(--lightbox);
+  --plush-2: #ffffff;
+  --brass: #a3172a;
+  --focus: #a3172a;
+  color: var(--ink);
+}
+:root[data-stil="film"] .top {
+  background: radial-gradient(120% 70% at 50% 0%, var(--lightbox-hi) 0%, var(--lightbox) 60%, #dfe2dc 100%) fixed;
+  border-bottom-color: transparent;
+}
+
+/* Kinoreklame mit Glühbirnen */
+:root[data-stil="film"] .brand {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 20px 18px 14px;
+  background: linear-gradient(180deg, var(--marquee), var(--marquee-deep));
+  border-radius: 10px;
+  box-shadow: 0 10px 26px rgba(125, 15, 31, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+:root[data-stil="film"] .brand::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 8px;
+  padding: 7px;
+  background: radial-gradient(circle, #fffbe8 0 1.6px, var(--bulb) 2.6px, rgba(255, 212, 121, 0.35) 3.6px, transparent 4.8px) center / 14px 14px round;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  pointer-events: none;
+}
+:root[data-stil="film"] .brand h1 {
+  display: flex;
+  gap: 3px;
+  padding: 6px 12px 4px;
+  background:
+    repeating-linear-gradient(180deg, transparent 0 44px, rgba(0, 0, 0, 0.12) 44px 46px),
+    #f6f6f0;
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px #2a0a10, 0 0 22px rgba(255, 228, 170, 0.55), inset 0 0 14px rgba(255, 255, 255, 0.9);
+}
+:root[data-stil="film"] .tile {
+  display: inline-block;
+  font: 800 40px/1 var(--display);
+  color: #151313;
+  padding: 1px 2px 0;
+}
+:root[data-stil="film"] .tile:nth-child(3n + 1) { transform: rotate(-1.4deg) translateY(1px); }
+:root[data-stil="film"] .tile:nth-child(4n + 2) { transform: rotate(1.1deg); }
+:root[data-stil="film"] .tile:nth-child(5n + 3) { transform: translateY(-1px); }
+:root[data-stil="film"] .status { color: #ffe7c4; text-align: center; font-size: 13px; }
+
+:root[data-stil="film"] .search input { border-color: rgba(28, 21, 17, 0.22); }
+:root[data-stil="film"] .chip { background: rgba(255, 255, 255, 0.55); }
+:root[data-stil="film"] .chip.on { background: var(--seat); }
+
+/* Der Filmstreifen */
+:root[data-stil="film"] .list {
+  position: relative;
+  margin: 12px 8px 0;
+  padding: 18px 34px 26px;
+  gap: 30px;
+  background: var(--film);
+  color: var(--ink);
+  border-radius: 3px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+}
+:root[data-stil="film"] .list::before,
+:root[data-stil="film"] .list::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='26'%3E%3Crect x='1' y='7' width='14' height='12' rx='3' fill='%23e7eae4'/%3E%3C/svg%3E") 0 0 / 16px 26px repeat-y;
+}
+:root[data-stil="film"] .list::before { left: 9px; }
+:root[data-stil="film"] .list::after { right: 9px; }
+
+:root[data-stil="film"] .summary { color: var(--edge); font-size: 12px; letter-spacing: 0.08em; font-weight: 600; }
+:root[data-stil="film"] .summary button { color: var(--bulb); }
+
+:root[data-stil="film"] .ticket {
+  -webkit-mask: none;
+          mask: none;
+  overflow: visible;
+  grid-template-columns: 82px minmax(0, 1fr) 76px;
+  min-height: 124px;
+  background: var(--frame);
+  border-radius: 7px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04), inset 0 0 30px rgba(0, 0, 0, 0.35);
+}
+:root[data-stil="film"] .ticket:hover { background: var(--frame-hi); }
+:root[data-stil="film"] .ticket .poster { width: 82px; min-height: 124px; border-radius: 7px 0 0 7px; }
+:root[data-stil="film"] .edge {
+  display: block;
+  position: absolute;
+  top: -21px;
+  left: 2px;
+  right: 2px;
+  font: 600 11px/1 var(--ui);
+  letter-spacing: 0.16em;
+  color: var(--edge);
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+}
+:root[data-stil="film"] .stub {
+  border-left: 0;
+  background: linear-gradient(180deg, rgba(255, 212, 121, 0.06), rgba(0, 0, 0, 0.18));
+  border-radius: 0 7px 7px 0;
+}
+:root[data-stil="film"] .score {
+  color: var(--bulb);
+  text-shadow: 0 0 14px rgba(255, 186, 84, 0.5), 0 0 2px rgba(255, 240, 200, 0.6);
+}
+:root[data-stil="film"] .score.none { color: var(--dim); text-shadow: none; }
+:root[data-stil="film"] .empty-state h2 { color: var(--ink); }
+
+/* Filter und Detail: dunkler Vorführraum */
+:root[data-stil="film"] .sheet { background: var(--film); }
+:root[data-stil="film"] .detail,
+:root[data-stil="film"] .detail-bar { background: var(--film); }
+:root[data-stil="film"] .d-hero img,
+:root[data-stil="film"] .d-hero .poster.empty { box-shadow: 0 0 0 4px #000, 0 0 40px rgba(255, 220, 160, 0.18); }
+:root[data-stil="film"] .d-links a.trailer { background: var(--bulb); color: #1d130a; border-color: var(--bulb); }
+
+/* Stilwahl im Fußbereich */
+.stilwahl { display: flex; gap: 8px; align-items: center; margin: 0 0 12px; font-size: 13px; }
+.stilwahl button {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.stilwahl button[aria-pressed="true"] { background: var(--ink); color: var(--plush); }
+
+/* Vorlauf-Countdown beim ersten Öffnen */
+.leader {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 50% 50%, #3a332b 0%, #15110d 70%);
+  transition: opacity 0.35s ease;
+}
+.leader.out { opacity: 0; pointer-events: none; }
+.leader-ring {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #d9d2c3;
+  box-shadow: 0 0 0 14px rgba(217, 210, 195, 0.12);
+  background:
+    linear-gradient(#d9d2c3, #d9d2c3) center / 2px 100% no-repeat,
+    linear-gradient(#d9d2c3, #d9d2c3) center / 100% 2px no-repeat;
+  overflow: hidden;
+}
+.leader-ring::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(rgba(255, 255, 255, 0.28) 0deg 70deg, transparent 70deg);
+  animation: sweep 0.45s linear infinite;
+}
+.leader-ring span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font: 800 120px/1 var(--display);
+  color: #f1ece2;
+}
+@keyframes sweep { to { transform: rotate(360deg); } }
+
+@media (min-width: 900px) {
+  :root[data-stil="film"] .list { margin: 16px 0 0; }
+  :root[data-stil="film"] .brand { align-items: flex-start; padding: 18px 20px 12px; }
+  :root[data-stil="film"] .status { text-align: left; }
+  :root[data-stil="film"] .ticket { grid-template-columns: 96px minmax(0, 1fr) 84px; min-height: 140px; }
+  :root[data-stil="film"] .ticket .poster { width: 96px; min-height: 140px; }
+}

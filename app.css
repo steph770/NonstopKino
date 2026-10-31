@@ -192,6 +192,8 @@ a { color: var(--brass); }
   margin-left: 2px;
 }
 
+.edge { display: none; }
+
 .stub {
   border-left: 2px dashed var(--line-strong);
   padding: 10px 6px;

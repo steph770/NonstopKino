@@ -190,7 +190,7 @@ function factsLine(f) {
   return parts.join(", ");
 }
 
-function ticketHTML({ f, shows }, now) {
+function ticketHTML({ f, shows }, now, i = 0) {
   const first = shows[0];
   const more = shows.length - 1;
   const score = f.imdbRating != null
@@ -198,7 +198,9 @@ function ticketHTML({ f, shows }, now) {
     : `<span class="score none">–</span><span class="score-label">keine IMDb-Wertung</span>`;
   const meta = f.metascore != null ? `<span class="meta ${metaClass(f.metascore)}" title="Metascore">Meta ${f.metascore}</span>` : "";
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
+  const n = String(i + 1).padStart(2, "0");
   return `<button class="ticket" type="button" data-id="${esc(f.id)}">
+    <span class="edge" aria-hidden="true">▸ ${n}&emsp;&emsp;▸ ${n}A&emsp;&emsp;KINOSIEB 35&emsp;&emsp;▸ ${n}</span>
     ${posterHTML(f)}
     <span class="body">
       <span class="title">${esc(f.title)}</span>
@@ -221,7 +223,7 @@ function renderList() {
   if (!rows.length) {
     el.innerHTML = `<div class="empty-state"><h2>Nichts gefunden</h2><p>Kein Film passt zu allen gewählten Filtern. Lockere einen Filter oder setze alle zurück.</p><button type="button" class="primary" data-reset>Filter zurücksetzen</button></div>`;
   } else {
-    el.innerHTML = summary + rows.map((r) => ticketHTML(r, now)).join("");
+    el.innerHTML = summary + rows.map((r, i) => ticketHTML(r, now, i)).join("");
   }
   $("#showN").textContent = rows.length ? `${rows.length} ${rows.length === 1 ? "Film" : "Filme"} anzeigen` : "Keine Treffer";
   renderChips();
@@ -414,6 +416,7 @@ function bind() {
     }
     if (t.dataset.group) return toggle(t.dataset.group, t.dataset.value);
     if (t.dataset.sort) { state.sort = t.dataset.sort; saveState(); return renderList(); }
+    if (t.dataset.stil) return applyStil(t.dataset.stil);
     if (t.hasAttribute("data-reset") || t.id === "reset") return resetFilters();
     if (t.hasAttribute("data-close")) return $("#sheet").close();
     if (t.hasAttribute("data-close-detail")) return closeDetail();
@@ -440,8 +443,45 @@ function statusText() {
   return `Stand ${dayWord(g, now)}, ${timeStr(g)}`;
 }
 
+/* ---------- Aussehen ---------- */
+function currentStil() { return document.documentElement.dataset.stil === "film" ? "film" : "karte"; }
+function applyStil(stil) {
+  if (stil === "film") document.documentElement.dataset.stil = "film";
+  else delete document.documentElement.dataset.stil;
+  try { localStorage.setItem("kinosieb.stil", stil); } catch (e) { /* egal */ }
+  document.querySelectorAll(".stilwahl button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.stil === stil)));
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = stil === "film" ? "#e7eae4" : "#2a0c12";
+}
+function tileTitle() {
+  const h = document.querySelector(".brand h1");
+  const text = h.textContent.trim();
+  h.setAttribute("aria-label", text);
+  h.innerHTML = [...text].map((c) => `<span class="tile" aria-hidden="true">${esc(c)}</span>`).join("");
+}
+function countdown() {
+  if (currentStil() !== "film") return Promise.resolve();
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return Promise.resolve();
+  try { if (sessionStorage.getItem("kinosieb.vorlauf")) return Promise.resolve(); sessionStorage.setItem("kinosieb.vorlauf", "1"); } catch (e) { /* egal */ }
+  const el = document.createElement("div");
+  el.className = "leader";
+  el.setAttribute("aria-hidden", "true");
+  el.innerHTML = `<div class="leader-ring"><span>3</span></div>`;
+  document.body.appendChild(el);
+  const num = el.querySelector("span");
+  return new Promise((done) => {
+    setTimeout(() => { num.textContent = "2"; }, 450);
+    setTimeout(() => { num.textContent = "1"; }, 900);
+    setTimeout(() => { el.classList.add("out"); done(); }, 1350);
+    setTimeout(() => el.remove(), 1750);
+  });
+}
+
 async function init() {
   bind();
+  tileTitle();
+  applyStil(currentStil());
+  countdown();
   try {
     const res = await fetch("data/data.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
