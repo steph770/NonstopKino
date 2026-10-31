@@ -58,8 +58,13 @@
    "ics": {
     "2026-11-22T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193525"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0057071",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.5,
+    "imdbVotes": 3694,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:00+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -94,8 +99,13 @@
    "ics": {
     "2026-11-09T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193547"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0038733",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.0,
+    "imdbVotes": 28351,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:00+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -135,8 +145,13 @@
     "2026-11-05T17:30|Stadtkino Villach": "https://nonstopkino.at/feed/calendar/?id=196467",
     "2026-11-24T19:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195312"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt8758494",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:00+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -170,8 +185,13 @@
    "ics": {
     "2026-11-14T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193537"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0081964",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.4,
+    "imdbVotes": 2485,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:00+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -206,8 +226,13 @@
    "ics": {
     "2026-11-04T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=195815"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0074119",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 139651,
+    "metascore": 84
+   },
+   "omdbAt": "2026-10-31T12:34:01+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -322,8 +347,13 @@
     "2026-11-15T20:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195327",
     "2026-11-20T18:15|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195321"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt44112686",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.1,
+    "imdbVotes": 18,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:01+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -357,8 +387,13 @@
    "ics": {
     "2026-11-02T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=196148"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt28088049",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 4901,
+    "metascore": 69
+   },
+   "omdbAt": "2026-10-31T12:34:01+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "ES"
@@ -393,8 +428,13 @@
    "ics": {
     "2026-11-08T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193532"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0046719",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 5574,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:01+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -474,7 +514,7 @@
     "2026-11-15T13:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194998",
     "2026-11-30T20:00|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194966"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -509,7 +549,7 @@
     "2026-12-12T10:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195056",
     "2026-12-24T11:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179738"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:15+01:00"
   },
   "austroschwarz": {
@@ -526,8 +566,13 @@
    "ics": {
     "2026-11-03T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=196151"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32482325",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 36,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:02+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -562,8 +607,13 @@
    "ics": {
     "2026-11-12T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193528"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0048967",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 3289,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:02+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -599,7 +649,7 @@
    "ics": {
     "2026-11-03T19:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196505"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:24+01:00"
   },
   "bearcave": {
@@ -617,7 +667,7 @@
     "2026-11-02T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=196149",
     "2026-11-11T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=185033"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:25+01:00"
   },
   "bernadette-will-toeten": {
@@ -635,8 +685,13 @@
     "2026-11-02T17:45|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195366",
     "2026-11-03T22:00|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195361"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt31170701",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:02+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -672,7 +727,7 @@
    "ics": {
     "2026-11-17T16:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192155"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:30+01:00"
   },
   "bewahren-erinnern-gestalten": {
@@ -689,7 +744,7 @@
    "ics": {
     "2026-11-16T17:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193551"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:31+01:00"
   },
   "biermann": {
@@ -713,8 +768,13 @@
     "2026-11-24T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195042",
     "2026-11-29T12:15|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194993"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt40205719",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:02+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -749,8 +809,13 @@
    "ics": {
     "2026-11-15T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193536"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0045556",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.0,
+    "imdbVotes": 435,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:03+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -784,7 +849,7 @@
    "ics": {
     "2026-11-05T17:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194954"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:42:40+01:00"
   },
   "bloody-tennis": {
@@ -801,8 +866,13 @@
    "ics": {
     "2026-10-31T21:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187651"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt34735922",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.7,
+    "imdbVotes": 27,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:03+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -837,8 +907,13 @@
    "ics": {
     "2026-11-24T17:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187655"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1324999",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.0,
+    "imdbVotes": 277647,
+    "metascore": 45
+   },
+   "omdbAt": "2026-10-31T12:34:03+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -874,8 +949,13 @@
    "ics": {
     "2026-11-24T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187654"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1673434",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.6,
+    "imdbVotes": 286578,
+    "metascore": 52
+   },
+   "omdbAt": "2026-10-31T12:34:03+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -911,8 +991,13 @@
    "ics": {
     "2026-12-02T20:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=196720"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37660889",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:04+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -1047,8 +1132,13 @@
     "2026-11-22T10:30|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195137",
     "2026-11-24T19:15|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194961"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36472663",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:04+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -1083,7 +1173,7 @@
    "ics": {
     "2026-11-09T20:15|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193546"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:43:00+01:00"
   },
   "chopin-eine-sonate-in-paris": {
@@ -1136,8 +1226,13 @@
     "2026-11-23T16:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195074",
     "2026-11-23T16:01|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194956"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt33305572",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 928,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:04+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -1173,8 +1268,13 @@
    "ics": {
     "2026-12-09T20:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=185036"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36904199",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 11,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:04+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "CZ",
@@ -1209,8 +1309,13 @@
    "ics": {
     "2026-12-13T15:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=185037"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0021749",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.5,
+    "imdbVotes": 218620,
+    "metascore": 99
+   },
+   "omdbAt": "2026-10-31T12:34:05+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1246,7 +1351,7 @@
    "ics": {
     "2026-11-24T20:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=182018"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:43:13+01:00"
   },
   "cloak-and-dagger": {
@@ -1263,8 +1368,13 @@
    "ics": {
     "2026-11-05T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190216"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0038417",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 3995,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:05+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1300,8 +1410,13 @@
    "ics": {
     "2026-11-18T20:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=193563"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt38058097",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 427,
+    "metascore": 84
+   },
+   "omdbAt": "2026-10-31T12:34:05+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1340,8 +1455,13 @@
     "2026-11-03T17:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196515",
     "2026-11-04T20:30|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=195497"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37804242",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:05+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1376,8 +1496,13 @@
    "ics": {
     "2026-11-08T20:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=184697"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1756855",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.6,
+    "imdbVotes": 18537,
+    "metascore": 77
+   },
+   "omdbAt": "2026-10-31T12:34:06+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1414,7 +1539,7 @@
    "ics": {
     "2026-11-15T15:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192157"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:43:30+01:00"
   },
   "das-drama-noch-mal-auf-anfang": {
@@ -1431,8 +1556,13 @@
    "ics": {
     "2026-11-02T20:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196540"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt33071426",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.1,
+    "imdbVotes": 134533,
+    "metascore": 59
+   },
+   "omdbAt": "2026-10-31T12:34:06+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1468,8 +1598,13 @@
    "ics": {
     "2026-10-31T14:00|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=193026"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0104623",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.1,
+    "imdbVotes": 71,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:06+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1506,8 +1641,13 @@
    "ics": {
     "2026-12-24T15:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179735"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0347149",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.2,
+    "imdbVotes": 523168,
+    "metascore": 82
+   },
+   "omdbAt": "2026-10-31T12:34:06+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -1543,8 +1683,13 @@
    "ics": {
     "2026-11-05T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190218"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt14895206",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.4,
+    "imdbVotes": 7990,
+    "metascore": 61
+   },
+   "omdbAt": "2026-10-31T12:34:07+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -1580,7 +1725,7 @@
     "2026-11-20T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192150",
     "2026-11-28T16:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195305"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:43:46+01:00"
   },
   "der-perfekte-schein-der-fall-bojarski": {
@@ -1598,8 +1743,13 @@
     "2026-11-02T15:45|De France": "https://nonstopkino.at/feed/calendar/?id=196190",
     "2026-11-03T15:35|CineCenter": "https://nonstopkino.at/feed/calendar/?id=196066"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35495035",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:07+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -1754,8 +1904,13 @@
     "2026-11-29T11:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195302",
     "2026-11-29T20:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195300"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37801321",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:07+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1789,8 +1944,13 @@
    "ics": {
     "2026-12-16T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186097"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0040714",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 147,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:08+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -1825,8 +1985,13 @@
    "ics": {
     "2026-11-19T09:15|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=183157"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39602467",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:08+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1860,8 +2025,13 @@
    "ics": {
     "2026-11-11T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186100"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0047572",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 1356,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:08+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1896,8 +2066,13 @@
    "ics": {
     "2026-11-05T19:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190217"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0106642",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 1174,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:08+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -2034,8 +2209,13 @@
     "2026-11-22T20:15|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195314",
     "2026-11-25T20:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195310"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt28151657",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.4,
+    "imdbVotes": 32,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:09+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2074,8 +2254,13 @@
    "ics": {
     "2026-11-08T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194953"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt4240910",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.8,
+    "imdbVotes": 199,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:09+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2118,8 +2303,13 @@
     "2026-11-05T17:30|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195379",
     "2026-11-07T15:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=195276"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt38840657",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:09+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -2153,8 +2343,13 @@
    "ics": {
     "2026-12-24T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179737"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0088323",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 172959,
+    "metascore": 49
+   },
+   "omdbAt": "2026-10-31T12:34:09+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -2190,8 +2385,13 @@
    "ics": {
     "2026-12-07T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186098"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0064118",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.4,
+    "imdbVotes": 11128,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:10+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -2227,7 +2427,7 @@
    "ics": {
     "2026-12-29T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179736"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:44:29+01:00"
   },
   "digger": {
@@ -2258,8 +2458,13 @@
     "2026-11-04T18:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196299",
     "2026-11-05T16:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=195594"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt31450459",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:10+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2294,7 +2499,7 @@
    "ics": {
     "2026-11-07T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194952"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:44:34+01:00"
   },
   "dracula": {
@@ -2311,8 +2516,13 @@
    "ics": {
     "2026-10-31T19:00|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195369"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32448239",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 51,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:10+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "RO",
@@ -2355,8 +2565,13 @@
     "2026-12-16T20:30|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195513",
     "2026-12-17T20:30|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195514"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt31378509",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:10+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2392,8 +2607,13 @@
    "ics": {
     "2026-12-04T15:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192025"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0083866",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 477704,
+    "metascore": 92
+   },
+   "omdbAt": "2026-10-31T12:34:11+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2429,8 +2649,13 @@
    "ics": {
     "2026-10-31T14:15|De France": "https://nonstopkino.at/feed/calendar/?id=196183"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt31391025",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.7,
+    "imdbVotes": 160,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:11+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -2465,8 +2690,13 @@
    "ics": {
     "2026-11-17T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187656"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1325004",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.1,
+    "imdbVotes": 286591,
+    "metascore": 58
+   },
+   "omdbAt": "2026-10-31T12:34:11+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2503,7 +2733,7 @@
    "ics": {
     "2026-11-16T16:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192154"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:44:54+01:00"
   },
   "ein-tag-ohne-frauen": {
@@ -2521,8 +2751,13 @@
     "2026-10-31T16:15|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195409",
     "2026-11-01T13:00|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195400"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt31937069",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 6,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:11+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "IS",
@@ -2564,8 +2799,13 @@
     "2026-11-08T10:30|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194987",
     "2026-11-25T09:45|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194963"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt14129116",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:12+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2607,8 +2847,13 @@
     "2026-11-28T14:00|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192030",
     "2026-12-18T15:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192029"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt21054736",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.1,
+    "imdbVotes": 516,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:12+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -2644,8 +2889,13 @@
    "ics": {
     "2026-11-04T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=192322"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt12163858",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 59,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:12+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2680,8 +2930,13 @@
    "ics": {
     "2026-11-25T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193505"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0070030",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 7847,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:12+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2718,8 +2973,13 @@
    "ics": {
     "2026-11-04T20:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=195281"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0338013",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.3,
+    "imdbVotes": 1198489,
+    "metascore": 89
+   },
+   "omdbAt": "2026-10-31T12:34:13+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2755,8 +3015,13 @@
    "ics": {
     "2026-11-18T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193557"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0116243",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 78,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:13+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2793,8 +3058,13 @@
     "2026-12-02T19:30|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=195264",
     "2026-12-04T18:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=194146"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt41592057",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 30,
+    "metascore": 82
+   },
+   "omdbAt": "2026-10-31T12:34:13+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -2829,8 +3099,13 @@
    "ics": {
     "2026-12-13T20:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=195273"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0072979",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.1,
+    "imdbVotes": 10935,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:13+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2865,7 +3140,7 @@
    "ics": {
     "2026-11-11T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193549"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:29+01:00"
   },
   "filme-von-linda-christanell-1979-2002": {
@@ -2882,7 +3157,7 @@
    "ics": {
     "2026-11-11T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193548"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:31+01:00"
   },
   "filme-von-tafadzwa-chiriga-martha-ferguson-cosmo-itayi-zengeya-2012-2018": {
@@ -2899,7 +3174,7 @@
    "ics": {
     "2026-11-20T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193553"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:32+01:00"
   },
   "filme-von-tsitsi-dangarembga-tawanda-gunda-mupengo-und-women-filmmakers-of-zimbabwe-2005-2006": {
@@ -2916,7 +3191,7 @@
    "ics": {
     "2026-11-19T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193554"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:33+01:00"
   },
   "force-of-evil": {
@@ -2933,8 +3208,13 @@
    "ics": {
     "2026-11-30T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193540"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0040366",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 8649,
+    "metascore": 89
+   },
+   "omdbAt": "2026-10-31T12:34:14+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2969,8 +3249,13 @@
    "ics": {
     "2026-12-14T20:00|CineCenter": "https://nonstopkino.at/feed/calendar/?id=185040"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt2347569",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.4,
+    "imdbVotes": 103641,
+    "metascore": 82
+   },
+   "omdbAt": "2026-10-31T12:34:14+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3019,8 +3304,13 @@
     "2026-11-08T11:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195341",
     "2026-11-08T19:45|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195338"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39400348",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:14+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3054,7 +3344,7 @@
    "ics": {
     "2026-11-21T13:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192149"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:46+01:00"
   },
   "from-inside-out-die-architektur-von-peter-zumthor": {
@@ -3074,8 +3364,13 @@
     "2026-11-29T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195018",
     "2026-11-30T16:20|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195017"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt43704808",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 32,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:14+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3109,7 +3404,7 @@
    "ics": {
     "2026-11-14T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=185030"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:45:51+01:00"
   },
   "geister": {
@@ -3129,8 +3424,13 @@
     "2026-11-05T20:00|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=196562",
     "2026-11-05T20:15|Geidorf Kunstkino": "https://nonstopkino.at/feed/calendar/?id=196442"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36501204",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:15+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3181,8 +3481,13 @@
     "2026-11-05T19:45|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196521",
     "2026-11-05T21:00|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195375"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37020296",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.5,
+    "imdbVotes": 85,
+    "metascore": 70
+   },
+   "omdbAt": "2026-10-31T12:34:15+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -3221,8 +3526,13 @@
    "ics": {
     "2026-11-30T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183579"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt3631112",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.5,
+    "imdbVotes": 213944,
+    "metascore": 48
+   },
+   "omdbAt": "2026-10-31T12:34:15+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3259,8 +3569,13 @@
    "ics": {
     "2026-12-09T15:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=167621"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32565993",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.4,
+    "imdbVotes": 124164,
+    "metascore": 72
+   },
+   "omdbAt": "2026-10-31T12:34:15+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -3297,8 +3612,13 @@
    "ics": {
     "2026-11-03T19:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196278"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt34384661",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:16+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -3334,7 +3654,7 @@
    "ics": {
     "2026-11-01T19:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196502"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:46:11+01:00"
   },
   "gruberturnheim-vertonen-frankenstein-das-monster-spricht": {
@@ -3351,7 +3671,7 @@
    "ics": {
     "2026-10-31T20:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=186204"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:46:12+01:00"
   },
   "gugus-welt": {
@@ -3368,8 +3688,13 @@
    "ics": {
     "2026-11-18T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192153"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt11826250",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 10,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:16+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "BR"
@@ -3403,7 +3728,7 @@
    "ics": {
     "2026-11-04T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190223"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:46:17+01:00"
   },
   "heimsuchung": {
@@ -3420,8 +3745,13 @@
    "ics": {
     "2026-11-29T12:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194992"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1225654",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:16+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "XG"
@@ -3456,7 +3786,7 @@
    "ics": {
     "2026-11-06T20:15|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194951"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "SY"
@@ -3489,8 +3819,8 @@
     "2026-11-03T18:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196499",
     "2026-11-04T20:10|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196496"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt46098838",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdbError": "Error getting data.",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -3524,8 +3854,13 @@
    "ics": {
     "2026-11-05T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190221"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0095310",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 140,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:17+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "BE",
@@ -3560,8 +3895,13 @@
    "ics": {
     "2026-10-31T22:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=192075"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35672862",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 67097,
+    "metascore": 76
+   },
+   "omdbAt": "2026-10-31T12:34:17+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3600,8 +3940,13 @@
     "2026-11-01T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=190914",
     "2026-11-22T14:45|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195028"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35683445",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.9,
+    "imdbVotes": 197,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:17+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -3638,8 +3983,13 @@
    "ics": {
     "2026-11-04T19:30|CineCenter": "https://nonstopkino.at/feed/calendar/?id=196008"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt33008332",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:17+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3674,7 +4024,7 @@
     "2026-11-03T20:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=194627",
     "2026-11-04T19:45|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=195508"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:46:41+01:00"
   },
   "hush-hush-sweet-charlotte": {
@@ -3691,8 +4041,13 @@
    "ics": {
     "2026-11-21T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193518"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0058213",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 17694,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:18+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3728,8 +4083,13 @@
    "ics": {
     "2026-11-28T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193577"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0073133",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.2,
+    "imdbVotes": 3278,
+    "metascore": 77
+   },
+   "omdbAt": "2026-10-31T12:34:18+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3770,8 +4130,13 @@
     "2026-11-05T17:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195378",
     "2026-11-29T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=195260"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt41692123",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:18+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -3806,8 +4171,13 @@
    "ics": {
     "2026-11-04T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190224"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0361748",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.4,
+    "imdbVotes": 1822696,
+    "metascore": 69
+   },
+   "omdbAt": "2026-10-31T12:34:18+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3853,8 +4223,13 @@
     "2026-11-05T20:45|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=196595",
     "2026-12-07T20:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=193591"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36955518",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.6,
+    "imdbVotes": 1190,
+    "metascore": 61
+   },
+   "omdbAt": "2026-10-31T12:34:19+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -3890,7 +4265,7 @@
    "ics": {
     "2026-12-09T17:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186623"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:02+01:00"
   },
   "ken-russells-the-devils-directors-cut": {
@@ -3914,8 +4289,13 @@
     "2026-11-04T20:00|Gartenbaukino": "https://nonstopkino.at/feed/calendar/?id=195534",
     "2026-11-05T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190220"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0066993",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.7,
+    "imdbVotes": 21984,
+    "metascore": 52
+   },
+   "omdbAt": "2026-10-31T12:34:19+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -3951,8 +4331,13 @@
    "ics": {
     "2026-11-27T15:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192032"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0097814",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.8,
+    "imdbVotes": 192528,
+    "metascore": 85
+   },
+   "omdbAt": "2026-10-31T12:34:19+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -3988,7 +4373,7 @@
    "ics": {
     "2026-12-06T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186624"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:11+01:00"
   },
   "kino-fuer-die-kleinsten-das-kann-ich-schon-allein": {
@@ -4005,7 +4390,7 @@
    "ics": {
     "2026-11-08T14:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193545"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:12+01:00"
   },
   "kino-fuer-die-kleinsten-farben-klingen-toene-springen": {
@@ -4022,7 +4407,7 @@
    "ics": {
     "2026-11-28T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183580"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:13+01:00"
   },
   "kino-fuer-die-kleinsten-oh-was-hast-du-denn-entdeckt": {
@@ -4039,7 +4424,7 @@
    "ics": {
     "2026-12-13T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179466"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:14+01:00"
   },
   "kino-fuer-die-kleinsten-platz-fuer-alle": {
@@ -4056,7 +4441,7 @@
    "ics": {
     "2026-11-08T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=186127"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:16+01:00"
   },
   "kino-fuer-die-kleinsten-tierisch-was-los": {
@@ -4073,7 +4458,7 @@
    "ics": {
     "2026-11-01T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=182731"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:17+01:00"
   },
   "kino-fuer-die-kleinsten-vom-huepfem-schlittern-und-hinfallen": {
@@ -4090,7 +4475,7 @@
    "ics": {
     "2026-12-27T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179464"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:18+01:00"
   },
   "kiss-me-deadly": {
@@ -4108,8 +4493,13 @@
     "2026-11-06T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193542",
     "2026-11-28T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193541"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0048261",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 24017,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:19+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -4148,8 +4538,13 @@
     "2026-11-05T20:15|Kino Freistadt": "https://nonstopkino.at/feed/calendar/?id=195701",
     "2026-11-05T20:30|CineCenter": "https://nonstopkino.at/feed/calendar/?id=196006"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39304299",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:20+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4183,8 +4578,13 @@
    "ics": {
     "2026-11-22T11:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192148"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0084220",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 74,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:20+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4220,7 +4620,7 @@
    "ics": {
     "2026-11-07T17:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194947"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:30+01:00"
   },
   "kurzfilmprogramm-kurdische-filmtage": {
@@ -4237,7 +4637,7 @@
    "ics": {
     "2026-11-06T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194948"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:31+01:00"
   },
   "la-bola-negra": {
@@ -4265,8 +4665,13 @@
     "2026-11-27T20:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195012",
     "2026-11-29T12:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194994"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35511966",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 820,
+    "metascore": 86
+   },
+   "omdbAt": "2026-10-31T12:34:20+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -4315,8 +4720,13 @@
     "2026-11-15T17:30|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=196397",
     "2026-11-17T10:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=194209"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36107185",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.3,
+    "imdbVotes": 26,
+    "metascore": 100
+   },
+   "omdbAt": "2026-10-31T12:34:20+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -4351,7 +4761,7 @@
    "ics": {
     "2026-11-05T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190219"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:40+01:00"
   },
   "lalka": {
@@ -4368,8 +4778,13 @@
    "ics": {
     "2026-11-05T19:30|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=196413"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37082105",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:21+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -4404,8 +4819,13 @@
    "ics": {
     "2026-11-05T17:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195357"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt29781139",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 4.1,
+    "imdbVotes": 11314,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:21+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AU"
@@ -4460,7 +4880,7 @@
     "2026-11-05T18:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196495",
     "2026-11-05T20:30|City-Kino": "https://nonstopkino.at/feed/calendar/?id=195915"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:47:49+01:00"
   },
   "london": {
@@ -4485,8 +4905,13 @@
     "2026-11-11T20:30|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=194945",
     "2026-11-12T18:00|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196689"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39206699",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 14,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:21+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -4570,8 +4995,13 @@
     "2026-11-10T20:00|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196692",
     "2026-11-11T18:00|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196691"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35513027",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 5338,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:21+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -4606,8 +5036,13 @@
    "ics": {
     "2026-11-15T11:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192156"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39319788",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:22+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -4642,8 +5077,13 @@
    "ics": {
     "2026-11-03T20:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=178694"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0116922",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.6,
+    "imdbVotes": 173798,
+    "metascore": 53
+   },
+   "omdbAt": "2026-10-31T12:34:22+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -4688,8 +5128,13 @@
     "2026-11-05T15:30|Moviemento": "https://nonstopkino.at/feed/calendar/?id=195856",
     "2026-11-07T19:30|Stadtkino Bruck an der Mur": "https://nonstopkino.at/feed/calendar/?id=196357"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36985296",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:22+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4723,8 +5168,13 @@
    "ics": {
     "2026-11-16T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186099"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0022183",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 4447,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:22+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4759,8 +5209,13 @@
    "ics": {
     "2026-11-11T15:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=167603"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt30797042",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 115,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:23+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -4795,8 +5250,13 @@
    "ics": {
     "2026-12-24T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=191922"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0096283",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 441040,
+    "metascore": 87
+   },
+   "omdbAt": "2026-10-31T12:34:23+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -4832,7 +5292,7 @@
    "ics": {
     "2026-11-22T15:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192146"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:48:20+01:00"
   },
   "mira": {
@@ -4849,8 +5309,13 @@
    "ics": {
     "2026-11-19T16:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192152"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt38453860",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 26,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:23+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DK"
@@ -4886,8 +5351,13 @@
     "2026-12-11T15:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192028",
     "2026-12-24T11:00|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192027"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35727399",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.0,
+    "imdbVotes": 687,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:23+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -4923,8 +5393,13 @@
    "ics": {
     "2026-11-18T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193556"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt13892558",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 453,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:24+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -4984,8 +5459,13 @@
     "2026-11-07T16:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195344",
     "2026-11-08T15:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195340"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt38807889",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:24+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -5023,7 +5503,7 @@
    "ics": {
     "2026-11-08T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194950"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:48:37+01:00"
   },
   "mumbo-jumbo": {
@@ -5053,8 +5533,13 @@
     "2026-11-07T14:20|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195106",
     "2026-11-08T14:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195105"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt28942997",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.5,
+    "imdbVotes": 104,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:24+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DK"
@@ -5095,8 +5580,13 @@
     "2026-11-20T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=192845",
     "2026-11-27T19:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=192844"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt48503986",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:24+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -5132,7 +5622,7 @@
     "2026-12-12T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179740",
     "2026-12-20T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179739"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:48:45+01:00"
   },
   "naza": {
@@ -5183,8 +5673,13 @@
     "2026-11-05T20:45|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=195527",
     "2026-11-07T18:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=196718"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt44766123",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 3173,
+    "metascore": 94
+   },
+   "omdbAt": "2026-10-31T12:34:25+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5220,8 +5715,13 @@
    "ics": {
     "2026-12-01T20:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183578"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt2872718",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.8,
+    "imdbVotes": 683715,
+    "metascore": 76
+   },
+   "omdbAt": "2026-10-31T12:34:25+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5257,7 +5757,7 @@
    "ics": {
     "2026-11-14T20:00|CineCenter": "https://nonstopkino.at/feed/calendar/?id=185041"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:48:54+01:00"
   },
   "no-good-men": {
@@ -5276,8 +5776,13 @@
     "2026-12-13T12:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=185038",
     "2026-12-16T10:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195009"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt13868840",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 69,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:25+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -5382,7 +5887,7 @@
     "2026-11-14T18:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195332",
     "2026-11-19T17:50|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195050"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -5414,8 +5919,13 @@
    "ics": {
     "2026-11-20T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193552"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt27540975",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 56,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:25+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AO",
@@ -5456,8 +5966,13 @@
     "2026-11-02T21:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195364",
     "2026-11-04T19:45|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195359"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37287335",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.8,
+    "imdbVotes": 392842,
+    "metascore": 77
+   },
+   "omdbAt": "2026-10-31T12:34:26+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5493,7 +6008,7 @@
    "ics": {
     "2026-11-04T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193544"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:49:07+01:00"
   },
   "other-mommy": {
@@ -5520,8 +6035,13 @@
     "2026-11-04T18:10|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196297",
     "2026-11-04T20:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196298"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36586020",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:26+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5555,8 +6075,8 @@
    "ics": {
     "2026-11-14T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193550"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt44121917",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdbError": "Error getting data.",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5590,8 +6110,13 @@
    "ics": {
     "2026-11-05T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194949"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35710714",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 7,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:26+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "TR"
@@ -5625,8 +6150,13 @@
    "ics": {
     "2026-11-14T22:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=196617"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0457430",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.2,
+    "imdbVotes": 754343,
+    "metascore": 98
+   },
+   "omdbAt": "2026-10-31T12:34:27+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -5664,7 +6194,7 @@
    "ics": {
     "2026-10-31T19:00|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=196215"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:49:24+01:00"
   },
   "plitsch-platsch-forever": {
@@ -5681,8 +6211,13 @@
    "ics": {
     "2026-11-21T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192147"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39382508",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:27+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "CH"
@@ -5740,8 +6275,13 @@
     "2026-11-05T20:00|De France": "https://nonstopkino.at/feed/calendar/?id=196178",
     "2026-11-10T11:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=195005"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37803364",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.7,
+    "imdbVotes": 23,
+    "metascore": 96
+   },
+   "omdbAt": "2026-10-31T12:34:27+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "KR",
@@ -5776,8 +6316,13 @@
    "ics": {
     "2026-11-04T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190226"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0949497",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.4,
+    "imdbVotes": 123,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:27+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -5812,8 +6357,13 @@
    "ics": {
     "2026-11-01T18:15|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196535"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32547691",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 37390,
+    "metascore": 69
+   },
+   "omdbAt": "2026-10-31T12:34:28+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -5873,8 +6423,13 @@
     "2026-11-06T20:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195345",
     "2026-11-07T20:15|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195342"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt34206385",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.7,
+    "imdbVotes": 120,
+    "metascore": 75
+   },
+   "omdbAt": "2026-10-31T12:34:28+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5909,8 +6464,13 @@
    "ics": {
     "2026-10-31T20:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187652"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32986431",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.3,
+    "imdbVotes": 2242,
+    "metascore": 67
+   },
+   "omdbAt": "2026-10-31T12:34:28+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5946,7 +6506,7 @@
    "ics": {
     "2026-11-12T18:45|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=193713"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:49:48+01:00"
   },
   "resident-evil": {
@@ -5967,8 +6527,13 @@
     "2026-11-03T17:40|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196303",
     "2026-11-04T20:15|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196296"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35538033",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:28+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6009,8 +6574,13 @@
     "2026-11-27T17:50|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195023",
     "2026-11-28T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195024"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0075148",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 703457,
+    "metascore": 70
+   },
+   "omdbAt": "2026-10-31T12:34:29+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6044,7 +6614,7 @@
    "ics": {
     "2026-12-08T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=190645"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:49:56+01:00"
   },
   "romeria": {
@@ -6061,8 +6631,13 @@
    "ics": {
     "2026-11-04T15:15|De France": "https://nonstopkino.at/feed/calendar/?id=196176"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32538648",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 3628,
+    "metascore": 77
+   },
+   "omdbAt": "2026-10-31T12:34:29+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -6102,8 +6677,13 @@
     "2026-11-28T14:15|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195011",
     "2026-11-29T14:15|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195019"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0088015",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 13097,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:29+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "SE",
@@ -6151,8 +6731,13 @@
     "2026-11-05T19:40|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=195685",
     "2026-11-05T19:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195376"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32268992",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.7,
+    "imdbVotes": 552,
+    "metascore": 48
+   },
+   "omdbAt": "2026-10-31T12:34:29+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -6250,8 +6835,13 @@
     "2026-11-22T17:30|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195315",
     "2026-11-24T09:30|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195108"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt13609648",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 1752,
+    "metascore": 72
+   },
+   "omdbAt": "2026-10-31T12:34:30+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6313,8 +6903,13 @@
     "2026-11-05T17:30|Kino Kirchdorf": "https://nonstopkino.at/feed/calendar/?id=196620",
     "2026-11-28T10:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195057"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt36841161",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:30+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6357,7 +6952,7 @@
     "2026-11-15T12:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195134",
     "2026-11-25T18:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195311"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:50:16+01:00"
   },
   "skiff": {
@@ -6374,8 +6969,13 @@
    "ics": {
     "2026-12-12T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=185032"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt28513051",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 21,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:30+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "NL",
@@ -6411,8 +7011,13 @@
     "2026-11-06T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193570",
     "2026-11-29T17:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193571"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0056504",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.7,
+    "imdbVotes": 2281,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:30+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -6457,8 +7062,13 @@
     "2026-11-05T18:00|KINOLA": "https://nonstopkino.at/feed/calendar/?id=196362",
     "2026-11-05T18:00|Leokino": "https://nonstopkino.at/feed/calendar/?id=195644"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt43598697",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.9,
+    "imdbVotes": 142,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:31+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -6495,8 +7105,13 @@
     "2026-11-01T14:15|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196312",
     "2026-11-02T14:15|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196283"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt22084616",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.0,
+    "imdbVotes": 327986,
+    "metascore": 66
+   },
+   "omdbAt": "2026-10-31T12:34:31+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6532,8 +7147,13 @@
    "ics": {
     "2026-11-10T20:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=196396"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39213126",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": 35,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:31+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -6567,7 +7187,7 @@
    "ics": {
     "2026-11-02T21:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=186125"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:50:37+01:00"
   },
   "teenage-sex-and-death-at-camp-misma": {
@@ -6591,8 +7211,13 @@
     "2026-11-04T17:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195360",
     "2026-11-05T19:15|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195356"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35298123",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.1,
+    "imdbVotes": 10079,
+    "metascore": 89
+   },
+   "omdbAt": "2026-10-31T12:34:31+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6630,8 +7255,13 @@
     "2026-11-05T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193573",
     "2026-11-29T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193572"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0053341",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.5,
+    "imdbVotes": 1241,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:32+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6669,8 +7299,13 @@
     "2026-11-27T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193566",
     "2026-11-30T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193567"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0047880",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 4485,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:32+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6706,8 +7341,13 @@
     "2026-11-04T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193575",
     "2026-11-13T21:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193576"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0075845",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.6,
+    "imdbVotes": 1955,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:32+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6743,8 +7383,13 @@
    "ics": {
     "2026-11-22T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193514"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0061578",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.7,
+    "imdbVotes": 84932,
+    "metascore": 73
+   },
+   "omdbAt": "2026-10-31T12:34:32+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6781,8 +7426,13 @@
    "ics": {
     "2026-11-05T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186092"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0061578",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.7,
+    "imdbVotes": 84932,
+    "metascore": 73
+   },
+   "omdbAt": "2026-10-31T12:34:33+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6819,8 +7469,13 @@
    "ics": {
     "2026-10-31T20:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196326"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0070047",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 506074,
+    "metascore": 83
+   },
+   "omdbAt": "2026-10-31T12:34:33+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6854,8 +7509,13 @@
    "ics": {
     "2026-11-07T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193521"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0059183",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 22838,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:33+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6890,8 +7550,13 @@
    "ics": {
     "2026-11-26T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193580"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0079180",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.4,
+    "imdbVotes": 11237,
+    "metascore": 38
+   },
+   "omdbAt": "2026-10-31T12:34:33+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6928,8 +7593,13 @@
    "ics": {
     "2026-12-03T18:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183577"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0170016",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.4,
+    "imdbVotes": 336645,
+    "metascore": 46
+   },
+   "omdbAt": "2026-10-31T12:34:34+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6966,8 +7636,13 @@
    "ics": {
     "2026-11-25T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193510"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0067162",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.7,
+    "imdbVotes": 1640,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:34+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7003,8 +7678,13 @@
    "ics": {
     "2026-12-03T19:30|Bellaria Kino": "https://nonstopkino.at/feed/calendar/?id=186091"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0317640",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.1,
+    "imdbVotes": 5139,
+    "metascore": 41
+   },
+   "omdbAt": "2026-10-31T12:34:34+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7039,8 +7719,13 @@
    "ics": {
     "2026-11-01T14:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196311"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1951266",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 422708,
+    "metascore": 65
+   },
+   "omdbAt": "2026-10-31T12:34:34+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7086,8 +7771,13 @@
     "2026-11-03T20:15|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196541",
     "2026-11-03T20:30|CineCenter": "https://nonstopkino.at/feed/calendar/?id=196019"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt14173636",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 68555,
+    "metascore": 82
+   },
+   "omdbAt": "2026-10-31T12:34:35+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7123,8 +7813,13 @@
    "ics": {
     "2026-11-23T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193513"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0063185",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 2609,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:35+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7160,8 +7855,13 @@
    "ics": {
     "2026-11-12T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193526"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0055073",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.7,
+    "imdbVotes": 3880,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:35+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7196,8 +7896,13 @@
    "ics": {
     "2026-11-23T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193517"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0063219",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.7,
+    "imdbVotes": 1539,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:35+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7260,8 +7965,13 @@
     "2026-11-30T19:30|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=193129",
     "2026-12-04T20:15|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=195258"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt39382808",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.5,
+    "imdbVotes": 23,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:36+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -7296,8 +8006,13 @@
    "ics": {
     "2026-11-15T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193506"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0071771",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.1,
+    "imdbVotes": 23575,
+    "metascore": 61
+   },
+   "omdbAt": "2026-10-31T12:34:36+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7333,8 +8048,13 @@
    "ics": {
     "2026-11-05T18:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=182730"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt33381401",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.8,
+    "imdbVotes": 2494,
+    "metascore": 76
+   },
+   "omdbAt": "2026-10-31T12:34:36+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "IS",
@@ -7372,8 +8092,13 @@
    "ics": {
     "2026-10-31T18:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196325"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0107688",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 416592,
+    "metascore": 82
+   },
+   "omdbAt": "2026-10-31T12:34:36+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7415,8 +8140,13 @@
     "2026-11-04T19:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195382",
     "2026-11-05T22:00|Top Kino": "https://nonstopkino.at/feed/calendar/?id=195374"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt33296751",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.2,
+    "imdbVotes": 33733,
+    "metascore": 75
+   },
+   "omdbAt": "2026-10-31T12:34:37+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -7453,8 +8183,13 @@
    "ics": {
     "2026-11-05T18:00|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=196414"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt38016585",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 169,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:37+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -7488,8 +8223,13 @@
    "ics": {
     "2026-11-08T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=192073"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0040725",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 44384,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:37+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -7527,8 +8267,13 @@
     "2026-10-31T23:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196324",
     "2026-12-21T20:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=192094"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0073629",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.4,
+    "imdbVotes": 188663,
+    "metascore": 65
+   },
+   "omdbAt": "2026-10-31T12:34:37+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7581,8 +8326,13 @@
     "2026-11-18T20:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195325",
     "2026-11-19T20:15|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195323"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37510326",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:38+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7618,8 +8368,13 @@
     "2026-11-03T17:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195363",
     "2026-11-05T21:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=195355"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0088247",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 1020529,
+    "metascore": 84
+   },
+   "omdbAt": "2026-10-31T12:34:38+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7656,8 +8411,13 @@
    "ics": {
     "2026-10-31T22:30|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192120"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0084787",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.2,
+    "imdbVotes": 537503,
+    "metascore": 57
+   },
+   "omdbAt": "2026-10-31T12:34:38+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7695,8 +8455,13 @@
     "2026-11-03T16:50|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195622",
     "2026-11-05T16:50|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195615"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0041959",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 197687,
+    "metascore": 97
+   },
+   "omdbAt": "2026-10-31T12:34:39+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -7731,7 +8496,7 @@
    "ics": {
     "2026-11-04T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194946"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:52:27+01:00"
   },
   "too-late-the-hero": {
@@ -7749,8 +8514,13 @@
     "2026-11-13T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193569",
     "2026-11-26T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193568"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0066471",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 4365,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:39+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7787,8 +8557,13 @@
     "2026-11-03T20:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196300",
     "2026-11-06T22:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=194628"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0117951",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.1,
+    "imdbVotes": 775940,
+    "metascore": 83
+   },
+   "omdbAt": "2026-10-31T12:34:39+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -7824,8 +8599,13 @@
     "2026-11-03T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187658",
     "2026-11-13T22:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=193982"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1099212",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.4,
+    "imdbVotes": 536027,
+    "metascore": 56
+   },
+   "omdbAt": "2026-10-31T12:34:39+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7862,8 +8642,13 @@
    "ics": {
     "2026-11-10T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=187657"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt1259571",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 4.8,
+    "imdbVotes": 327325,
+    "metascore": 44
+   },
+   "omdbAt": "2026-10-31T12:34:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7900,8 +8685,13 @@
    "ics": {
     "2026-11-27T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193581"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0076845",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 6.7,
+    "imdbVotes": 4246,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7935,8 +8725,13 @@
    "ics": {
     "2026-11-08T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193509"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0069436",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 6711,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7970,8 +8765,13 @@
    "ics": {
     "2026-11-08T13:00|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=192113"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt35494680",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.1,
+    "imdbVotes": 18,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -8034,8 +8834,13 @@
     "2026-11-05T20:15|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=193648",
     "2026-11-06T20:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=193668"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt37304295",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 1773,
+    "metascore": 90
+   },
+   "omdbAt": "2026-10-31T12:34:41+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "PL",
@@ -8074,8 +8879,13 @@
    "ics": {
     "2026-11-07T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193531"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0047647",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 13203,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:41+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8116,8 +8926,13 @@
     "2026-11-04T18:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196292",
     "2026-11-04T20:15|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196293"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt32261958",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:41+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8155,8 +8970,13 @@
     "2026-11-03T15:40|Leokino": "https://nonstopkino.at/feed/calendar/?id=195658",
     "2026-11-22T12:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194995"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt43509005",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 191,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:41+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -8190,7 +9010,7 @@
    "ics": {
     "2026-11-10T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193562"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:10+01:00"
   },
   "was-ist-film-programm-18": {
@@ -8207,7 +9027,7 @@
    "ics": {
     "2026-11-10T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193561"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:11+01:00"
   },
   "was-ist-film-programm-19": {
@@ -8224,7 +9044,7 @@
    "ics": {
     "2026-11-17T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193560"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:12+01:00"
   },
   "was-ist-film-programm-20": {
@@ -8241,7 +9061,7 @@
    "ics": {
     "2026-11-17T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193559"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:14+01:00"
   },
   "was-ist-film-programm-21": {
@@ -8258,7 +9078,7 @@
    "ics": {
     "2026-11-24T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193558"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:15+01:00"
   },
   "wellen-wende": {
@@ -8280,8 +9100,13 @@
     "2026-11-04T09:30|City-Kino": "https://nonstopkino.at/feed/calendar/?id=195839",
     "2026-11-05T18:00|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=195562"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt40564054",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:42+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -8315,7 +9140,7 @@
    "ics": {
     "2026-11-19T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193555"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdbAt": "2026-10-31T11:53:20+01:00"
   },
   "what-ever-happened-to-baby-jane": {
@@ -8332,8 +9157,13 @@
    "ics": {
     "2026-11-21T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193522"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0056687",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 8.0,
+    "imdbVotes": 68531,
+    "metascore": 75
+   },
+   "omdbAt": "2026-10-31T12:34:42+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8368,7 +9198,7 @@
    "ics": {
     "2026-11-03T18:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=191226"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -8402,8 +9232,13 @@
    "ics": {
     "2026-11-02T20:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=196279"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt2013293",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.8,
+    "imdbVotes": 115597,
+    "metascore": 83
+   },
+   "omdbAt": "2026-10-31T12:34:42+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -8450,8 +9285,13 @@
     "2026-11-27T19:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=190608",
     "2026-12-02T10:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195008"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt15799564",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:42+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -8499,8 +9339,13 @@
     "2026-11-10T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195093",
     "2026-11-11T15:25|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195092"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt2056785",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:43+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8536,8 +9381,13 @@
    "ics": {
     "2026-11-05T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193574"
    },
-   "omdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0047681",
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 5.8,
+    "imdbVotes": 654,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:43+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8561,16 +9411,18 @@
   },
   "you-can-see-everything": {
    "facts": {
+    "cast": "Nathan Fielder, Elisabeth Holmes",
     "description": "Vierunddreißig Tage, bevor sie ihre Haftstrafe antreten muss, lädt die berüchtigte Silicon-Valley-Gründerin Elizabeth Holmes ein skeptisches Filmteam ein, jeden ihrer Schritte zu dokumentieren. Was als intimes Porträt einer rätselhaften Straftäterin beginnt, entwickelt sich zu einer dreijährigen Reise in den Abgrund, die alle bisherigen Vorstellungen ins Wanken bringt.",
     "director": "Nathan Fielder, Lance Oppenheim",
-    "language": "",
+    "language": "Englisch",
     "runtime": 174,
     "title": "You Can See Everything",
     "year": 2026
    },
+   "factsAt": "2026-10-31T12:34:43+01:00",
    "ics": {
-    "2026-12-03T19:00|Donnerstag": "https://nonstopkino.at/feed/calendar/?id=195518",
-    "2026-12-03T20:00|Donnerstag": "https://nonstopkino.at/feed/calendar/?id=195270",
+    "2026-12-03T19:00|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195518",
+    "2026-12-03T20:00|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=195270",
     "2026-12-04T17:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195269",
     "2026-12-04T20:00|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195517",
     "2026-12-05T20:00|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=195516",
@@ -8581,9 +9433,15 @@
     "2026-12-08T20:15|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=196405",
     "2026-12-08T20:15|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195266",
     "2026-12-09T20:15|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=196404",
-    "2026-12-10T20:15|Donnerstag": "https://nonstopkino.at/feed/calendar/?id=196403"
+    "2026-12-10T20:15|Burg Kino": "https://nonstopkino.at/feed/calendar/?id=196403"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.9,
+    "imdbVotes": 165,
+    "metascore": 98
+   },
+   "omdbAt": "2026-10-31T12:34:44+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8605,6 +9463,7 @@
   },
   "your-name": {
    "facts": {
+    "cast": "",
     "description": "Einer der erfolgreichsten japanischen Animationsfilme! YOUR NAME beginnt als Gender Bender Teenager-Romanze mit Body Switch Twist, bewegt sich aber bald in noch viel größere Universen. YOUR NAME ist nicht nur einer der schönsten und bewegendsten Filme des Jahres 2016, sondern auch einer der intelligentesten. Die Schülerin Mitsuha lebt gemeinsam mit ihrer kleinen Schwester bei ihrer Großmutter in einer japanischen Kleinstadt. Das Provinzleben langweilt sie. Viel lieber hätte sie ein aufregendes Großstadt-Leben. Genau das hat der Junge Taki in der Millionen-Metropole Tokyo. Eines Tages scheint Mitsuha einen Traum zu haben, in dem sie sich als Junge in Tokyo wiederfindet. Parallel macht Taki eine ähnliche Erfahrung: Er findet sich als Mädchen in einer Kleinstadt in den Bergen wieder, wo er noch nie zuvor war. Doch wie kommt es zu dieser schicksalhaften Verstrickung und welches Geheimnis verbirgt sich wirklich hinter den Träumen der beiden Teenager?",
     "director": "Makoto Shinkai",
     "language": "Japanisch",
@@ -8612,13 +9471,16 @@
     "title": "Your Name",
     "year": 2016
    },
+   "factsAt": "2026-10-31T12:34:44+01:00",
    "ics": {
     "2026-11-21T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195265"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00"
+   "seenAt": "2026-10-31T12:34:47+01:00",
+   "tmdbAt": "2026-10-31T12:34:45+01:00"
   },
   "yugo-goes-to-america-yugo-ide-u-ameriku": {
    "facts": {
+    "cast": "Carlos Ayala, Aleksandar Blažić, Aleksa Borković, Malcolm Bricklin",
     "description": "Das vielleicht berühmteste Auto des ehemaligen Jugoslawiens schafft es noch einmal über den Atlantik. Drei Freunde aus Belgrad kaufen einen alten Yugo in den USA und fahren damit quer durchs Land –  von New York bis Los Angeles. Klingt nach einer schlechten Idee? Ist es auch. Denn der kleine Kultwagen bleibt regelmäßig liegen und zwingt seine Besatzung zu ungeplanten Stopps, skurrilen Begegnungen und Gesprächen mit Menschen, die alle ihre ganz eigene Geschichte über den legendären Balkan- Flitzer zu erzählen haben. Was als Roadtrip auf den Spuren eines Autos beginnt, entwickelt sich zu einer überraschend persönlichen Reise durch Erinnerungen, Migration, Freundschaft und die widersprüchliche Geschichte des ehemaligen Jugoslawiens. Die Regisseure Filip Grujić und Aleks Borković verbinden in ihrem Langfilmdebüt trockenen Humor mit dokumentarischer Neugier und zeigen, wie ein vermeintlich schlechtes Auto Menschen und Geschichten zusammenbringt. Zwischen Pannen, Wüstenhitze und amerikanischen Highways entsteht eine ebenso absurde wie berührende Ode an das Unterwegssein –  und an die Erkenntnis, dass es manchmal gar nicht auf das Ziel ankommt. YUGO GOES TO AMERICA ist eine charmante Doku- Komödie voller Nostalgie, Selbstironie und unerwarteter Begegnungen –  und der Beweis, dass ausgerechnet der „schlechteste Wagen der Welt“ die besten Geschichten schreibt.",
     "director": "Filip Grujić, Aleksa Borković",
     "language": "Serbisch",
@@ -8626,10 +9488,17 @@
     "title": "Yugo Goes to America (Yugo ide u Ameriku)",
     "year": 2026
    },
+   "factsAt": "2026-10-31T12:34:46+01:00",
    "ics": {
     "2026-11-04T18:00|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=196415"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00",
+   "omdb": {
+    "imdbRating": 7.4,
+    "imdbVotes": 24,
+    "metascore": null
+   },
+   "omdbAt": "2026-10-31T12:34:46+01:00",
+   "seenAt": "2026-10-31T12:34:47+01:00",
    "tmdb": {
     "countries": [
      "RS",
@@ -8652,6 +9521,7 @@
   },
   "zusammen-finden": {
    "facts": {
+    "cast": "",
     "description": "Die bunte Auswahl an sechs Kurzfilmen lässt die Jüngsten eintauchen in poetische Geschichten über Mut, Zusammenhalt und die Kraft, über sich selbst hinauszuwachsen. TAG FÜR TAG (A cada dia que passa) POR / SLO 2024 | 10:55 Minuten | Regie: Emanuel Nevado TSURU BRA 2024 | 06:19 Minuten | Regie: Pedro Anias MARMELADE UND HOLZ GER / CRO 2025 | 05:12 Minuten | Regie: Elena Walf NACHTSCHWÄRMER (Bats & Bugs) SUI 2026 | 11:00 Minuten | Regie: Lena von Döhren WOLKENFISCH (Poisson Nuage) FRA / BEL 2025 | 05:37 Minuten | Regie: Noé Garcia TANZPARTNER GER / CRO 2025 | 05:12 Minuten | Regie: Elena Walf",
     "director": "Emanuel Nevado, Pedro Anias, Elena Walf, Lena von Döhren, Noé Garcia",
     "language": "",
@@ -8659,12 +9529,14 @@
     "title": "Zusammen finden",
     "year": null
    },
+   "factsAt": "2026-10-31T12:34:46+01:00",
    "ics": {
     "2026-11-18T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192151"
    },
-   "seenAt": "2026-10-31T11:53:40+01:00"
+   "seenAt": "2026-10-31T12:34:47+01:00",
+   "tmdbAt": "2026-10-31T12:34:47+01:00"
   }
  },
- "lastOmdbError": "401 Client Error: Unauthorized for url: https://www.omdbapi.com/?apikey=***&i=tt0047681",
+ "lastOmdbError": "Error getting data.",
  "schema": 2
 }
