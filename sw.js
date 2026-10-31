@@ -1,7 +1,7 @@
 // Offline-Speicher: App-Gerüst aus dem Cache, Programmdaten immer zuerst frisch aus dem Netz.
-const SHELL = "kinosieb-shell-v2";
+const SHELL = "kinosieb-shell-v3";
 const IMG = "kinosieb-img-v1";
-const SHELL_FILES = ["./", "index.html", "app.css", "stil-film.css", "app.js", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
+const SHELL_FILES = ["./", "index.html", "app.css?v=5", "stil-film.css?v=5", "app.js?v=5", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
@@ -23,7 +23,7 @@ self.addEventListener("fetch", (e) => {
   // Programmdaten: Netz zuerst, bei Funkloch die letzte Fassung
   if (url.pathname.endsWith("/data/data.json")) {
     e.respondWith(
-      fetch(req).then((res) => {
+      fetch(req, { cache: "no-cache" }).then((res) => {
         const copy = res.clone();
         caches.open(SHELL).then((c) => c.put(req, copy));
         return res;
@@ -40,10 +40,10 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  // App-Gerüst: Netz zuerst (damit Updates sofort ankommen), offline aus dem Cache
+  // App-Gerüst: Netz zuerst und am Server nachfragen (damit Updates sofort ankommen), offline aus dem Cache
   if (url.origin === location.origin) {
     e.respondWith(
-      fetch(req).then((res) => {
+      fetch(req, { cache: "no-cache" }).then((res) => {
         const copy = res.clone();
         caches.open(SHELL).then((c) => c.put(req, copy));
         return res;
