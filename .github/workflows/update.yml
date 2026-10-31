@@ -39,6 +39,22 @@ jobs:
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
         run: python scripts/update.py
 
+      - name: Bewertungs-Datenbank prüfen
+        if: always()
+        run: |
+          mkdir -p debug
+          url="https://firestore.googleapis.com/v1/projects/nonstopkino-90865/databases/(default)/documents/gruppen/diagnose/x/y?key=AIzaSyBz-Ol6I_BBlX5z3n3cngAPRiJPqvwvclA"
+          status=$(curl -sg -o /tmp/fs.json -w "%{http_code}" "$url" || echo 000)
+          python3 - "$status" > debug/firestore-check.txt <<'PY'
+          import json, sys
+          try:
+              e = json.load(open("/tmp/fs.json")).get("error", {})
+          except Exception:
+              e = {}
+          print(sys.argv[1], e.get("status", ""), (e.get("message", "") or "")[:200])
+          PY
+          cat debug/firestore-check.txt
+
       - name: Ergebnis speichern
         if: always()
         run: |

@@ -291,21 +291,36 @@ function chooseMe(id, name) {
   $("#who").close();
   refreshAll();
 }
+// Gruppen-Code aus dem Einladungslink lesen: …/NonstopKino/?gruppe=CODE oder …/#gruppe=CODE
+function codeFromUrl() {
+  const m = `${location.search}&${location.hash}`.match(/gruppe=([A-Za-z0-9_-]{4,})/);
+  return m ? m[1] : null;
+}
 function readGroupCode() {
-  const m = location.hash.match(/gruppe=([A-Za-z0-9_-]{4,})/);
-  if (m) {
-    try { localStorage.setItem("kinosieb.gruppe", m[1]); } catch (e) { /* egal */ }
-    history.replaceState(null, "", location.pathname + location.search);
-    return m[1];
+  const c = codeFromUrl();
+  if (c) {
+    try { localStorage.setItem("kinosieb.gruppe", c); } catch (e) { /* egal */ }
+    const params = new URLSearchParams(location.search);
+    params.delete("gruppe");
+    const q = params.toString();
+    history.replaceState(null, "", location.pathname + (q ? `?${q}` : ""));
+    return c;
   }
   try { return localStorage.getItem("kinosieb.gruppe"); } catch (e) { return null; }
 }
+// Wird der Einladungslink geöffnet, während die App schon offen ist, lädt der Browser nicht neu.
+window.addEventListener("hashchange", () => {
+  const c = codeFromUrl();
+  if (!c) return;
+  try { localStorage.setItem("kinosieb.gruppe", c); } catch (e) { /* egal */ }
+  location.replace(location.pathname);
+});
 async function connectGroup() {
   if (!GROUP.code) { renderGroupInfo(); return; }
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=13");
+    const mod = await import("./gruppe.js?v=14");
     GROUP.status = "verbinde";
     renderGroupInfo();
     GROUP.api = await mod.connect({
