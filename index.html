@@ -9,8 +9,8 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="app.css?v=5">
-<link rel="stylesheet" href="stil-film.css?v=5">
+<link rel="stylesheet" href="app.css?v=6">
+<link rel="stylesheet" href="stil-film.css?v=6">
 <script>
   // Stil vor dem ersten Zeichnen setzen, damit nichts flackert
   (function () {
@@ -34,15 +34,17 @@
       <span class="sr-only">Film suchen</span>
       <input id="q" type="search" placeholder="Film suchen" autocomplete="off">
     </label>
+  </header>
+
+  <div class="bar">
     <div class="sortrow" role="radiogroup" aria-label="Sortieren nach">
       <button type="button" data-sort="imdb" role="radio">IMDb</button>
       <button type="button" data-sort="meta" role="radio">Metascore</button>
       <button type="button" data-sort="next" role="radio">Nächste</button>
       <button type="button" data-sort="title" role="radio">A–Z</button>
     </div>
-  </header>
-
-  <nav class="chips" id="chips" aria-label="Filter"></nav>
+    <nav class="chips" id="chips" aria-label="Filter"></nav>
+  </div>
 
   <aside class="side" id="side" aria-label="Filter"></aside>
 
@@ -73,6 +75,6 @@
   <div class="detail-inner" id="detailBody"></div>
 </dialog>
 
-<script src="app.js?v=5" defer></script>
+<script src="app.js?v=6" defer></script>
 </body>
 </html>

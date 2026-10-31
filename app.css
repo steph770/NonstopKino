@@ -52,7 +52,7 @@ a { color: var(--brass); }
 .shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-areas: "top" "chips" "list" "foot";
+  grid-template-areas: "top" "bar" "list" "foot";
   max-width: 1120px;
   margin: 0 auto;
 }
@@ -81,10 +81,20 @@ a { color: var(--brass); }
 }
 .search input::placeholder { color: var(--dim); }
 
+/* Sortierung und Filter: bleiben beim Scrollen oben stehen */
+.bar {
+  grid-area: bar;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 10px 16px;
+  padding-top: max(10px, env(safe-area-inset-top));
+  background: var(--plush);
+  border-bottom: 1px solid var(--line);
+}
 .sortrow {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-top: 10px;
   border: 1px solid var(--line-strong);
   border-radius: var(--r-s);
   overflow: hidden;
@@ -101,18 +111,11 @@ a { color: var(--brass); }
 .sortrow button + button { border-left: 1px solid var(--line-strong); }
 .sortrow button[aria-checked="true"] { background: var(--ink); color: var(--plush); }
 
-/* Filterleiste: bleibt beim Scrollen oben stehen */
 .chips {
-  grid-area: chips;
-  position: sticky;
-  top: 0;
-  z-index: 5;
   display: flex;
   gap: 8px;
-  padding: 10px 16px;
-  padding-top: max(10px, env(safe-area-inset-top));
-  background: var(--plush);
-  border-bottom: 1px solid var(--line);
+  margin: 10px -16px 0;
+  padding: 0 16px 2px;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -341,18 +344,21 @@ a { color: var(--brass); }
 @media (min-width: 900px) {
   .shell {
     grid-template-columns: 300px minmax(0, 1fr);
-    grid-template-areas: "top top" "side list" "foot foot";
+    grid-template-areas: "top top" "side bar" "side list" "foot foot";
+    grid-template-rows: auto auto 1fr auto;
     column-gap: 8px;
   }
-  .top { display: grid; grid-template-columns: auto minmax(0, 1fr) 360px; grid-template-areas: "brand search sort"; align-items: center; gap: 16px; }
+  .top { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "brand search"; align-items: center; gap: 16px; }
+  .bar { padding: 12px 16px; border-bottom: 0; }
+  .bar .sortrow { max-width: 420px; }
   .brand { grid-area: brand; flex-direction: column; align-items: flex-start; gap: 2px; }
   .status { text-align: left; }
   .search { grid-area: search; margin: 0; }
-  .sortrow { grid-area: sort; margin: 0; }
   .chips { display: none; }
   .top { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
   .side {
     grid-area: side;
+    grid-row: 2 / 4;
     display: block;
     position: sticky;
     top: 12px;

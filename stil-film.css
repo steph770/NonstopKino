@@ -44,7 +44,7 @@
 
 /* Bereiche auf dem hellen Leuchttisch bekommen dunkle Schrift */
 :root[data-stil="film"] .top,
-:root[data-stil="film"] .chips,
+:root[data-stil="film"] .bar,
 :root[data-stil="film"] .side,
 :root[data-stil="film"] .foot {
   --ink: #1c1511;
@@ -59,11 +59,11 @@
   color: var(--ink);
 }
 :root[data-stil="film"] .top,
-:root[data-stil="film"] .chips {
+:root[data-stil="film"] .bar {
   background: radial-gradient(120% 70% at 50% 0%, var(--lightbox-hi) 0%, var(--lightbox) 60%, #dfe2dc 100%) fixed;
   border-bottom-color: transparent;
 }
-:root[data-stil="film"] .chips { box-shadow: 0 6px 12px -8px rgba(28, 21, 17, 0.25); }
+:root[data-stil="film"] .bar { box-shadow: 0 6px 12px -8px rgba(28, 21, 17, 0.25); }
 
 /* Kinoreklame mit Glühbirnen */
 :root[data-stil="film"] .brand {
