@@ -235,7 +235,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=9");
+    const mod = await import("./gruppe.js?v=10");
     GROUP.api = await mod.connect({
       code: GROUP.code,
       config: window.KINOSIEB_FIREBASE,
@@ -359,6 +359,7 @@ function ticketHTML({ f, shows }, now, i = 0) {
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
   const n = String(i + 1).padStart(2, "0");
   return `<button class="ticket${seenByMe(f) ? " is-seen" : ""}" type="button" data-id="${esc(f.id)}">
+    <span class="nr" aria-hidden="true">${n}</span>
     <span class="edge" aria-hidden="true">▸ ${n}&emsp;&emsp;▸ ${n}A&emsp;&emsp;NONSTOPKINO 35&emsp;&emsp;▸ ${n}</span>
     ${posterHTML(f)}
     <span class="body">
@@ -402,7 +403,9 @@ const CHIP_DEFS = [
   ["critics", "Metascore", () => (state.metaMin ? `ab ${state.metaMin}` : "")],
 ];
 function renderChips() {
-  $("#chips").innerHTML = CHIP_DEFS.map(([key, label, val]) => {
+  const any = activeCount() + (state.q ? 1 : 0) > 0;
+  const clear = any ? `<button type="button" class="chip clear" data-reset>✕ Filter löschen</button>` : "";
+  $("#chips").innerHTML = clear + CHIP_DEFS.map(([key, label, val]) => {
     const v = val();
     const on = !!v;
     if (key === "when") {
@@ -461,7 +464,8 @@ function filterHTML() {
 function renderFilters() {
   const html = filterHTML();
   $("#sheetBody").innerHTML = html;
-  $("#side").innerHTML = html;
+  const any = activeCount() + (state.q ? 1 : 0) > 0;
+  $("#side").innerHTML = (any ? `<button type="button" class="ghost side-reset" data-reset>✕ Alle Filter löschen</button>` : "") + html;
 }
 
 function toggle(group, value) {
@@ -616,7 +620,7 @@ function bind() {
   let qTimer;
   $("#q").addEventListener("input", (e) => {
     clearTimeout(qTimer);
-    qTimer = setTimeout(() => { state.q = e.target.value.trim(); renderList(); }, 120);
+    qTimer = setTimeout(() => { state.q = e.target.value.trim(); renderList(); renderFilters(); }, 120);
   });
 }
 
@@ -628,14 +632,16 @@ function statusText() {
 }
 
 /* ---------- Aussehen ---------- */
-function currentStil() { return document.documentElement.dataset.stil === "film" ? "film" : "karte"; }
+const STILE = { karte: "#2a0c12", film: "#e7eae4", sessel: "#1c0e11", leinwand: "#13111a", popcorn: "#ffe59a" };
+function currentStil() { const s = document.documentElement.dataset.stil; return STILE[s] ? s : "karte"; }
 function applyStil(stil) {
-  if (stil === "film") document.documentElement.dataset.stil = "film";
+  if (!STILE[stil]) stil = "karte";
+  if (stil !== "karte") document.documentElement.dataset.stil = stil;
   else delete document.documentElement.dataset.stil;
   try { localStorage.setItem("kinosieb.stil", stil); } catch (e) { /* egal */ }
   document.querySelectorAll(".stilwahl button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.stil === stil)));
   const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.content = stil === "film" ? "#e7eae4" : "#2a0c12";
+  if (meta) meta.content = STILE[stil];
 }
 function tileTitle() {
   const h = document.querySelector(".brand h1");

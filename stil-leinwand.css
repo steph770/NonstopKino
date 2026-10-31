@@ -1,0 +1,100 @@
+/* Stil "Leinwand": dunkler Saal, Vorhang links und rechts, Filme leuchten als Leinwand.
+   Aktiv mit <html data-stil="leinwand">. */
+
+:root[data-stil="leinwand"] {
+  --hall: #13111a;
+  --screen-ink: #1b1922;
+  --curtain: #8f1222;
+  --curtain-hi: #bb1f33;
+  --curtain-lo: #4a0610;
+  --curtain-w: clamp(12px, 4vw, 64px);
+
+  --plush: var(--hall);
+  --plush-2: #1e1b27;
+  --plush-3: #2b2737;
+  --ink: #eeedf3;
+  --muted: #bcb9ca;
+  --dim: #8b889c;
+  --brass: #f0d290;
+  --seat: #bb1f33;
+  --seat-ink: #ffffff;
+  --line: rgba(238, 237, 243, 0.12);
+  --line-strong: rgba(238, 237, 243, 0.3);
+}
+
+/* Projektorlicht von oben */
+:root[data-stil="leinwand"] body {
+  background:
+    radial-gradient(ellipse 70% 90% at 50% -5%, rgba(205, 220, 255, 0.14), transparent 62%) fixed,
+    var(--hall);
+}
+
+/* Vorhang links und rechts */
+:root[data-stil="leinwand"] body::before,
+:root[data-stil="leinwand"] body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: var(--curtain-w);
+  z-index: 6;
+  pointer-events: none;
+  background: repeating-linear-gradient(90deg, var(--curtain-lo) 0, var(--curtain) 7px, var(--curtain-hi) 12px, var(--curtain) 17px, var(--curtain-lo) 24px);
+  box-shadow: 0 0 26px rgba(0, 0, 0, 0.65);
+}
+:root[data-stil="leinwand"] body::before { left: 0; }
+:root[data-stil="leinwand"] body::after { right: 0; }
+:root[data-stil="leinwand"] .shell { padding: 0 var(--curtain-w); }
+
+/* Geraffte Vorhangblende über dem Titel */
+:root[data-stil="leinwand"] .top::before {
+  content: "";
+  display: block;
+  grid-column: 1 / -1;
+  height: 26px;
+  margin: calc(-1 * (env(safe-area-inset-top) + 14px)) -16px 14px;
+  background:
+    radial-gradient(circle at 50% 0, var(--curtain) 0 15px, transparent 16px) 0 6px / 30px 22px repeat-x,
+    linear-gradient(var(--curtain-hi), var(--curtain) 9px, transparent 9px);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+}
+:root[data-stil="leinwand"] .brand h1 { text-shadow: 0 0 22px rgba(205, 220, 255, 0.35); }
+:root[data-stil="leinwand"] .bar { background: rgba(19, 17, 26, 0.94); }
+
+/* Jede Karte als beleuchtete Leinwand */
+:root[data-stil="leinwand"] .list { gap: 22px; padding-top: 20px; }
+:root[data-stil="leinwand"] .ticket {
+  --ink: var(--screen-ink);
+  --muted: #57546a;
+  --dim: #7c7990;
+  --line: rgba(27, 25, 34, 0.14);
+  --line-strong: rgba(27, 25, 34, 0.32);
+  --brass: #a3172a;
+  -webkit-mask: none;
+          mask: none;
+  color: var(--screen-ink);
+  border-radius: 3px;
+  background: radial-gradient(130% 140% at 50% 35%, #fbfcfd 45%, #dde2ea 100%);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.5),
+    0 0 34px rgba(175, 195, 255, 0.28),
+    0 18px 28px rgba(0, 0, 0, 0.55);
+}
+:root[data-stil="leinwand"] .ticket:hover {
+  background: radial-gradient(130% 140% at 50% 35%, #ffffff 50%, #e6eaf0 100%);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7), 0 0 46px rgba(185, 205, 255, 0.42), 0 18px 28px rgba(0, 0, 0, 0.55);
+}
+:root[data-stil="leinwand"] .ticket .poster { border-radius: 3px 0 0 3px; }
+:root[data-stil="leinwand"] .ticket .poster.empty { background: #cfd5df; color: #8b91a0; }
+:root[data-stil="leinwand"] .stub { border-left: 1px solid var(--line); }
+:root[data-stil="leinwand"] .score { color: var(--screen-ink); }
+:root[data-stil="leinwand"] .score.none { color: var(--dim); }
+:root[data-stil="leinwand"] .vchip { background: rgba(27, 25, 34, 0.06); }
+
+:root[data-stil="leinwand"] .d-hero img,
+:root[data-stil="leinwand"] .d-hero .poster.empty { box-shadow: 0 0 40px rgba(185, 205, 255, 0.3); }
+:root[data-stil="leinwand"] .d-links a.trailer { background: #f6f7fa; color: var(--screen-ink); border-color: #f6f7fa; box-shadow: 0 0 20px rgba(185, 205, 255, 0.35); }
+
+/* Wertung in der Detailansicht leuchtet wie die Leinwand */
+:root[data-stil="leinwand"] .d-score .score { color: #f6f7fa; text-shadow: 0 0 18px rgba(205, 220, 255, 0.45); }
+:root[data-stil="leinwand"] .d-score .score.none { color: var(--dim); text-shadow: none; }

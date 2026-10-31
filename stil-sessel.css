@@ -1,0 +1,131 @@
+/* Stil "Kinosessel": Samtsessel mit Messingschild auf Kinoteppich. Aktiv mit <html data-stil="sessel">. */
+
+:root[data-stil="sessel"] {
+  --carpet: #1c0e11;
+  --velvet: #7e1426;
+  --velvet-hi: #a62437;
+  --velvet-lo: #4f0915;
+  --wood: #3d2517;
+  --plate: linear-gradient(180deg, #f4de9f 0%, #c99c4b 52%, #edd28c 100%);
+  --plate-ink: #3b250f;
+
+  --plush: var(--carpet);
+  --plush-2: #2b1519;
+  --plush-3: #3b1d23;
+  --ink: #f7eadc;
+  --muted: #dcc0b0;
+  --dim: #a88a7c;
+  --brass: #e9c67e;
+  --seat: #d4ac57;
+  --seat-ink: #241208;
+  --focus: #f3d48f;
+  --line: rgba(247, 234, 220, 0.13);
+  --line-strong: rgba(247, 234, 220, 0.32);
+}
+
+/* Kinoteppich mit Rautenmuster */
+:root[data-stil="sessel"] body,
+:root[data-stil="sessel"] .bar {
+  background-color: var(--carpet);
+  background-image:
+    repeating-linear-gradient(45deg, rgba(212, 172, 87, 0.07) 0 2px, transparent 2px 26px),
+    repeating-linear-gradient(-45deg, rgba(212, 172, 87, 0.07) 0 2px, transparent 2px 26px);
+  background-attachment: fixed;
+}
+:root[data-stil="sessel"] .top { background: transparent; }
+
+:root[data-stil="sessel"] .brand h1 {
+  background: var(--plate);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.5));
+}
+:root[data-stil="sessel"] .chip.on,
+:root[data-stil="sessel"] .opt[aria-pressed="true"],
+:root[data-stil="sessel"] .rate[aria-pressed="true"] { background: var(--seat); border-color: var(--seat); color: var(--seat-ink); }
+:root[data-stil="sessel"] .primary { background: var(--seat); border-color: var(--seat); color: var(--seat-ink); }
+
+/* Die Sesselreihe */
+:root[data-stil="sessel"] .list { gap: 30px; padding: 20px 30px 30px; }
+
+:root[data-stil="sessel"] .ticket {
+  -webkit-mask: none;
+          mask: none;
+  overflow: visible;
+  grid-template-columns: 74px minmax(0, 1fr) 82px;
+  padding-bottom: 12px;
+  border-radius: 30px 30px 14px 14px;
+  background:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0 2px, transparent 2px 46px),
+    radial-gradient(120% 95% at 50% 0%, var(--velvet-hi) 0%, var(--velvet) 55%, var(--velvet-lo) 100%);
+  box-shadow:
+    inset 0 -12px 0 rgba(0, 0, 0, 0.3),
+    inset 0 2px 0 rgba(255, 255, 255, 0.14),
+    0 12px 20px rgba(0, 0, 0, 0.45);
+}
+:root[data-stil="sessel"] .ticket:hover { filter: brightness(1.08); }
+/* Armlehnen aus Holz */
+:root[data-stil="sessel"] .ticket::before,
+:root[data-stil="sessel"] .ticket::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  width: 13px;
+  height: 58%;
+  background: linear-gradient(90deg, #2a170d, var(--wood) 40%, #5d3a27);
+  border-radius: 7px 7px 4px 4px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.45);
+}
+:root[data-stil="sessel"] .ticket::before { left: -17px; }
+:root[data-stil="sessel"] .ticket::after { right: -17px; }
+
+:root[data-stil="sessel"] .ticket .poster { width: 74px; border-radius: 30px 0 0 14px; }
+
+/* Messingschild mit Platznummer */
+:root[data-stil="sessel"] .nr {
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--plate);
+  color: var(--plate-ink);
+  font: 600 11px/1 var(--ui);
+  letter-spacing: 0.06em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+:root[data-stil="sessel"] .nr::before { content: "Platz "; }
+
+/* Wertung auf Messingplakette */
+:root[data-stil="sessel"] .stub {
+  border-left: 0;
+  margin: 14px 12px 4px 0;
+  padding: 8px 4px;
+  border-radius: 10px;
+  background: var(--plate);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+:root[data-stil="sessel"] .score { color: var(--plate-ink); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55); }
+:root[data-stil="sessel"] .score.none { color: rgba(59, 37, 15, 0.55); }
+:root[data-stil="sessel"] .score-label { color: #5b3d1a; }
+:root[data-stil="sessel"] .vchip { background: rgba(0, 0, 0, 0.25); }
+:root[data-stil="sessel"] .vchip.me { border-color: #f4de9f; }
+
+:root[data-stil="sessel"] .d-hero img,
+:root[data-stil="sessel"] .d-hero .poster.empty { box-shadow: 0 0 0 3px #c99c4b; }
+:root[data-stil="sessel"] .d-links a.trailer { background: var(--plate); color: var(--plate-ink); border-color: #c99c4b; }
+:root[data-stil="sessel"] .d-group { background: radial-gradient(120% 95% at 50% 0%, var(--velvet) 0%, var(--velvet-lo) 100%); }
+
+@media (min-width: 900px) {
+  :root[data-stil="sessel"] .ticket { grid-template-columns: 90px minmax(0, 1fr) 90px; }
+  :root[data-stil="sessel"] .ticket .poster { width: 90px; }
+}
+
+/* Wertung in der Detailansicht: Messing auf Teppich */
+:root[data-stil="sessel"] .d-score .score { color: var(--brass); text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5); }
+:root[data-stil="sessel"] .d-score .score.none { color: var(--dim); }
+:root[data-stil="sessel"] .d-score .score-label { color: var(--muted); }

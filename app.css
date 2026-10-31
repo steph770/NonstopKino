@@ -132,6 +132,9 @@ a { color: var(--brass); }
   white-space: nowrap;
 }
 .chip.on { background: var(--seat); border-color: var(--seat); color: var(--seat-ink); }
+.chip.clear { border-style: dashed; font-weight: 600; }
+.side-reset { width: 100%; margin: 8px 0 4px; }
+.nr { display: none; }
 .chip .n { font-weight: 600; margin-left: 4px; }
 
 /* Liste */

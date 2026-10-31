@@ -1,0 +1,133 @@
+/* Stil "Popcorn": buttergelb, Comic-Karten, Wertung auf gestreifter Popcorntüte.
+   Aktiv mit <html data-stil="popcorn">. */
+
+:root[data-stil="popcorn"] {
+  --butter: #ffe59a;
+  --red: #d4213a;
+  --red-dark: #9e1427;
+  --box-white: #fffdf7;
+
+  --plush: var(--butter);
+  --plush-2: var(--box-white);
+  --plush-3: #f7e2a6;
+  --ink: #3b1e10;
+  --muted: #7b5234;
+  --dim: #a3815e;
+  --brass: var(--red);
+  --seat: var(--red);
+  --seat-ink: #ffffff;
+  --focus: var(--red-dark);
+  --line: rgba(59, 30, 16, 0.14);
+  --line-strong: rgba(59, 30, 16, 0.34);
+  color-scheme: light;
+}
+
+/* Verstreutes Popcorn im Hintergrund */
+:root[data-stil="popcorn"] body {
+  color: var(--ink);
+  background-color: var(--butter);
+  background-image:
+    radial-gradient(circle at 18% 22%, rgba(255, 253, 244, 0.9) 0 6px, transparent 7px),
+    radial-gradient(circle at 21.5% 26%, rgba(255, 244, 205, 0.95) 0 5px, transparent 6px),
+    radial-gradient(circle at 16% 27%, rgba(255, 250, 230, 0.9) 0 4px, transparent 5px),
+    radial-gradient(circle at 68% 64%, rgba(255, 253, 244, 0.85) 0 7px, transparent 8px),
+    radial-gradient(circle at 72.5% 60%, rgba(255, 240, 196, 0.95) 0 5px, transparent 6px);
+  background-size: 150px 150px;
+  background-attachment: fixed;
+}
+:root[data-stil="popcorn"] .top { background: transparent; }
+:root[data-stil="popcorn"] .bar { background: var(--butter); border-bottom: 2px solid var(--ink); }
+
+:root[data-stil="popcorn"] .brand h1 {
+  color: var(--red);
+  text-shadow: 3px 3px 0 #ffffff, 5px 5px 0 rgba(59, 30, 16, 0.2);
+}
+:root[data-stil="popcorn"] .search input { border: 2px solid var(--ink); }
+:root[data-stil="popcorn"] .sortrow { border: 2px solid var(--ink); }
+:root[data-stil="popcorn"] .sortrow button + button { border-left: 2px solid var(--ink); }
+:root[data-stil="popcorn"] .sortrow button[aria-checked="true"] { background: var(--red); color: #ffffff; }
+:root[data-stil="popcorn"] .chip { background: #fff6d6; border: 2px solid var(--ink); }
+:root[data-stil="popcorn"] .chip.on { background: var(--red); border-color: var(--ink); }
+
+/* Comic-Karten */
+:root[data-stil="popcorn"] .list { gap: 34px; padding-top: 30px; }
+:root[data-stil="popcorn"] .ticket {
+  -webkit-mask: none;
+          mask: none;
+  overflow: visible;
+  background: var(--box-white);
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 5px 5px 0 var(--ink);
+}
+:root[data-stil="popcorn"] .ticket:hover { background: #ffffff; box-shadow: 7px 7px 0 var(--ink); }
+:root[data-stil="popcorn"] .ticket .poster { border-radius: 14px 0 0 14px; }
+:root[data-stil="popcorn"] .ticket .poster.empty { background: #f7e2a6; color: var(--red); }
+:root[data-stil="popcorn"] .title { color: var(--red-dark); }
+
+/* Die Popcorntüte mit Wertung */
+:root[data-stil="popcorn"] .stub {
+  position: relative;
+  border-left: 0;
+  margin: 8px 10px 8px 0;
+  padding: 12px 6px 8px;
+}
+:root[data-stil="popcorn"] .stub::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: repeating-linear-gradient(90deg, var(--red) 0 9px, #ffffff 9px 18px);
+  clip-path: polygon(0 0, 100% 0, 87% 100%, 13% 100%);
+}
+:root[data-stil="popcorn"] .stub::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  right: -5px;
+  top: -17px;
+  height: 27px;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 12% 70%, #fffaf0 0 8px, transparent 9px),
+    radial-gradient(circle at 31% 40%, #fff1c2 0 9px, transparent 10px),
+    radial-gradient(circle at 50% 72%, #fffdf6 0 9px, transparent 10px),
+    radial-gradient(circle at 70% 38%, #ffeeb5 0 9px, transparent 10px),
+    radial-gradient(circle at 88% 68%, #fff8e6 0 8px, transparent 9px);
+  filter: drop-shadow(0 1px 0 rgba(59, 30, 16, 0.45));
+}
+:root[data-stil="popcorn"] .stub > * { position: relative; z-index: 1; }
+:root[data-stil="popcorn"] .score {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--red);
+  font-size: 30px;
+  box-shadow: 0 0 0 3px var(--red-dark);
+}
+:root[data-stil="popcorn"] .score.none { color: var(--dim); font-size: 26px; }
+:root[data-stil="popcorn"] .score-label {
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+:root[data-stil="popcorn"] .meta { box-shadow: 0 0 0 2px #ffffff; }
+:root[data-stil="popcorn"] .vchip { background: #fff3cf; border-color: rgba(59, 30, 16, 0.25); }
+:root[data-stil="popcorn"] .vchip.me { border-color: var(--red); }
+
+:root[data-stil="popcorn"] .sheet,
+:root[data-stil="popcorn"] .detail,
+:root[data-stil="popcorn"] .detail-bar { background: var(--butter); }
+:root[data-stil="popcorn"] .d-group { background: var(--box-white); border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+:root[data-stil="popcorn"] .d-hero img,
+:root[data-stil="popcorn"] .d-hero .poster.empty { border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+:root[data-stil="popcorn"] .d-links a { border: 2px solid var(--ink); background: #fff6d6; }
+:root[data-stil="popcorn"] .d-links a.trailer { background: var(--red); color: #ffffff; }
+
+:root[data-stil="popcorn"] .d-score .score { width: 80px; height: 80px; font-size: 40px; margin-bottom: 6px; }
+:root[data-stil="popcorn"] .d-score .score-label { background: transparent; padding: 0; font-size: 12px; }
