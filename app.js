@@ -32,6 +32,9 @@ const DEFAULTS = {
   genres: [],
   origins: [],
   metaMin: 0,
+  people: [],
+  allWant: false,
+  unrated: false,
   q: "",
 };
 
@@ -141,7 +144,7 @@ function votesLine(f) {
     if (!e || (typeof e.v !== "number" && !e.s)) continue;
     const has = typeof e.v === "number";
     const title = `${p.name}: ${has ? SCALE[e.v][1] : "nicht bewertet"}${e.s ? ", schon gesehen" : ""}`;
-    chips.push(`<span class="vchip${GROUP.me && p.id === GROUP.me.id ? " me" : ""}" title="${esc(title)}">${esc(labels[p.id])}${has ? ` ${SCALE[e.v][0]}` : ""}${e.s ? " ✓" : ""}</span>`);
+    chips.push(`<span class="vchip${GROUP.me && p.id === GROUP.me.id ? " me" : ""}" title="${esc(title)}">${esc(labels[p.id])}${has ? ` ${SCALE[e.v][0]}` : ""}${e.s ? " 👀" : ""}</span>`);
   }
   return chips.length ? `<span class="votes">${chips.join("")}</span>` : "";
 }
@@ -160,13 +163,13 @@ function groupSectionHTML(f) {
   const list = groupMembers().map((p) => {
     const e = entriesFor(f.id)[p.id] || {};
     const has = typeof e.v === "number";
-    const what = `${has ? `${SCALE[e.v][0]} ${SCALE[e.v][1]}` : "noch nicht bewertet"}${e.s ? ", schon gesehen" : ""}`;
+    const what = `${has ? `${SCALE[e.v][0]} ${SCALE[e.v][1]}` : "noch nicht bewertet"}${e.s ? ", 👀 gesehen" : ""}`;
     return `<li><span class="who">${esc(p.name)}${p.id === GROUP.me.id ? " (du)" : ""}</span><span class="what${has || e.s ? "" : " none"}">${what}</span></li>`;
   }).join("");
   return `<section class="d-group">
     <h3>Wie gern willst du ihn sehen?</h3>
     <div class="rates" role="group" aria-label="Deine Bewertung">${btns}</div>
-    <button type="button" class="seen-toggle" data-seen aria-pressed="${!!my.s}">${my.s ? "✓ Schon gesehen" : "Schon gesehen? Hier abhaken"}</button>
+    <button type="button" class="seen-toggle" data-seen aria-pressed="${!!my.s}">${my.s ? "👀 Schon gesehen" : "👀 Schon gesehen? Hier abhaken"}</button>
     <ul class="group-list">${list}</ul>
   </section>`;
 }
@@ -233,6 +236,7 @@ let refreshTimer;
 function scheduleRefresh() { clearTimeout(refreshTimer); refreshTimer = setTimeout(refreshAll, 60); }
 function refreshAll() {
   if (!DATA || !DATA.films) return;
+  if (GROUP.membersChanged || GROUP.statusChanged) { GROUP.membersChanged = false; GROUP.statusChanged = false; renderFilters(); }
   renderList();
   refreshDetail();
   renderGroupInfo();
@@ -289,6 +293,7 @@ function chooseMe(id, name) {
   saveMe(GROUP.me);
   if (GROUP.api) GROUP.api.join(id, name).catch(groupFail);
   $("#who").close();
+  GROUP.membersChanged = true;
   refreshAll();
 }
 // Gruppen-Code aus dem Einladungslink lesen: …/NonstopKino/?gruppe=CODE oder …/#gruppe=CODE
@@ -320,15 +325,15 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=14");
+    const mod = await import("./gruppe.js?v=15");
     GROUP.status = "verbinde";
     renderGroupInfo();
     GROUP.api = await mod.connect({
       code: GROUP.code,
       config: window.KINOSIEB_FIREBASE,
-      onMembers: (m) => { GROUP.members = m || {}; scheduleRefresh(); },
+      onMembers: (m) => { GROUP.members = m || {}; GROUP.membersChanged = true; scheduleRefresh(); },
       onVotes: (v) => { GROUP.votes = v || {}; scheduleRefresh(); },
-      onOnline: () => { GROUP.status = "online"; GROUP.error = ""; scheduleRefresh(); },
+      onOnline: () => { GROUP.status = "online"; GROUP.error = ""; GROUP.statusChanged = true; scheduleRefresh(); },
       onError: groupFail,
     });
     setTimeout(() => { if (GROUP.status === "verbinde") groupFail({ code: "timeout" }); }, 12000);
@@ -375,12 +380,32 @@ function filmPasses(film) {
   if (state.genres.length && !film.genres.some((g) => state.genres.includes(g))) return false;
   if (state.origins.length && !state.origins.includes(film.origin || "")) return false;
   if (state.metaMin && !(film.metascore >= state.metaMin)) return false;
+  if (GROUP.code && !votesPass(film)) return false;
   if (state.q) {
     const q = norm(state.q);
     const hay = norm([film.title, film.originalTitle, film.director].join(" "));
     if (!hay.includes(q)) return false;
   }
   return true;
+}
+
+// Bevorzugt = 🙂 gern (2) oder 🤩 unbedingt (3)
+const LIKED = 2;
+function votesPass(film) {
+  const e = entriesFor(film.id);
+  const ids = new Set(groupMembers().map((p) => p.id));
+  const people = state.people.filter((id) => ids.has(id));
+  if (people.length && !people.every((id) => e[id] && typeof e[id].v === "number" && e[id].v >= LIKED)) return false;
+  if (state.allWant) {
+    const vs = Object.values(e).filter((x) => x && typeof x.v === "number").map((x) => x.v);
+    if (vs.length < 2 || vs.some((v) => v < LIKED)) return false;
+  }
+  if (state.unrated && GROUP.me && typeof mine(film.id).v === "number") return false;
+  return true;
+}
+function voteFilterCount() {
+  if (!GROUP.code) return 0;
+  return state.people.length + (state.allWant ? 1 : 0) + (state.unrated ? 1 : 0);
 }
 
 function compute() {
@@ -411,7 +436,7 @@ function compute() {
 
 function activeCount() {
   return (state.when !== DEFAULTS.when ? 1 : 0) + state.cinemas.length + state.versions.length + state.genres.length +
-    state.origins.length + (state.metaMin ? 1 : 0);
+    state.origins.length + (state.metaMin ? 1 : 0) + voteFilterCount();
 }
 
 /* ---------- Darstellung ---------- */
@@ -470,7 +495,9 @@ function renderList() {
   const totalShows = rows.reduce((n, r) => n + r.shows.length, 0);
   const ac = activeCount() + (state.q ? 1 : 0);
   const summary = `<p class="summary"><span>${rows.length} ${rows.length === 1 ? "Film" : "Filme"}, ${totalShows} Vorstellungen</span>${ac ? `<button type="button" data-reset>Filter zurücksetzen</button>` : ""}</p>`;
-  if (!rows.length) {
+  if (!rows.length && voteFilterCount()) {
+    el.innerHTML = `<div class="empty-state"><h2>Noch nichts Passendes</h2><p>Für diese Bewertungsfilter gibt es noch keine Treffer. Bewertet ein paar Filme mit 🙂 oder 🤩, dann tauchen sie hier auf.</p><button type="button" class="primary" data-reset>Filter zurücksetzen</button></div>`;
+  } else if (!rows.length) {
     el.innerHTML = `<div class="empty-state"><h2>Nichts gefunden</h2><p>Kein Film passt zu allen gewählten Filtern. Lockere einen Filter oder setze alle zurück.</p><button type="button" class="primary" data-reset>Filter zurücksetzen</button></div>`;
   } else {
     el.innerHTML = summary + rows.map((r, i) => ticketHTML(r, now, i)).join("");
@@ -485,6 +512,7 @@ function renderList() {
 
 const CHIP_DEFS = [
   ["when", "Wann", () => (state.when !== DEFAULTS.when ? WHEN.find((w) => w[0] === state.when)[1] : "")],
+  ["votes", "Bewertung", () => voteFilterCount()],
   ["cinemas", "Kino", () => state.cinemas.length],
   ["versions", "Fassung", () => state.versions.length],
   ["genres", "Genre", () => state.genres.length],
@@ -497,6 +525,7 @@ function renderChips() {
   $("#chips").innerHTML = clear + CHIP_DEFS.map(([key, label, val]) => {
     const v = val();
     const on = !!v;
+    if (key === "votes" && !GROUP.code) return "";
     if (key === "when") {
       const cur = WHEN.find((w) => w[0] === state.when)[1];
       return `<button type="button" class="chip${on ? " on" : ""}" data-open="when">${esc(cur)}</button>`;
@@ -526,10 +555,24 @@ function filterHTML() {
   const versions = Object.keys(versionCount).sort((a, b) => versionCount[b] - versionCount[a]);
   const genres = Object.keys(genreCount).sort((a, b) => genreCount[b] - genreCount[a]);
 
+  const people = GROUP.code ? groupMembers() : [];
+  const votesHTML = GROUP.code ? `
+  <section class="fgroup" id="f-votes"><h3>Eure Bewertungen</h3>
+    <p class="hint">Bevorzugt heißt mit 🙂 gern oder 🤩 unbedingt bewertet.</p>
+    <div class="vlist">
+      <button type="button" class="opt" data-group="allWant" data-value="1" aria-pressed="${state.allWant}"><span>👥 Alle wollen</span><span>alle Bewertungen 🙂 oder 🤩, mind. 2</span></button>
+      <button type="button" class="opt" data-group="unrated" data-value="1" aria-pressed="${state.unrated}"><span>✍️ Von mir unbewertet</span><span>zum schnellen Durchbewerten</span></button>
+    </div>
+    ${people.length ? `<p class="hint sub">Bevorzugt von:</p><div class="opts">
+      ${people.map((p) => optBtn("people", p.id, `${p.name}${GROUP.me && p.id === GROUP.me.id ? " (du)" : ""}`, state.people.includes(p.id))).join("")}
+    </div><p class="hint sub">Mehrere Personen: nur Filme, die alle Gewählten sehen wollen.</p>` : ""}
+  </section>` : "";
+
   return `
   <section class="fgroup" id="f-when"><h3>Wann</h3><div class="opts">
     ${WHEN.map(([k, l]) => optBtn("when", k, l, state.when === k)).join("")}
   </div></section>
+  ${votesHTML}
   <section class="fgroup" id="f-cinemas"><h3>Kino</h3><div class="opts">
     ${cinemas.map((c) => optBtn("cinemas", c, c, state.cinemas.includes(c))).join("")}
   </div></section>
@@ -560,6 +603,8 @@ function renderFilters() {
 function toggle(group, value) {
   if (group === "when") state.when = value;
   else if (group === "metaMin") state.metaMin = Number(value);
+  else if (group === "allWant") state.allWant = !state.allWant;
+  else if (group === "unrated") state.unrated = !state.unrated;
   else {
     const arr = state[group];
     const i = arr.indexOf(value);
@@ -572,7 +617,7 @@ function toggle(group, value) {
 
 function resetFilters() {
   const sort = state.sort;
-  state = { ...DEFAULTS, cinemas: [], versions: [], genres: [], origins: [], sort };
+  state = { ...DEFAULTS, cinemas: [], versions: [], genres: [], origins: [], people: [], sort };
   $("#q").value = "";
   saveState();
   renderFilters();

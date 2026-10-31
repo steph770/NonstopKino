@@ -248,7 +248,7 @@ a { color: var(--brass); }
 }
 .vchip.me { border-color: var(--brass); }
 .ticket.is-seen { opacity: 0.55; }
-.ticket.is-seen .title::after { content: " ✓ gesehen"; font: 500 13px/1 var(--ui); color: var(--muted); }
+.ticket.is-seen .title::after { content: " 👀 gesehen"; font: 500 13px/1 var(--ui); color: var(--muted); }
 .d-group { margin-top: 24px; padding: 16px; background: var(--plush-2); border-radius: var(--r-m); }
 .d-group h3 { margin: 0 0 12px; font: 600 24px/1 var(--display); }
 .rates { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
@@ -386,6 +386,7 @@ a { color: var(--brass); }
 }
 .opt[aria-pressed="true"] { background: var(--seat); border-color: var(--seat); color: var(--seat-ink); }
 .opt small { color: inherit; opacity: 0.75; margin-left: 4px; }
+.fgroup .hint.sub { margin: 12px 0 8px; }
 .vlist { display: grid; gap: 6px; }
 .vlist .opt { border-radius: var(--r-s); text-align: left; display: flex; justify-content: space-between; gap: 10px; }
 .vlist .opt span:last-child { opacity: 0.8; font-size: 13px; }
