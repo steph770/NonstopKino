@@ -42,7 +42,7 @@ jobs:
       - name: Ergebnis speichern
         if: always()
         run: |
-          git config user.name "kinosieb-update"
+          git config user.name "nonstopkino-update"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           [ -d debug ] && git add debug || true

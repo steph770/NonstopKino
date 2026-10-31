@@ -235,7 +235,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=8");
+    const mod = await import("./gruppe.js?v=9");
     GROUP.api = await mod.connect({
       code: GROUP.code,
       config: window.KINOSIEB_FIREBASE,
@@ -359,7 +359,7 @@ function ticketHTML({ f, shows }, now, i = 0) {
   const genres = f.genres.length ? `<p class="genres">${esc(f.genres.slice(0, 3).join(", "))}</p>` : "";
   const n = String(i + 1).padStart(2, "0");
   return `<button class="ticket${seenByMe(f) ? " is-seen" : ""}" type="button" data-id="${esc(f.id)}">
-    <span class="edge" aria-hidden="true">▸ ${n}&emsp;&emsp;▸ ${n}A&emsp;&emsp;KINOSIEB 35&emsp;&emsp;▸ ${n}</span>
+    <span class="edge" aria-hidden="true">▸ ${n}&emsp;&emsp;▸ ${n}A&emsp;&emsp;NONSTOPKINO 35&emsp;&emsp;▸ ${n}</span>
     ${posterHTML(f)}
     <span class="body">
       <span class="title">${esc(f.title)}</span>

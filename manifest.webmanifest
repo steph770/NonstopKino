@@ -1,6 +1,6 @@
 {
-  "name": "Kinosieb",
-  "short_name": "Kinosieb",
+  "name": "NonstopKino",
+  "short_name": "NonstopKino",
   "description": "Das aktuelle nonstop-Kinoprogramm in Wien, vorgefiltert.",
   "lang": "de",
   "start_url": "./",

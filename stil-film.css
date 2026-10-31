@@ -244,3 +244,8 @@
   :root[data-stil="film"] .ticket { grid-template-columns: 96px minmax(0, 1fr) 84px; min-height: 140px; }
   :root[data-stil="film"] .ticket .poster { width: 96px; min-height: 140px; }
 }
+
+@media (max-width: 380px) {
+  :root[data-stil="film"] .tile { font-size: 33px; }
+  :root[data-stil="film"] .brand h1 { gap: 2px; padding: 6px 8px 4px; }
+}

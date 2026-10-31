@@ -50,7 +50,7 @@ def budget_left() -> bool:
 TMDB_MAX_AGE = timedelta(days=14)
 OMDB_MAX_AGE = timedelta(days=2)
 
-UA = "Kinosieb/1.0 (privates, nicht-kommerzielles Projekt; github.com)"
+UA = "NonstopKino/1.0 (privates, nicht-kommerzielles Projekt; github.com)"
 S = requests.Session()
 S.headers.update({"User-Agent": UA, "Accept-Language": "de-AT,de;q=0.9"})
 

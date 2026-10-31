@@ -1,4 +1,4 @@
-# Kinosieb
+# NonstopKino
 
 Private Web-App für vier Leute mit nonstop-Kinoabo: das aktuelle Programm der Wiener Abo-Kinos, sortierbar nach IMDb-Wertung und Metascore, filterbar nach Tag, Kino, Fassung, Genre, Herkunft und Metascore.
 
