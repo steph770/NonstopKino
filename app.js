@@ -167,7 +167,7 @@ function activeCount() {
 function posterHTML(f, cls = "poster", size = "w185") {
   if (f.poster) {
     const src = f.poster.replace("{size}", size);
-    return `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" decoding="async">`;
+    return `<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" decoding="async" onerror="this.removeAttribute('src');this.onerror=null">`;
   }
   return `<div class="${cls} empty" aria-hidden="true">${esc((f.title || "?").trim().charAt(0))}</div>`;
 }
