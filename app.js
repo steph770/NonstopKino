@@ -235,7 +235,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=7");
+    const mod = await import("./gruppe.js?v=8");
     GROUP.api = await mod.connect({
       code: GROUP.code,
       config: window.KINOSIEB_FIREBASE,

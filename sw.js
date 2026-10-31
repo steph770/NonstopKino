@@ -1,7 +1,7 @@
 // Offline-Speicher: App-Gerüst aus dem Cache, Programmdaten immer zuerst frisch aus dem Netz.
-const SHELL = "kinosieb-shell-v5";
+const SHELL = "kinosieb-shell-v6";
 const IMG = "kinosieb-img-v1";
-const SHELL_FILES = ["./", "index.html", "app.css?v=7", "stil-film.css?v=7", "app.js?v=7", "firebase-config.js?v=7", "gruppe.js?v=7", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
+const SHELL_FILES = ["./", "index.html", "app.css?v=8", "stil-film.css?v=8", "app.js?v=8", "firebase-config.js?v=8", "gruppe.js?v=8", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
