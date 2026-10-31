@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kinosieb</title>
+<meta name="description" content="Das aktuelle nonstop-Kinoprogramm in Wien, vorgefiltert nach Wertung, Genre, Herkunft, Kino und Fassung.">
+<meta name="theme-color" content="#2a0c12">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="shell">
+  <header class="top">
+    <div class="brand">
+      <h1>Kinosieb</h1>
+      <p class="status" id="status">Programm wird geladen …</p>
+    </div>
+    <label class="search">
+      <span class="sr-only">Film suchen</span>
+      <input id="q" type="search" placeholder="Film suchen" autocomplete="off">
+    </label>
+    <div class="sortrow" role="radiogroup" aria-label="Sortieren nach">
+      <button type="button" data-sort="imdb" role="radio">IMDb</button>
+      <button type="button" data-sort="meta" role="radio">Metascore</button>
+      <button type="button" data-sort="next" role="radio">Nächste</button>
+      <button type="button" data-sort="title" role="radio">A–Z</button>
+    </div>
+    <nav class="chips" id="chips" aria-label="Filter"></nav>
+  </header>
+
+  <aside class="side" id="side" aria-label="Filter"></aside>
+
+  <main class="list" id="list" aria-live="polite"></main>
+
+  <footer class="foot">
+    <p>Programm von nonstopkino.at, Filmdaten von TMDB und OMDb, Falter-Tipps von Hand gepflegt. Privates Projekt ohne Verbindung zu nonstop. Angaben ohne Gewähr, vor dem Kinobesuch beim Kino prüfen.</p>
+  </footer>
+</div>
+
+<dialog id="sheet" class="sheet" aria-label="Filter">
+  <div class="sheet-head">
+    <h2>Filter</h2>
+    <button type="button" class="ghost" data-close>Schließen</button>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+  <div class="sheet-foot">
+    <button type="button" class="ghost" id="reset">Zurücksetzen</button>
+    <button type="button" class="primary" data-close id="showN">Filme anzeigen</button>
+  </div>
+</dialog>
+
+<dialog id="detail" class="detail" aria-label="Filmdetails">
+  <div class="detail-inner" id="detailBody"></div>
+</dialog>
+
+<script src="app.js" defer></script>
+</body>
+</html>

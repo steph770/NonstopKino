@@ -1,0 +1,3 @@
+{
+  "_hilfe": "Korrekturen, falls ein Film falsch zugeordnet wurde. Schlüssel = Teil der nonstop-Adresse nach /movies/. Beispiel: \"possible-love\": {\"tmdb\": 123456} erzwingt den TMDB-Film 123456, {\"imdb\": \"tt1234567\"} die IMDb-ID, {\"skip\": true} lässt Filmdaten weg (z. B. bei Kurzfilmprogrammen)."
+}

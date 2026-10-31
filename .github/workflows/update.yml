@@ -1,0 +1,55 @@
+name: Programm aktualisieren
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # täglich, ca. 5:17 Uhr (Winterzeit) bzw. 6:17 Uhr (Sommerzeit) in Wien
+  workflow_dispatch:        # "Run workflow" auf GitHub startet es sofort
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "falter-tipps.txt"
+      - "overrides.json"
+      - "debug/DUMP"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: programm-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Werkzeuge installieren
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Programm holen und Filmdaten ergänzen
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+        run: python scripts/update.py
+
+      - name: Ergebnis speichern
+        run: |
+          git config user.name "kinosieb-update"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          [ -d debug ] && git add debug || true
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Programm aktualisiert"
+            git pull --rebase --autostash
+            git push
+          fi
