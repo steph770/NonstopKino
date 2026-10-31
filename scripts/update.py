@@ -8,6 +8,8 @@ dann eben ohne Wertungen, Genres und Plakate.
 from __future__ import annotations
 
 import difflib
+import gzip
+import io
 import json
 import os
 import re
@@ -569,6 +571,34 @@ def omdb(imdb_id: str) -> dict:
     }
 
 
+# ---------------------------------------------------------------- IMDb-Wertungen
+
+IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
+
+
+def imdb_ratings(ids: set[str]) -> dict[str, tuple[float, int]]:
+    """Aktuelle IMDb-Wertungen aus der täglich erneuerten IMDb-Datei
+    (persönliche, nicht-kommerzielle Nutzung). Liefert {tt-ID: (Wertung, Stimmen)}."""
+    if not ids:
+        return {}
+    log("Lade IMDb-Wertungsdatei …")
+    r = S.get(IMDB_RATINGS_URL, timeout=(10, 120))
+    r.raise_for_status()
+    out = {}
+    with gzip.open(io.BytesIO(r.content), "rt", encoding="utf-8") as fh:
+        next(fh, None)  # Kopfzeile
+        for line in fh:
+            tid, _, rest = line.partition("\t")
+            if tid in ids:
+                rating, _, votes = rest.strip().partition("\t")
+                try:
+                    out[tid] = (float(rating), int(votes))
+                except ValueError:
+                    pass
+    log(f"  {len(out)} von {len(ids)} Filmen mit aktueller IMDb-Wertung")
+    return out
+
+
 # ---------------------------------------------------------------- Hauptablauf
 
 def main() -> int:
@@ -729,6 +759,16 @@ def main() -> int:
             "screenings": screenings,
         }
         out_films.append(film)
+
+    # aktuelle IMDb-Wertungen direkt von IMDb (OMDb ist dafür oft veraltet)
+    try:
+        live = imdb_ratings({x["imdbId"] for x in out_films if x["imdbId"]})
+    except Exception as e:
+        live = {}
+        log(f"  IMDb-Wertungsdatei nicht geladen, nutze OMDb-Werte: {e}")
+    for x in out_films:
+        if x["imdbId"] in live:
+            x["imdbRating"], x["imdbVotes"] = live[x["imdbId"]]
 
     # alte Cache-Einträge (länger als 60 Tage nicht im Programm) aufräumen
     for slug, c in list(films_cache.items()):
