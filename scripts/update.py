@@ -564,10 +564,13 @@ def omdb(imdb_id: str) -> dict:
             return f(str(x).replace(",", ""))
         except Exception:
             return None
+    ratings = {r.get("Source"): r.get("Value") for r in (j.get("Ratings") or [])}
+    rt = ratings.get("Rotten Tomatoes")
     return {
         "imdbRating": num(j.get("imdbRating")),
         "imdbVotes": num(j.get("imdbVotes"), int),
         "metascore": num(j.get("Metascore"), int),
+        "rt": num(str(rt).rstrip("%"), int) if rt else None,
     }
 
 
@@ -708,7 +711,8 @@ def main() -> int:
 
         # OMDb (IMDb-Wertung, Metascore)
         imdb_id = ov.get("imdb") or tm.get("imdbId")
-        if OMDB_KEY and imdb_id and budget_left() and not is_fresh(c.get("omdbAt"), OMDB_MAX_AGE):
+        stale = not is_fresh(c.get("omdbAt"), OMDB_MAX_AGE) or "rt" not in (c.get("omdb") or {})
+        if OMDB_KEY and imdb_id and budget_left() and stale:
             try:
                 c["omdb"] = omdb(imdb_id)
                 c["omdbAt"] = iso_now()
@@ -752,6 +756,7 @@ def main() -> int:
             "imdbRating": om.get("imdbRating"),
             "imdbVotes": om.get("imdbVotes"),
             "metascore": om.get("metascore"),
+            "rt": om.get("rt"),
             "overview": overview,
             "poster": f"https://image.tmdb.org/t/p/{{size}}{tm['poster']}" if tm.get("poster") else f.get("poster", ""),
             "trailer": tm.get("trailer", ""),

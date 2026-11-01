@@ -312,6 +312,16 @@ a { color: var(--brass); }
 #who .sheet-body { padding: 14px 16px calc(env(safe-area-inset-bottom) + 18px); }
 #who .primary { width: 100%; }
 
+.rt {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.rt.fresh { background: #e8361f; color: #ffffff; }
+.rt.rotten { background: #7fbf3f; color: #142008; }
+
 .empty-state { padding: 40px 8px; text-align: center; color: var(--muted); }
 .empty-state h2 { font: 600 26px/1.1 var(--display); color: var(--ink); margin: 0 0 8px; }
 .empty-state button { margin-top: 14px; }

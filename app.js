@@ -22,6 +22,7 @@ const WHEN = [
   ["all", "Alles"],
 ];
 const META_STEPS = [0, 60, 70, 80];
+const RT_STEPS = [0, 60, 75, 90];
 const SORTS = ["imdb", "meta", "group", "next", "title"];
 
 const DEFAULTS = {
@@ -32,6 +33,7 @@ const DEFAULTS = {
   genres: [],
   origins: [],
   metaMin: 0,
+  rtMin: 0,
   people: [],
   allWant: false,
   unrated: false,
@@ -98,6 +100,11 @@ function votesShort(v) {
   return `${v.toLocaleString("de-AT")} Stimmen`;
 }
 function metaClass(m) { return m >= 61 ? "good" : m >= 40 ? "mid" : "bad"; }
+function rtBadge(f, long = false) {
+  if (f.rt == null) return "";
+  const fresh = f.rt >= 60;
+  return `<span class="rt ${fresh ? "fresh" : "rotten"}" title="Rotten Tomatoes: ${f.rt} % positive Kritiken (${fresh ? "fresh" : "rotten"})">${fresh ? "🍅" : "🤢"} ${long ? "Rotten Tomatoes " : ""}${f.rt} %</span>`;
+}
 
 /* ---------- Gruppe & Bewertungen ---------- */
 const SCALE = [["🙅", "nein"], ["🤷", "vielleicht"], ["🙂", "gern"], ["🤩", "unbedingt"]];
@@ -325,7 +332,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=15");
+    const mod = await import("./gruppe.js?v=16");
     GROUP.status = "verbinde";
     renderGroupInfo();
     GROUP.api = await mod.connect({
@@ -380,6 +387,7 @@ function filmPasses(film) {
   if (state.genres.length && !film.genres.some((g) => state.genres.includes(g))) return false;
   if (state.origins.length && !state.origins.includes(film.origin || "")) return false;
   if (state.metaMin && !(film.metascore >= state.metaMin)) return false;
+  if (state.rtMin && !(film.rt >= state.rtMin)) return false;
   if (GROUP.code && !votesPass(film)) return false;
   if (state.q) {
     const q = norm(state.q);
@@ -436,7 +444,7 @@ function compute() {
 
 function activeCount() {
   return (state.when !== DEFAULTS.when ? 1 : 0) + state.cinemas.length + state.versions.length + state.genres.length +
-    state.origins.length + (state.metaMin ? 1 : 0) + voteFilterCount();
+    state.origins.length + (state.metaMin ? 1 : 0) + (state.rtMin ? 1 : 0) + voteFilterCount();
 }
 
 /* ---------- Darstellung ---------- */
@@ -485,7 +493,7 @@ function ticketHTML({ f, shows }, now, i = 0) {
         ${more > 0 ? `<span class="more">+${more} weitere</span>` : ""}</span>
       ${votesLine(f)}
     </span>
-    <span class="stub">${score}${meta}</span>
+    <span class="stub">${score}${meta}${rtBadge(f)}</span>
   </button>`;
 }
 
@@ -517,7 +525,7 @@ const CHIP_DEFS = [
   ["versions", "Fassung", () => state.versions.length],
   ["genres", "Genre", () => state.genres.length],
   ["origins", "Herkunft", () => state.origins.length],
-  ["critics", "Metascore", () => (state.metaMin ? `ab ${state.metaMin}` : "")],
+  ["critics", "Kritik", () => (state.metaMin ? 1 : 0) + (state.rtMin ? 1 : 0)],
 ];
 function renderChips() {
   const any = activeCount() + (state.q ? 1 : 0) > 0;
@@ -585,10 +593,14 @@ function filterHTML() {
   <section class="fgroup" id="f-origins"><h3>Herkunft</h3><div class="vlist">
     ${ORIGINS.map(([k, l, d]) => `<button type="button" class="opt" data-group="origins" data-value="${k}" aria-pressed="${state.origins.includes(k)}"><span>${l}</span><span>${d}</span></button>`).join("")}
   </div></section>
-  <section class="fgroup" id="f-critics"><h3>Metascore</h3>
-    <p class="hint">Metascore ist der Durchschnitt der Profi-Kritiken auf Metacritic (0 bis 100).</p>
+  <section class="fgroup" id="f-critics"><h3>Kritik</h3>
+    <p class="hint">Metascore: Durchschnitt der Profi-Kritiken auf Metacritic (0 bis 100).</p>
     <div class="opts">
       ${META_STEPS.map((m) => optBtn("metaMin", m, m ? `Metascore ab ${m}` : "Alle", state.metaMin === m)).join("")}
+    </div>
+    <p class="hint sub">Rotten Tomatoes: Anteil positiver Profi-Kritiken (ab 60 % "fresh" 🍅).</p>
+    <div class="opts">
+      ${RT_STEPS.map((m) => optBtn("rtMin", m, m ? `🍅 ab ${m} %` : "Alle", state.rtMin === m)).join("")}
     </div>
   </section>`;
 }
@@ -603,6 +615,7 @@ function renderFilters() {
 function toggle(group, value) {
   if (group === "when") state.when = value;
   else if (group === "metaMin") state.metaMin = Number(value);
+  else if (group === "rtMin") state.rtMin = Number(value);
   else if (group === "allWant") state.allWant = !state.allWant;
   else if (group === "unrated") state.unrated = !state.unrated;
   else {
@@ -663,11 +676,13 @@ function renderDetail(f) {
   if (f.imdbRating != null) scores.push(`<span class="d-score"><span class="score">${deNum(f.imdbRating)}</span><span class="score-label">IMDb${f.imdbVotes ? `, ${votesStr(f.imdbVotes)}` : ""}</span></span>`);
   else scores.push(`<span class="d-score"><span class="score none">–</span><span class="score-label">noch keine IMDb-Wertung</span></span>`);
   if (f.metascore != null) scores.push(`<span class="meta ${metaClass(f.metascore)}">Metascore ${f.metascore}</span>`);
+  if (f.rt != null) scores.push(rtBadge(f, true));
 
   const facts = [factsLine(f), f.director ? `Regie: ${f.director}` : ""].filter(Boolean).join(". ");
   const links = [
     f.trailer ? `<a class="trailer" href="${esc(f.trailer)}" target="_blank" rel="noopener">Trailer ansehen</a>` : "",
     f.imdbId ? `<a href="https://www.imdb.com/title/${esc(f.imdbId)}/" target="_blank" rel="noopener">IMDb</a>` : "",
+    f.rt != null ? `<a href="https://www.rottentomatoes.com/search?search=${encodeURIComponent(f.originalTitle || f.title)}" target="_blank" rel="noopener">Rotten Tomatoes</a>` : "",
     f.nonstopUrl ? `<a href="${esc(f.nonstopUrl)}" target="_blank" rel="noopener">nonstop-Seite</a>` : "",
   ].join("");
   const filtered = activeCount() > 0 && allCount !== shows.length;
