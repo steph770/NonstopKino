@@ -61,10 +61,11 @@
    "omdb": {
     "imdbRating": 5.5,
     "imdbVotes": 3694,
-    "metascore": null
+    "metascore": null,
+    "rt": 11
    },
-   "omdbAt": "2026-10-31T12:34:00+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:25+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -102,10 +103,11 @@
    "omdb": {
     "imdbRating": 8.0,
     "imdbVotes": 28351,
-    "metascore": null
+    "metascore": null,
+    "rt": 97
    },
-   "omdbAt": "2026-10-31T12:34:00+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:25+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -148,10 +150,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:00+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:26+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -188,10 +191,11 @@
    "omdb": {
     "imdbRating": 6.4,
     "imdbVotes": 2485,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:00+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:26+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -229,10 +233,11 @@
    "omdb": {
     "imdbRating": 7.9,
     "imdbVotes": 139651,
-    "metascore": 84
+    "metascore": 84,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:01+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:26+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -350,10 +355,11 @@
    "omdb": {
     "imdbRating": 7.1,
     "imdbVotes": 18,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:01+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:26+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -390,10 +396,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 4901,
-    "metascore": 69
+    "metascore": 69,
+    "rt": 87
    },
-   "omdbAt": "2026-10-31T12:34:01+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:27+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "ES"
@@ -431,10 +438,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 5574,
-    "metascore": null
+    "metascore": null,
+    "rt": 70
    },
-   "omdbAt": "2026-10-31T12:34:01+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:27+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -514,7 +522,7 @@
     "2026-11-15T13:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194998",
     "2026-11-30T20:00|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194966"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -549,7 +557,7 @@
     "2026-12-12T10:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195056",
     "2026-12-24T11:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179738"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:15+01:00"
   },
   "austroschwarz": {
@@ -569,10 +577,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 36,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:02+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:27+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -610,10 +619,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 3289,
-    "metascore": null
+    "metascore": null,
+    "rt": 91
    },
-   "omdbAt": "2026-10-31T12:34:02+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:28+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -649,7 +659,7 @@
    "ics": {
     "2026-11-03T19:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=196505"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:24+01:00"
   },
   "bearcave": {
@@ -667,7 +677,7 @@
     "2026-11-02T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=196149",
     "2026-11-11T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=185033"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:25+01:00"
   },
   "bernadette-will-toeten": {
@@ -688,10 +698,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:02+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:28+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -727,7 +738,7 @@
    "ics": {
     "2026-11-17T16:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192155"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:30+01:00"
   },
   "bewahren-erinnern-gestalten": {
@@ -744,7 +755,7 @@
    "ics": {
     "2026-11-16T17:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193551"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:31+01:00"
   },
   "biermann": {
@@ -771,10 +782,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:02+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:28+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -812,10 +824,11 @@
    "omdb": {
     "imdbRating": 6.0,
     "imdbVotes": 435,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:03+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:28+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -849,7 +862,7 @@
    "ics": {
     "2026-11-05T17:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194954"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:42:40+01:00"
   },
   "bloody-tennis": {
@@ -910,10 +923,11 @@
    "omdb": {
     "imdbRating": 5.0,
     "imdbVotes": 277647,
-    "metascore": 45
+    "metascore": 45,
+    "rt": 25
    },
-   "omdbAt": "2026-10-31T12:34:03+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:29+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -952,10 +966,11 @@
    "omdb": {
     "imdbRating": 5.6,
     "imdbVotes": 286578,
-    "metascore": 52
+    "metascore": 52,
+    "rt": 49
    },
-   "omdbAt": "2026-10-31T12:34:03+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:29+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -994,10 +1009,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 88
    },
-   "omdbAt": "2026-10-31T12:34:04+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:29+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -1135,10 +1151,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:04+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:29+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -1173,7 +1190,7 @@
    "ics": {
     "2026-11-09T20:15|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193546"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:43:00+01:00"
   },
   "chopin-eine-sonate-in-paris": {
@@ -1229,10 +1246,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 928,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:04+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:30+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -1271,10 +1289,11 @@
    "omdb": {
     "imdbRating": 7.9,
     "imdbVotes": 11,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:04+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:30+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "CZ",
@@ -1312,10 +1331,11 @@
    "omdb": {
     "imdbRating": 8.5,
     "imdbVotes": 218620,
-    "metascore": 99
+    "metascore": 99,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:05+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:30+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1351,7 +1371,7 @@
    "ics": {
     "2026-11-24T20:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=182018"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:43:13+01:00"
   },
   "cloak-and-dagger": {
@@ -1371,10 +1391,11 @@
    "omdb": {
     "imdbRating": 6.6,
     "imdbVotes": 3995,
-    "metascore": null
+    "metascore": null,
+    "rt": 80
    },
-   "omdbAt": "2026-10-31T12:34:05+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:30+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1413,10 +1434,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 427,
-    "metascore": 84
+    "metascore": 84,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:05+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:31+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1458,10 +1480,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:05+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:31+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1499,10 +1522,11 @@
    "omdb": {
     "imdbRating": 7.6,
     "imdbVotes": 18537,
-    "metascore": 77
+    "metascore": 77,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:06+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:31+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1539,7 +1563,7 @@
    "ics": {
     "2026-11-15T15:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192157"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:43:30+01:00"
   },
   "das-drama-noch-mal-auf-anfang": {
@@ -1559,10 +1583,11 @@
    "omdb": {
     "imdbRating": 7.1,
     "imdbVotes": 134533,
-    "metascore": 59
+    "metascore": 59,
+    "rt": 76
    },
-   "omdbAt": "2026-10-31T12:34:06+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:31+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1644,10 +1669,11 @@
    "omdb": {
     "imdbRating": 8.2,
     "imdbVotes": 523168,
-    "metascore": 82
+    "metascore": 82,
+    "rt": 88
    },
-   "omdbAt": "2026-10-31T12:34:06+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:32+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -1686,10 +1712,11 @@
    "omdb": {
     "imdbRating": 5.4,
     "imdbVotes": 7990,
-    "metascore": 61
+    "metascore": 61,
+    "rt": 53
    },
-   "omdbAt": "2026-10-31T12:34:07+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:32+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -1725,7 +1752,7 @@
     "2026-11-20T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192150",
     "2026-11-28T16:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195305"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:43:46+01:00"
   },
   "der-perfekte-schein-der-fall-bojarski": {
@@ -1746,10 +1773,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:07+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:32+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -1907,10 +1935,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:07+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:32+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1947,10 +1976,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 147,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:08+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:33+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -1988,10 +2018,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:08+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:33+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -2028,10 +2059,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 1356,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:08+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:33+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -2069,10 +2101,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 1174,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:08+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:33+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -2212,10 +2245,11 @@
    "omdb": {
     "imdbRating": 6.4,
     "imdbVotes": 32,
-    "metascore": null
+    "metascore": null,
+    "rt": 88
    },
-   "omdbAt": "2026-10-31T12:34:09+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:34+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2257,10 +2291,11 @@
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 199,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:09+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:34+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2306,10 +2341,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:09+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:34+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -2346,10 +2382,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 172959,
-    "metascore": 49
+    "metascore": 49,
+    "rt": 84
    },
-   "omdbAt": "2026-10-31T12:34:09+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:34+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -2388,10 +2425,11 @@
    "omdb": {
     "imdbRating": 7.4,
     "imdbVotes": 11128,
-    "metascore": null
+    "metascore": null,
+    "rt": 82
    },
-   "omdbAt": "2026-10-31T12:34:10+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:35+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -2427,7 +2465,7 @@
    "ics": {
     "2026-12-29T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179736"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:44:29+01:00"
   },
   "digger": {
@@ -2461,10 +2499,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 52
    },
-   "omdbAt": "2026-10-31T12:34:10+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:35+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2499,7 +2538,7 @@
    "ics": {
     "2026-11-07T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194952"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:44:34+01:00"
   },
   "dracula": {
@@ -2568,10 +2607,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:10+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:35+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2610,10 +2650,11 @@
    "omdb": {
     "imdbRating": 7.9,
     "imdbVotes": 477704,
-    "metascore": 92
+    "metascore": 92,
+    "rt": 99
    },
-   "omdbAt": "2026-10-31T12:34:11+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:35+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2693,10 +2734,11 @@
    "omdb": {
     "imdbRating": 5.1,
     "imdbVotes": 286591,
-    "metascore": 58
+    "metascore": 58,
+    "rt": 46
    },
-   "omdbAt": "2026-10-31T12:34:11+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:36+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2733,7 +2775,7 @@
    "ics": {
     "2026-11-16T16:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192154"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:44:54+01:00"
   },
   "ein-tag-ohne-frauen": {
@@ -2754,10 +2796,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 6,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:11+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:36+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "IS",
@@ -2802,10 +2845,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 85
    },
-   "omdbAt": "2026-10-31T12:34:12+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:36+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2850,10 +2894,11 @@
    "omdb": {
     "imdbRating": 6.1,
     "imdbVotes": 516,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:12+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:36+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -2892,10 +2937,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 59,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:12+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:37+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -2933,10 +2979,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 7847,
-    "metascore": null
+    "metascore": null,
+    "rt": 67
    },
-   "omdbAt": "2026-10-31T12:34:12+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:37+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2976,10 +3023,11 @@
    "omdb": {
     "imdbRating": 8.3,
     "imdbVotes": 1198489,
-    "metascore": 89
+    "metascore": 89,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:13+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:37+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3018,10 +3066,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 78,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:13+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:38+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3061,10 +3110,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 30,
-    "metascore": 82
+    "metascore": 82,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:13+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:38+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -3102,10 +3152,11 @@
    "omdb": {
     "imdbRating": 7.1,
     "imdbVotes": 10935,
-    "metascore": null
+    "metascore": null,
+    "rt": 90
    },
-   "omdbAt": "2026-10-31T12:34:13+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:38+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3140,7 +3191,7 @@
    "ics": {
     "2026-11-11T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193549"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:29+01:00"
   },
   "filme-von-linda-christanell-1979-2002": {
@@ -3157,7 +3208,7 @@
    "ics": {
     "2026-11-11T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193548"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:31+01:00"
   },
   "filme-von-tafadzwa-chiriga-martha-ferguson-cosmo-itayi-zengeya-2012-2018": {
@@ -3174,7 +3225,7 @@
    "ics": {
     "2026-11-20T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193553"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:32+01:00"
   },
   "filme-von-tsitsi-dangarembga-tawanda-gunda-mupengo-und-women-filmmakers-of-zimbabwe-2005-2006": {
@@ -3191,7 +3242,7 @@
    "ics": {
     "2026-11-19T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193554"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:33+01:00"
   },
   "force-of-evil": {
@@ -3211,10 +3262,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 8649,
-    "metascore": 89
+    "metascore": 89,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:14+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:38+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3252,10 +3304,11 @@
    "omdb": {
     "imdbRating": 7.4,
     "imdbVotes": 103641,
-    "metascore": 82
+    "metascore": 82,
+    "rt": 92
    },
-   "omdbAt": "2026-10-31T12:34:14+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:39+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3307,10 +3360,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:14+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:39+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3344,7 +3398,7 @@
    "ics": {
     "2026-11-21T13:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192149"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:46+01:00"
   },
   "from-inside-out-die-architektur-von-peter-zumthor": {
@@ -3367,10 +3421,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 32,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:14+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:39+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3404,7 +3459,7 @@
    "ics": {
     "2026-11-14T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=185030"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:45:51+01:00"
   },
   "geister": {
@@ -3427,10 +3482,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:15+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:39+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -3484,10 +3540,11 @@
    "omdb": {
     "imdbRating": 5.5,
     "imdbVotes": 85,
-    "metascore": 70
+    "metascore": 70,
+    "rt": 63
    },
-   "omdbAt": "2026-10-31T12:34:15+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:40+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -3529,10 +3586,11 @@
    "omdb": {
     "imdbRating": 6.5,
     "imdbVotes": 213944,
-    "metascore": 48
+    "metascore": 48,
+    "rt": 44
    },
-   "omdbAt": "2026-10-31T12:34:15+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:40+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3572,10 +3630,11 @@
    "omdb": {
     "imdbRating": 7.4,
     "imdbVotes": 124164,
-    "metascore": 72
+    "metascore": 72,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:15+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:40+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -3615,10 +3674,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 97
    },
-   "omdbAt": "2026-10-31T12:34:16+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:40+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -3654,7 +3714,7 @@
    "ics": {
     "2026-11-01T19:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196502"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:46:11+01:00"
   },
   "gruberturnheim-vertonen-frankenstein-das-monster-spricht": {
@@ -3691,10 +3751,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 10,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:16+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:41+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "BR"
@@ -3728,7 +3789,7 @@
    "ics": {
     "2026-11-04T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190223"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:46:17+01:00"
   },
   "heimsuchung": {
@@ -3748,10 +3809,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:16+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:41+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "XG"
@@ -3786,7 +3848,7 @@
    "ics": {
     "2026-11-06T20:15|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194951"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "SY"
@@ -3820,7 +3882,7 @@
     "2026-11-04T20:10|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196496"
    },
    "omdbError": "Error getting data.",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -3857,10 +3919,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 140,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:17+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:41+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "BE",
@@ -3943,10 +4006,11 @@
    "omdb": {
     "imdbRating": 6.9,
     "imdbVotes": 197,
-    "metascore": null
+    "metascore": null,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:17+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:42+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -3986,10 +4050,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:17+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:42+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4024,7 +4089,7 @@
     "2026-11-03T20:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=194627",
     "2026-11-04T19:45|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=195508"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:46:41+01:00"
   },
   "hush-hush-sweet-charlotte": {
@@ -4044,10 +4109,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 17694,
-    "metascore": null
+    "metascore": null,
+    "rt": 84
    },
-   "omdbAt": "2026-10-31T12:34:18+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:42+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -4086,10 +4152,11 @@
    "omdb": {
     "imdbRating": 6.2,
     "imdbVotes": 3278,
-    "metascore": 77
+    "metascore": 77,
+    "rt": 50
    },
-   "omdbAt": "2026-10-31T12:34:18+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:42+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -4133,10 +4200,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:18+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:43+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -4174,10 +4242,11 @@
    "omdb": {
     "imdbRating": 8.4,
     "imdbVotes": 1822696,
-    "metascore": 69
+    "metascore": 69,
+    "rt": 89
    },
-   "omdbAt": "2026-10-31T12:34:18+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:43+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -4226,10 +4295,11 @@
    "omdb": {
     "imdbRating": 7.6,
     "imdbVotes": 1190,
-    "metascore": 61
+    "metascore": 61,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:19+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:43+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -4265,7 +4335,7 @@
    "ics": {
     "2026-12-09T17:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186623"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:02+01:00"
   },
   "ken-russells-the-devils-directors-cut": {
@@ -4292,10 +4362,11 @@
    "omdb": {
     "imdbRating": 7.7,
     "imdbVotes": 21984,
-    "metascore": 52
+    "metascore": 52,
+    "rt": 55
    },
-   "omdbAt": "2026-10-31T12:34:19+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:43+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -4334,10 +4405,11 @@
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 192528,
-    "metascore": 85
+    "metascore": 85,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:19+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:44+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -4373,7 +4445,7 @@
    "ics": {
     "2026-12-06T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186624"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:11+01:00"
   },
   "kino-fuer-die-kleinsten-das-kann-ich-schon-allein": {
@@ -4390,7 +4462,7 @@
    "ics": {
     "2026-11-08T14:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193545"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:12+01:00"
   },
   "kino-fuer-die-kleinsten-farben-klingen-toene-springen": {
@@ -4407,7 +4479,7 @@
    "ics": {
     "2026-11-28T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183580"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:13+01:00"
   },
   "kino-fuer-die-kleinsten-oh-was-hast-du-denn-entdeckt": {
@@ -4424,7 +4496,7 @@
    "ics": {
     "2026-12-13T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179466"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:14+01:00"
   },
   "kino-fuer-die-kleinsten-platz-fuer-alle": {
@@ -4441,7 +4513,7 @@
    "ics": {
     "2026-11-08T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=186127"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:16+01:00"
   },
   "kino-fuer-die-kleinsten-tierisch-was-los": {
@@ -4458,7 +4530,7 @@
    "ics": {
     "2026-11-01T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=182731"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:17+01:00"
   },
   "kino-fuer-die-kleinsten-vom-huepfem-schlittern-und-hinfallen": {
@@ -4475,7 +4547,7 @@
    "ics": {
     "2026-12-27T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179464"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:18+01:00"
   },
   "kiss-me-deadly": {
@@ -4496,10 +4568,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 24017,
-    "metascore": null
+    "metascore": null,
+    "rt": 98
    },
-   "omdbAt": "2026-10-31T12:34:19+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:44+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -4541,10 +4614,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:20+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:44+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4581,10 +4655,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 74,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:20+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:44+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4620,7 +4695,7 @@
    "ics": {
     "2026-11-07T17:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194947"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:30+01:00"
   },
   "kurzfilmprogramm-kurdische-filmtage": {
@@ -4637,7 +4712,7 @@
    "ics": {
     "2026-11-06T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194948"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:31+01:00"
   },
   "la-bola-negra": {
@@ -4668,10 +4743,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 820,
-    "metascore": 86
+    "metascore": 86,
+    "rt": 92
    },
-   "omdbAt": "2026-10-31T12:34:20+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:45+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -4723,10 +4799,11 @@
    "omdb": {
     "imdbRating": 6.3,
     "imdbVotes": 26,
-    "metascore": 100
+    "metascore": 100,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:20+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:45+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -4761,7 +4838,7 @@
    "ics": {
     "2026-11-05T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=190219"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:40+01:00"
   },
   "lalka": {
@@ -4781,10 +4858,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:21+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:45+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -4822,10 +4900,11 @@
    "omdb": {
     "imdbRating": 4.1,
     "imdbVotes": 11314,
-    "metascore": null
+    "metascore": null,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:21+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:45+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AU"
@@ -4880,7 +4959,7 @@
     "2026-11-05T18:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=196495",
     "2026-11-05T20:30|City-Kino": "https://nonstopkino.at/feed/calendar/?id=195915"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:47:49+01:00"
   },
   "london": {
@@ -4908,10 +4987,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 14,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:21+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:46+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -4998,10 +5078,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 5338,
-    "metascore": null
+    "metascore": null,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:21+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:46+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -5039,10 +5120,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:22+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:46+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -5080,10 +5162,11 @@
    "omdb": {
     "imdbRating": 7.6,
     "imdbVotes": 173798,
-    "metascore": 53
+    "metascore": 53,
+    "rt": 70
    },
-   "omdbAt": "2026-10-31T12:34:22+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:46+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5131,10 +5214,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:22+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:47+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -5171,10 +5255,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 4447,
-    "metascore": null
+    "metascore": null,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:22+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:47+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -5212,10 +5297,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 115,
-    "metascore": null
+    "metascore": null,
+    "rt": 85
    },
-   "omdbAt": "2026-10-31T12:34:23+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:47+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -5253,10 +5339,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 441040,
-    "metascore": 87
+    "metascore": 87,
+    "rt": 94
    },
-   "omdbAt": "2026-10-31T12:34:23+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:48+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -5292,7 +5379,7 @@
    "ics": {
     "2026-11-22T15:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192146"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:48:20+01:00"
   },
   "mira": {
@@ -5312,10 +5399,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 26,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:23+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:48+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DK"
@@ -5354,10 +5442,11 @@
    "omdb": {
     "imdbRating": 6.0,
     "imdbVotes": 687,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:23+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:48+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -5396,10 +5485,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 453,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:24+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:48+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -5503,7 +5593,7 @@
    "ics": {
     "2026-11-08T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194950"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:48:37+01:00"
   },
   "mumbo-jumbo": {
@@ -5536,10 +5626,11 @@
    "omdb": {
     "imdbRating": 6.5,
     "imdbVotes": 104,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:24+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:49+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DK"
@@ -5583,10 +5674,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:24+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:49+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -5622,7 +5714,7 @@
     "2026-12-12T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179740",
     "2026-12-20T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179739"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:48:45+01:00"
   },
   "naza": {
@@ -5676,10 +5768,11 @@
    "omdb": {
     "imdbRating": 7.9,
     "imdbVotes": 3173,
-    "metascore": 94
+    "metascore": 94,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:25+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:49+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -5718,10 +5811,11 @@
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 683715,
-    "metascore": 76
+    "metascore": 76,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:25+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:49+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5757,7 +5851,7 @@
    "ics": {
     "2026-11-14T20:00|CineCenter": "https://nonstopkino.at/feed/calendar/?id=185041"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:48:54+01:00"
   },
   "no-good-men": {
@@ -5779,10 +5873,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 69,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:25+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:50+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -5887,7 +5982,7 @@
     "2026-11-14T18:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195332",
     "2026-11-19T17:50|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195050"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -5922,10 +6017,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 56,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:25+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:50+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AO",
@@ -5969,10 +6065,11 @@
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 392842,
-    "metascore": 77
+    "metascore": 77,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:26+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:50+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6008,7 +6105,7 @@
    "ics": {
     "2026-11-04T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193544"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:49:07+01:00"
   },
   "other-mommy": {
@@ -6038,10 +6135,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:26+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:50+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6076,7 +6174,7 @@
     "2026-11-14T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193550"
    },
    "omdbError": "Error getting data.",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6113,10 +6211,11 @@
    "omdb": {
     "imdbRating": 6.6,
     "imdbVotes": 7,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:26+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:51+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "TR"
@@ -6153,10 +6252,11 @@
    "omdb": {
     "imdbRating": 8.2,
     "imdbVotes": 754343,
-    "metascore": 98
+    "metascore": 98,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:27+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:51+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -6214,10 +6314,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:27+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:51+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "CH"
@@ -6278,10 +6379,11 @@
    "omdb": {
     "imdbRating": 7.7,
     "imdbVotes": 23,
-    "metascore": 96
+    "metascore": 96,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:27+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:52+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "KR",
@@ -6319,10 +6421,11 @@
    "omdb": {
     "imdbRating": 6.4,
     "imdbVotes": 123,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:27+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:52+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -6360,10 +6463,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 37390,
-    "metascore": 69
+    "metascore": 69,
+    "rt": 89
    },
-   "omdbAt": "2026-10-31T12:34:28+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:52+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6426,10 +6530,11 @@
    "omdb": {
     "imdbRating": 8.7,
     "imdbVotes": 120,
-    "metascore": 75
+    "metascore": 75,
+    "rt": 86
    },
-   "omdbAt": "2026-10-31T12:34:28+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:52+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6506,7 +6611,7 @@
    "ics": {
     "2026-11-12T18:45|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=193713"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:49:48+01:00"
   },
   "resident-evil": {
@@ -6530,10 +6635,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:28+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:53+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6577,10 +6683,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 703457,
-    "metascore": 70
+    "metascore": 70,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:29+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:53+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6614,7 +6721,7 @@
    "ics": {
     "2026-12-08T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=190645"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:49:56+01:00"
   },
   "romeria": {
@@ -6634,10 +6741,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 3628,
-    "metascore": 77
+    "metascore": 77,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:29+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:53+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -6680,10 +6788,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 13097,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:29+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:53+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "SE",
@@ -6734,10 +6843,11 @@
    "omdb": {
     "imdbRating": 5.7,
     "imdbVotes": 552,
-    "metascore": 48
+    "metascore": 48,
+    "rt": 35
    },
-   "omdbAt": "2026-10-31T12:34:29+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:54+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -6838,10 +6948,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 1752,
-    "metascore": 72
+    "metascore": 72,
+    "rt": 79
    },
-   "omdbAt": "2026-10-31T12:34:30+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:54+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6906,10 +7017,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 99
    },
-   "omdbAt": "2026-10-31T12:34:30+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:54+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -6952,7 +7064,7 @@
     "2026-11-15T12:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195134",
     "2026-11-25T18:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195311"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:50:16+01:00"
   },
   "skiff": {
@@ -6972,10 +7084,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 21,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:30+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:54+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "NL",
@@ -7014,10 +7127,11 @@
    "omdb": {
     "imdbRating": 5.7,
     "imdbVotes": 2281,
-    "metascore": null
+    "metascore": null,
+    "rt": 50
    },
-   "omdbAt": "2026-10-31T12:34:30+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:55+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -7065,10 +7179,11 @@
    "omdb": {
     "imdbRating": 6.9,
     "imdbVotes": 142,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:31+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:55+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -7108,10 +7223,11 @@
    "omdb": {
     "imdbRating": 8.0,
     "imdbVotes": 327986,
-    "metascore": 66
+    "metascore": 66,
+    "rt": 90
    },
-   "omdbAt": "2026-10-31T12:34:31+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:55+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7150,10 +7266,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": 35,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:31+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:55+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -7187,7 +7304,7 @@
    "ics": {
     "2026-11-02T21:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=186125"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:50:37+01:00"
   },
   "teenage-sex-and-death-at-camp-misma": {
@@ -7214,10 +7331,11 @@
    "omdb": {
     "imdbRating": 7.1,
     "imdbVotes": 10079,
-    "metascore": 89
+    "metascore": 89,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:31+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:56+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7258,10 +7376,11 @@
    "omdb": {
     "imdbRating": 6.5,
     "imdbVotes": 1241,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:32+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:56+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7302,10 +7421,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 4485,
-    "metascore": null
+    "metascore": null,
+    "rt": 91
    },
-   "omdbAt": "2026-10-31T12:34:32+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:56+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7344,10 +7464,11 @@
    "omdb": {
     "imdbRating": 5.6,
     "imdbVotes": 1955,
-    "metascore": null
+    "metascore": null,
+    "rt": 45
    },
-   "omdbAt": "2026-10-31T12:34:32+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:56+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7386,10 +7507,11 @@
    "omdb": {
     "imdbRating": 7.7,
     "imdbVotes": 84932,
-    "metascore": 73
+    "metascore": 73,
+    "rt": 82
    },
-   "omdbAt": "2026-10-31T12:34:32+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:57+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7429,10 +7551,11 @@
    "omdb": {
     "imdbRating": 7.7,
     "imdbVotes": 84932,
-    "metascore": 73
+    "metascore": 73,
+    "rt": 82
    },
-   "omdbAt": "2026-10-31T12:34:33+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:57+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7512,10 +7635,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 22838,
-    "metascore": null
+    "metascore": null,
+    "rt": 86
    },
-   "omdbAt": "2026-10-31T12:34:33+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:57+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7553,10 +7677,11 @@
    "omdb": {
     "imdbRating": 6.4,
     "imdbVotes": 11237,
-    "metascore": 38
+    "metascore": 38,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:33+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:57+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7596,10 +7721,11 @@
    "omdb": {
     "imdbRating": 6.4,
     "imdbVotes": 336645,
-    "metascore": 46
+    "metascore": 46,
+    "rt": 50
    },
-   "omdbAt": "2026-10-31T12:34:34+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:58+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7639,10 +7765,11 @@
    "omdb": {
     "imdbRating": 6.7,
     "imdbVotes": 1640,
-    "metascore": null
+    "metascore": null,
+    "rt": 46
    },
-   "omdbAt": "2026-10-31T12:34:34+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:58+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7681,10 +7808,11 @@
    "omdb": {
     "imdbRating": 6.1,
     "imdbVotes": 5139,
-    "metascore": 41
+    "metascore": 41,
+    "rt": 50
    },
-   "omdbAt": "2026-10-31T12:34:34+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:58+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7722,10 +7850,11 @@
    "omdb": {
     "imdbRating": 6.6,
     "imdbVotes": 422708,
-    "metascore": 65
+    "metascore": 65,
+    "rt": 70
    },
-   "omdbAt": "2026-10-31T12:34:34+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:58+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7774,10 +7903,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 68555,
-    "metascore": 82
+    "metascore": 82,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:35+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:59+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7816,10 +7946,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 2609,
-    "metascore": null
+    "metascore": null,
+    "rt": 59
    },
-   "omdbAt": "2026-10-31T12:34:35+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:59+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7858,10 +7989,11 @@
    "omdb": {
     "imdbRating": 6.7,
     "imdbVotes": 3880,
-    "metascore": null
+    "metascore": null,
+    "rt": 60
    },
-   "omdbAt": "2026-10-31T12:34:35+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:59+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7899,10 +8031,11 @@
    "omdb": {
     "imdbRating": 5.7,
     "imdbVotes": 1539,
-    "metascore": null
+    "metascore": null,
+    "rt": 60
    },
-   "omdbAt": "2026-10-31T12:34:35+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:29:59+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7968,10 +8101,11 @@
    "omdb": {
     "imdbRating": 7.5,
     "imdbVotes": 23,
-    "metascore": null
+    "metascore": null,
+    "rt": 92
    },
-   "omdbAt": "2026-10-31T12:34:36+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:00+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -8009,10 +8143,11 @@
    "omdb": {
     "imdbRating": 7.1,
     "imdbVotes": 23575,
-    "metascore": 61
+    "metascore": 61,
+    "rt": 74
    },
-   "omdbAt": "2026-10-31T12:34:36+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:00+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8051,10 +8186,11 @@
    "omdb": {
     "imdbRating": 6.8,
     "imdbVotes": 2494,
-    "metascore": 76
+    "metascore": 76,
+    "rt": 95
    },
-   "omdbAt": "2026-10-31T12:34:36+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:00+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "IS",
@@ -8143,10 +8279,11 @@
    "omdb": {
     "imdbRating": 7.2,
     "imdbVotes": 33733,
-    "metascore": 75
+    "metascore": 75,
+    "rt": 94
    },
-   "omdbAt": "2026-10-31T12:34:37+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:00+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -8186,10 +8323,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 169,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:37+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:01+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -8226,10 +8364,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 44384,
-    "metascore": null
+    "metascore": null,
+    "rt": 98
    },
-   "omdbAt": "2026-10-31T12:34:37+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:01+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -8270,10 +8409,11 @@
    "omdb": {
     "imdbRating": 7.4,
     "imdbVotes": 188663,
-    "metascore": 65
+    "metascore": 65,
+    "rt": 82
    },
-   "omdbAt": "2026-10-31T12:34:37+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:01+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -8329,10 +8469,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 54
    },
-   "omdbAt": "2026-10-31T12:34:38+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:01+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8371,10 +8512,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 1020529,
-    "metascore": 84
+    "metascore": 84,
+    "rt": 90
    },
-   "omdbAt": "2026-10-31T12:34:38+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:02+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -8458,10 +8600,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 197687,
-    "metascore": 97
+    "metascore": 97,
+    "rt": 99
    },
-   "omdbAt": "2026-10-31T12:34:39+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:02+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -8496,7 +8639,7 @@
    "ics": {
     "2026-11-04T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194946"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:52:27+01:00"
   },
   "too-late-the-hero": {
@@ -8517,10 +8660,11 @@
    "omdb": {
     "imdbRating": 6.6,
     "imdbVotes": 4365,
-    "metascore": null
+    "metascore": null,
+    "rt": 57
    },
-   "omdbAt": "2026-10-31T12:34:39+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:02+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8560,10 +8704,11 @@
    "omdb": {
     "imdbRating": 8.1,
     "imdbVotes": 775940,
-    "metascore": 83
+    "metascore": 83,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:39+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:03+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -8602,10 +8747,11 @@
    "omdb": {
     "imdbRating": 5.4,
     "imdbVotes": 536027,
-    "metascore": 56
+    "metascore": 56,
+    "rt": 48
    },
-   "omdbAt": "2026-10-31T12:34:39+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:03+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -8645,10 +8791,11 @@
    "omdb": {
     "imdbRating": 4.8,
     "imdbVotes": 327325,
-    "metascore": 44
+    "metascore": 44,
+    "rt": 28
    },
-   "omdbAt": "2026-10-31T12:34:40+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:03+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8688,10 +8835,11 @@
    "omdb": {
     "imdbRating": 6.7,
     "imdbVotes": 4246,
-    "metascore": null
+    "metascore": null,
+    "rt": 80
    },
-   "omdbAt": "2026-10-31T12:34:40+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:03+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8728,10 +8876,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 6711,
-    "metascore": null
+    "metascore": null,
+    "rt": 90
    },
-   "omdbAt": "2026-10-31T12:34:40+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:04+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8768,10 +8917,11 @@
    "omdb": {
     "imdbRating": 5.1,
     "imdbVotes": 18,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:40+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:04+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -8837,10 +8987,11 @@
    "omdb": {
     "imdbRating": 7.3,
     "imdbVotes": 1773,
-    "metascore": 90
+    "metascore": 90,
+    "rt": 96
    },
-   "omdbAt": "2026-10-31T12:34:41+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:04+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "PL",
@@ -8882,10 +9033,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 13203,
-    "metascore": null
+    "metascore": null,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:41+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:04+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8929,10 +9081,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 31
    },
-   "omdbAt": "2026-10-31T12:34:41+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:05+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8973,10 +9126,11 @@
    "omdb": {
     "imdbRating": 7.0,
     "imdbVotes": 191,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:41+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:05+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -9010,7 +9164,7 @@
    "ics": {
     "2026-11-10T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193562"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:10+01:00"
   },
   "was-ist-film-programm-18": {
@@ -9027,7 +9181,7 @@
    "ics": {
     "2026-11-10T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193561"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:11+01:00"
   },
   "was-ist-film-programm-19": {
@@ -9044,7 +9198,7 @@
    "ics": {
     "2026-11-17T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193560"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:12+01:00"
   },
   "was-ist-film-programm-20": {
@@ -9061,7 +9215,7 @@
    "ics": {
     "2026-11-17T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193559"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:14+01:00"
   },
   "was-ist-film-programm-21": {
@@ -9078,7 +9232,7 @@
    "ics": {
     "2026-11-24T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193558"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:15+01:00"
   },
   "wellen-wende": {
@@ -9103,10 +9257,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:42+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:05+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -9140,7 +9295,7 @@
    "ics": {
     "2026-11-19T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193555"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T11:53:20+01:00"
   },
   "what-ever-happened-to-baby-jane": {
@@ -9160,10 +9315,11 @@
    "omdb": {
     "imdbRating": 8.0,
     "imdbVotes": 68531,
-    "metascore": 75
+    "metascore": 75,
+    "rt": 91
    },
-   "omdbAt": "2026-10-31T12:34:42+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:05+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9198,7 +9354,7 @@
    "ics": {
     "2026-11-03T18:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=191226"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -9235,10 +9391,11 @@
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 115597,
-    "metascore": 83
+    "metascore": 83,
+    "rt": 89
    },
-   "omdbAt": "2026-10-31T12:34:42+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:06+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -9288,10 +9445,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": 93
    },
-   "omdbAt": "2026-10-31T12:34:42+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:06+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -9342,10 +9500,11 @@
    "omdb": {
     "imdbRating": null,
     "imdbVotes": null,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:43+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:06+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9384,10 +9543,11 @@
    "omdb": {
     "imdbRating": 5.8,
     "imdbVotes": 654,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:43+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:06+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9438,10 +9598,11 @@
    "omdb": {
     "imdbRating": 7.9,
     "imdbVotes": 165,
-    "metascore": 98
+    "metascore": 98,
+    "rt": 100
    },
-   "omdbAt": "2026-10-31T12:34:44+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:07+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9475,7 +9636,7 @@
    "ics": {
     "2026-11-21T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=195265"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T12:34:45+01:00"
   },
   "yugo-goes-to-america-yugo-ide-u-ameriku": {
@@ -9495,10 +9656,11 @@
    "omdb": {
     "imdbRating": 7.4,
     "imdbVotes": 24,
-    "metascore": null
+    "metascore": null,
+    "rt": null
    },
-   "omdbAt": "2026-10-31T12:34:46+01:00",
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "omdbAt": "2026-11-01T11:30:07+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdb": {
     "countries": [
      "RS",
@@ -9533,7 +9695,7 @@
    "ics": {
     "2026-11-18T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=192151"
    },
-   "seenAt": "2026-10-31T20:41:20+01:00",
+   "seenAt": "2026-11-01T11:30:08+01:00",
    "tmdbAt": "2026-10-31T12:34:47+01:00"
   }
  },
