@@ -108,7 +108,7 @@ function rtBadge(f, long = false) {
 
 /* ---------- Gruppe & Bewertungen ---------- */
 const SCALE = [["🙅", "nein"], ["🤷", "vielleicht"], ["🙂", "gern"], ["🤩", "unbedingt"]];
-const GROUP = { code: null, api: null, me: null, members: {}, votes: {}, error: "", status: "aus" };
+const GROUP = { code: null, api: null, me: null, members: {}, votes: {}, comments: {}, drafts: {}, error: "", status: "aus" };
 
 function personId(name) { return norm(name).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 30) || "gast"; }
 function loadMe() { try { return JSON.parse(localStorage.getItem("kinosieb.ich")); } catch (e) { return null; } }
@@ -153,8 +153,75 @@ function votesLine(f) {
     const title = `${p.name}: ${has ? SCALE[e.v][1] : "nicht bewertet"}${e.s ? ", schon gesehen" : ""}`;
     chips.push(`<span class="vchip${GROUP.me && p.id === GROUP.me.id ? " me" : ""}" title="${esc(title)}">${esc(labels[p.id])}${has ? ` ${SCALE[e.v][0]}` : ""}${e.s ? " 👀" : ""}</span>`);
   }
+  const nc = (GROUP.comments[f.id] || []).length;
+  if (nc) chips.push(`<span class="vchip cmt" title="${nc} ${nc === 1 ? "Kommentar" : "Kommentare"}">💬 ${nc}</span>`);
   return chips.length ? `<span class="votes">${chips.join("")}</span>` : "";
 }
+
+/* ---------- Kommentare ---------- */
+function agoStr(ms) {
+  const now = new Date();
+  const d = new Date(ms);
+  const min = Math.round((now - d) / 6e4);
+  if (min < 1) return "gerade eben";
+  if (min < 60) return `vor ${min} Min.`;
+  if (min < 6 * 60) return `vor ${Math.round(min / 60)} Std.`;
+  return `${dayWord(d, now)}, ${timeStr(d)}`;
+}
+function commentsListHTML(f) {
+  const list = GROUP.comments[f.id] || [];
+  if (!list.length) return `<p class="d-note">Noch keine Kommentare. Schreib als Erste:r, was du vom Film hältst oder wann du kannst.</p>`;
+  return `<ul class="cmt-list">${list.map((c) => {
+    const own = GROUP.me && c.person === GROUP.me.id;
+    return `<li class="cmt${own ? " own" : ""}"><div class="cmt-head"><b>${esc(c.name || c.person)}</b><span>${agoStr(c.at)}</span>${own ? `<button type="button" class="linkbtn" data-uncomment="${esc(c.id)}">löschen</button>` : ""}</div><p>${esc(c.text)}</p></li>`;
+  }).join("")}</ul>`;
+}
+function commentFormHTML(f) {
+  if (!GROUP.me) return `<button type="button" class="ghost" data-who-open>Namen wählen, um zu kommentieren</button>`;
+  if (GROUP.status === "fehler") return `<p class="d-note">Kommentieren geht erst wieder, wenn die Bewertungen verbunden sind.</p>`;
+  return `<label class="sr-only" for="cmtText">Kommentar</label>
+    <textarea id="cmtText" rows="2" maxlength="500" placeholder="Kommentar schreiben …">${esc(GROUP.drafts[f.id] || "")}</textarea>
+    <button type="button" class="primary" data-comment>Senden</button>`;
+}
+function commentsSectionHTML(f) {
+  if (!GROUP.code) return "";
+  const n = (GROUP.comments[f.id] || []).length;
+  return `<section class="d-cmt">
+    <h3>Kommentare <span id="cmtCount">${n ? `(${n})` : ""}</span></h3>
+    <div id="cmtList">${commentsListHTML(f)}</div>
+    <div class="cmt-form" id="cmtForm">${commentFormHTML(f)}</div>
+  </section>`;
+}
+function sendComment() {
+  const id = $("#detailBody").dataset.id;
+  const ta = $("#cmtText");
+  const text = (ta && ta.value || "").trim();
+  if (!text) { ta && ta.focus(); return; }
+  if (!GROUP.api || !GROUP.me) { toast(GROUP.error ? `Nicht gesendet. ${GROUP.error}` : "Noch keine Verbindung, bitte gleich nochmal versuchen.", "bad"); return; }
+  ta.value = "";
+  delete GROUP.drafts[id];
+  GROUP.api.comment(id, GROUP.me.id, GROUP.me.name, text.slice(0, 500))
+    .then(() => toast("Kommentar gesendet ✓"))
+    .catch((e) => { GROUP.drafts[id] = text; groupFail(e); toast(`Nicht gesendet. ${GROUP.error}`, "bad"); });
+}
+
+/* ---------- Teilen über WhatsApp ---------- */
+function filmLink(f) { return `${location.origin}${location.pathname}#film=${encodeURIComponent(f.id)}`; }
+function waLink(text) { return `https://wa.me/?text=${encodeURIComponent(text)}`; }
+function scoreLine(f) {
+  const parts = [];
+  if (f.imdbRating != null) parts.push(`IMDb ${deNum(f.imdbRating)}`);
+  if (f.rt != null) parts.push(`🍅 ${f.rt} %`);
+  return parts.length ? ` (${parts.join(", ")})` : "";
+}
+function shareShow(f, s) {
+  const d = s._d;
+  return waLink(`🎬 *${f.title}*${scoreLine(f)}\n📅 ${WD_LONG[d.getDay()]}, ${d.getDate()}. ${MON[d.getMonth()]}, ${timeStr(d)}\n📍 ${s.cinema}, ${s.version}\nWer kommt mit?\n${filmLink(f)}`);
+}
+function shareFilm(f) {
+  return waLink(`🎬 *${f.title}*${scoreLine(f)}\nWollen wir den gemeinsam anschauen?\n${filmLink(f)}`);
+}
+
 function groupSectionHTML(f) {
   if (!GROUP.code) {
     return `<section class="d-group"><h3>Gemeinsam bewerten</h3><p class="d-note">Dieses Gerät ist noch mit keiner Gruppe verbunden. Öffne euren Einladungslink oder füge ihn hier ein.</p><button type="button" class="primary" data-join-open>Einladungslink einfügen</button></section>`;
@@ -234,10 +301,18 @@ function setMine(filmId, patch) {
 function refreshDetail() {
   const dlg = $("#detail");
   if (!dlg || !dlg.open || !DATA) return;
-  const st = dlg.scrollTop;
   const f = DATA.films.find((x) => x.id === $("#detailBody").dataset.id);
-  if (f) renderDetail(f);
-  dlg.scrollTop = st;
+  if (!f) return;
+  const g = $("#dGroup");
+  if (g) g.innerHTML = groupSectionHTML(f);
+  const c = $("#dCmtWrap");
+  if (!c) return;
+  if (!$(".d-cmt") || !GROUP.code) { c.innerHTML = commentsSectionHTML(f); return; }
+  const n = (GROUP.comments[f.id] || []).length;
+  $("#cmtCount").textContent = n ? `(${n})` : "";
+  $("#cmtList").innerHTML = commentsListHTML(f);
+  const form = $("#cmtForm");
+  if (!form.contains(document.activeElement)) form.innerHTML = commentFormHTML(f);
 }
 let refreshTimer;
 function scheduleRefresh() { clearTimeout(refreshTimer); refreshTimer = setTimeout(refreshAll, 60); }
@@ -322,6 +397,8 @@ function readGroupCode() {
 }
 // Wird der Einladungslink geöffnet, während die App schon offen ist, lädt der Browser nicht neu.
 window.addEventListener("hashchange", () => {
+  const fm = location.hash.match(/^#film=(.+)$/);
+  if (fm && DATA && !$("#detail").open) { openDetail(decodeURIComponent(fm[1]), false); return; }
   const c = codeFromUrl();
   if (!c) return;
   try { localStorage.setItem("kinosieb.gruppe", c); } catch (e) { /* egal */ }
@@ -332,7 +409,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=16");
+    const mod = await import("./gruppe.js?v=17");
     GROUP.status = "verbinde";
     renderGroupInfo();
     GROUP.api = await mod.connect({
@@ -340,6 +417,13 @@ async function connectGroup() {
       config: window.KINOSIEB_FIREBASE,
       onMembers: (m) => { GROUP.members = m || {}; GROUP.membersChanged = true; scheduleRefresh(); },
       onVotes: (v) => { GROUP.votes = v || {}; scheduleRefresh(); },
+      onComments: (list) => {
+        const by = {};
+        for (const c of list || []) (by[c.film] = by[c.film] || []).push(c);
+        for (const k of Object.keys(by)) by[k].sort((a, b) => a.at - b.at);
+        GROUP.comments = by;
+        scheduleRefresh();
+      },
       onOnline: () => { GROUP.status = "online"; GROUP.error = ""; GROUP.statusChanged = true; scheduleRefresh(); },
       onError: groupFail,
     });
@@ -639,15 +723,15 @@ function resetFilters() {
 
 /* ---------- Detail ---------- */
 let detailAll = false;
-function openDetail(id) {
+function openDetail(id, push = true) {
   const f = DATA.films.find((x) => x.id === id);
-  if (!f) return;
+  if (!f) { if (!push) history.replaceState(null, "", location.pathname + location.search); toast("Dieser Film läuft nicht mehr im Programm.", "bad"); return; }
   detailAll = false;
   renderDetail(f);
   const dlg = $("#detail");
   if (!dlg.open) dlg.showModal();
   dlg.scrollTop = 0;
-  history.pushState({ detail: id }, "", `#film=${encodeURIComponent(id)}`);
+  if (push) history.pushState({ detail: id }, "", `#film=${encodeURIComponent(id)}`);
 }
 
 function renderDetail(f) {
@@ -667,7 +751,7 @@ function renderDetail(f) {
         <span class="show-time">${timeStr(s._d)}</span>
         <span class="show-where"><span class="cin">${esc(s.cinema)}</span> <span class="vtag" title="${esc(VERSION_INFO[s.version] || s.version)}">${esc(s.version)}</span>
           ${s.tags && s.tags.length ? `<br><span class="tags">${esc(s.tags.join(", "))}</span>` : ""}</span>
-        <span class="show-links">${s.cinemaUrl ? `<a href="${esc(s.cinemaUrl)}" target="_blank" rel="noopener">Kino</a>` : ""}${s.ics ? `<a href="${esc(s.ics)}" target="_blank" rel="noopener">Kalender</a>` : ""}</span>
+        <span class="show-links">${s.cinemaUrl ? `<a href="${esc(s.cinemaUrl)}" target="_blank" rel="noopener">Kino</a>` : ""}${s.ics ? `<a href="${esc(s.ics)}" target="_blank" rel="noopener">Kalender</a>` : ""}<a href="${esc(shareShow(f, s))}" target="_blank" rel="noopener">WhatsApp</a></span>
       </div>`).join("");
     return `<div class="day"><h4>${label}</h4>${rows}</div>`;
   }).join("");
@@ -683,7 +767,9 @@ function renderDetail(f) {
     f.trailer ? `<a class="trailer" href="${esc(f.trailer)}" target="_blank" rel="noopener">Trailer ansehen</a>` : "",
     f.imdbId ? `<a href="https://www.imdb.com/title/${esc(f.imdbId)}/" target="_blank" rel="noopener">IMDb</a>` : "",
     f.rt != null ? `<a href="https://www.rottentomatoes.com/search?search=${encodeURIComponent(f.originalTitle || f.title)}" target="_blank" rel="noopener">Rotten Tomatoes</a>` : "",
+    `<a href="${esc(f.imdbId ? `https://letterboxd.com/imdb/${f.imdbId}/` : `https://letterboxd.com/search/films/${encodeURIComponent(f.originalTitle || f.title)}/`)}" target="_blank" rel="noopener">Letterboxd</a>`,
     f.nonstopUrl ? `<a href="${esc(f.nonstopUrl)}" target="_blank" rel="noopener">nonstop-Seite</a>` : "",
+    `<a class="wa" href="${esc(shareFilm(f))}" target="_blank" rel="noopener">In WhatsApp teilen</a>`,
   ].join("");
   const filtered = activeCount() > 0 && allCount !== shows.length;
 
@@ -701,7 +787,8 @@ function renderDetail(f) {
     </div>
     ${f.overview ? `<p class="d-overview">${esc(f.overview)}</p>` : ""}
     <div class="d-links">${links}</div>
-    ${groupSectionHTML(f)}
+    <div id="dGroup">${groupSectionHTML(f)}</div>
+    <div id="dCmtWrap">${commentsSectionHTML(f)}</div>
     <section class="d-shows">
       <div class="d-shows-head"><h3>Vorstellungen in Wien</h3>
         ${filtered || detailAll ? `<button type="button" data-toggle-all>${detailAll ? "Nur passend zu meinen Filtern" : `Alle ${allCount} zeigen`}</button>` : ""}
@@ -745,6 +832,11 @@ function bind() {
     }
     if (t.hasAttribute("data-who-open")) return openWho();
     if (t.hasAttribute("data-who-close")) return $("#who").close();
+    if (t.hasAttribute("data-comment")) return sendComment();
+    if (t.dataset.uncomment) {
+      if (!GROUP.api) return;
+      return GROUP.api.uncomment(t.dataset.uncomment).then(() => toast("Kommentar gelöscht")).catch((e) => { groupFail(e); toast(`Nicht gelöscht. ${GROUP.error}`, "bad"); });
+    }
     if (t.hasAttribute("data-join-open")) return openJoin();
     if (t.hasAttribute("data-join")) return joinWith($("#joinCode").value);
     if (t.hasAttribute("data-reconnect")) return location.reload();
@@ -769,6 +861,9 @@ function bind() {
   $("#sheet").addEventListener("click", (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
   $("#detail").addEventListener("cancel", (e) => { e.preventDefault(); closeDetail(); });
   window.addEventListener("popstate", () => { if (!location.hash.startsWith("#film=")) closeDetail(true); });
+  document.addEventListener("input", (e) => {
+    if (e.target.id === "cmtText") GROUP.drafts[$("#detailBody").dataset.id] = e.target.value;
+  });
   let qTimer;
   $("#q").addEventListener("input", (e) => {
     clearTimeout(qTimer);
@@ -849,7 +944,7 @@ async function init() {
   renderList();
   connectGroup();
   const m = location.hash.match(/^#film=(.+)$/);
-  if (m) openDetail(decodeURIComponent(m[1]));
+  if (m) openDetail(decodeURIComponent(m[1]), false);
 }
 
 init();

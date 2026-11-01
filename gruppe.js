@@ -3,11 +3,12 @@
 // Datenmodell:
 //   gruppen/{code}/mitglieder/{personId}  -> { name, seit }
 //   gruppen/{code}/stimmen/{filmId}       -> { [personId]: { v: 0..3 | null, s: true|false } }
+//   gruppen/{code}/kommentare/{autoId}    -> { film, person, name, text, at }
 
 const SDK = "https://www.gstatic.com/firebasejs/10.14.1";
 
-export async function connect({ code, config, onMembers, onVotes, onOnline, onError }) {
-  if (code === "test") return localBackend({ onMembers, onVotes, onOnline });
+export async function connect({ code, config, onMembers, onVotes, onComments, onOnline, onError }) {
+  if (code === "test") return localBackend({ onMembers, onVotes, onComments, onOnline });
   if (!config || !config.projectId) throw Object.assign(new Error("Firebase ist noch nicht eingerichtet."), { code: "no-config" });
 
   let appMod, fs;
@@ -41,18 +42,29 @@ export async function connect({ code, config, onMembers, onVotes, onOnline, onEr
     onVotes(v);
   }, fail);
 
+  fs.onSnapshot(fs.collection(db, "gruppen", code, "kommentare"), (snap) => {
+    const list = [];
+    snap.forEach((d) => {
+      const x = d.data({ serverTimestamps: "estimate" });
+      list.push({ id: d.id, film: x.film, person: x.person, name: x.name, text: x.text, at: x.at && x.at.toMillis ? x.at.toMillis() : Date.now() });
+    });
+    onComments && onComments(list);
+  }, fail);
+
   return {
     join: (id, name) => fs.setDoc(fs.doc(db, "gruppen", code, "mitglieder", id), { name, seit: fs.serverTimestamp() }, { merge: true }),
     set: (filmId, id, entry) => fs.setDoc(fs.doc(db, "gruppen", code, "stimmen", filmId), { [id]: entry }, { merge: true }),
+    comment: (film, person, name, text) => fs.addDoc(fs.collection(db, "gruppen", code, "kommentare"), { film, person, name, text, at: fs.serverTimestamp() }),
+    uncomment: (id) => fs.deleteDoc(fs.doc(db, "gruppen", code, "kommentare", id)),
   };
 }
 
 // Nur zum Ausprobieren ohne Firebase (Einladungslink mit #gruppe=test): speichert im Browser.
-function localBackend({ onMembers, onVotes, onOnline }) {
+function localBackend({ onMembers, onVotes, onComments, onOnline }) {
   const KEY = "kinosieb.testgruppe";
-  const read = () => { try { return JSON.parse(localStorage.getItem(KEY)) || { m: {}, v: {} }; } catch (e) { return { m: {}, v: {} }; } };
+  const read = () => { try { return { m: {}, v: {}, c: [], ...JSON.parse(localStorage.getItem(KEY)) }; } catch (e) { return { m: {}, v: {}, c: [] }; } };
   const write = (db) => { try { localStorage.setItem(KEY, JSON.stringify(db)); } catch (e) { /* egal */ } };
-  const emit = () => { const db = read(); onMembers(db.m); onVotes(db.v); };
+  const emit = () => { const db = read(); onMembers(db.m); onVotes(db.v); onComments && onComments(db.c); };
   setTimeout(() => { emit(); onOnline && onOnline(); }, 0);
   return {
     join: async (id, name) => { const db = read(); db.m[id] = { ...(db.m[id] || {}), name }; write(db); emit(); },
@@ -62,5 +74,11 @@ function localBackend({ onMembers, onVotes, onOnline }) {
       db.v[filmId][id] = { ...(db.v[filmId][id] || {}), ...entry };
       write(db); emit();
     },
+    comment: async (film, person, name, text) => {
+      const db = read();
+      db.c.push({ id: `c${Date.now()}`, film, person, name, text, at: Date.now() });
+      write(db); emit();
+    },
+    uncomment: async (id) => { const db = read(); db.c = db.c.filter((x) => x.id !== id); write(db); emit(); },
   };
 }
