@@ -2,7 +2,7 @@ name: Programm aktualisieren
 
 on:
   schedule:
-    - cron: "17 4 * * *"   # täglich, ca. 5:17 Uhr (Winterzeit) bzw. 6:17 Uhr (Sommerzeit) in Wien
+    - cron: "17 3,12 * * *"   # zweimal täglich (GitHub startet geplante Läufe oft Stunden später)
   workflow_dispatch:        # "Run workflow" auf GitHub startet es sofort
   push:
     branches: [main]
