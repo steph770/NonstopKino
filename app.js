@@ -206,7 +206,10 @@ function sendComment() {
 }
 
 /* ---------- Teilen über WhatsApp ---------- */
-function filmLink(f) { return `${location.origin}${location.pathname}#film=${encodeURIComponent(f.id)}`; }
+function filmLink(f) {
+  const g = GROUP.code ? `?gruppe=${encodeURIComponent(GROUP.code)}` : "";
+  return `${location.origin}${location.pathname}${g}#film=${encodeURIComponent(f.id)}`;
+}
 function waLink(text) { return `https://wa.me/?text=${encodeURIComponent(text)}`; }
 function scoreLine(f) {
   const parts = [];
@@ -390,7 +393,8 @@ function readGroupCode() {
     const params = new URLSearchParams(location.search);
     params.delete("gruppe");
     const q = params.toString();
-    history.replaceState(null, "", location.pathname + (q ? `?${q}` : ""));
+    const keep = /^#film=/.test(location.hash) ? location.hash : "";
+    history.replaceState(null, "", location.pathname + (q ? `?${q}` : "") + keep);
     return c;
   }
   try { return localStorage.getItem("kinosieb.gruppe"); } catch (e) { return null; }
@@ -409,7 +413,7 @@ async function connectGroup() {
   GROUP.me = loadMe();
   renderGroupInfo();
   try {
-    const mod = await import("./gruppe.js?v=17");
+    const mod = await import("./gruppe.js?v=18");
     GROUP.status = "verbinde";
     renderGroupInfo();
     GROUP.api = await mod.connect({
@@ -586,7 +590,8 @@ function renderList() {
   const { rows, now } = compute();
   const totalShows = rows.reduce((n, r) => n + r.shows.length, 0);
   const ac = activeCount() + (state.q ? 1 : 0);
-  const summary = `<p class="summary"><span>${rows.length} ${rows.length === 1 ? "Film" : "Filme"}, ${totalShows} Vorstellungen</span>${ac ? `<button type="button" data-reset>Filter zurücksetzen</button>` : ""}</p>`;
+  const joinHint = GROUP.code ? "" : `<div class="join-hint"><p>Noch nicht mit eurer Kinogruppe verbunden. Ohne Verbindung siehst du keine Bewertungen und Kommentare.</p><button type="button" class="primary" data-join-open>Einladungslink einfügen</button></div>`;
+  const summary = joinHint + `<p class="summary"><span>${rows.length} ${rows.length === 1 ? "Film" : "Filme"}, ${totalShows} Vorstellungen</span>${ac ? `<button type="button" data-reset>Filter zurücksetzen</button>` : ""}</p>`;
   if (!rows.length && voteFilterCount()) {
     el.innerHTML = `<div class="empty-state"><h2>Noch nichts Passendes</h2><p>Für diese Bewertungsfilter gibt es noch keine Treffer. Bewertet ein paar Filme mit 🙂 oder 🤩, dann tauchen sie hier auf.</p><button type="button" class="primary" data-reset>Filter zurücksetzen</button></div>`;
   } else if (!rows.length) {

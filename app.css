@@ -313,7 +313,18 @@ a { color: var(--brass); }
 .cmt.own { border-left: 3px solid var(--brass); }
 .cmt-head { display: flex; gap: 8px; align-items: baseline; font-size: 13px; color: var(--muted); }
 .cmt-head b { color: var(--ink); font-size: 14px; }
-.cmt-head .linkbtn { margin-left: auto; font-size: 13px; }
+.cmt-head .join-hint {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--r-m);
+  background: var(--plush-2);
+  color: var(--ink);
+}
+.join-hint p { margin: 0; font-size: 14px; }
+.join-hint .primary { justify-self: start; }
+.linkbtn { margin-left: auto; font-size: 13px; }
 .cmt p { margin: 4px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; }
 .cmt-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: end; }
 .cmt-form textarea {
