@@ -24,9 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -64,8 +64,20 @@ jobs:
           [ -d debug ] && git add debug || true
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
-          else
-            git commit -m "Programm aktualisiert"
-            git pull --rebase --autostash
-            git push
+            exit 0
           fi
+          git commit -m "Programm aktualisiert"
+          # Bei kurzen Störungen von GitHub bis zu viermal neu versuchen
+          for i in 1 2 3 4; do
+            if git push; then
+              echo "Gespeichert."
+              exit 0
+            fi
+            echo "Hochladen fehlgeschlagen (Versuch $i), neuer Versuch …"
+            sleep $((i * 20))
+            if git fetch origin main; then
+              git rebase -X theirs FETCH_HEAD || git rebase --abort || true
+            fi
+          done
+          echo "Hochladen nach 4 Versuchen gescheitert, der nächste Lauf holt das Programm erneut."
+          exit 1
