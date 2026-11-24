@@ -58,8 +58,8 @@
    "ics": {
     "2026-12-21T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201639"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:52+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:46+01:00"
   },
   "2001-a-space-odyssey": {
    "facts": {
@@ -147,6 +147,23 @@
    "tmdbAt": "2026-11-14T11:34:43+01:00",
    "tmdbId": 17691
   },
+  "50-jahre-kottan-ermittelt-hartlgasse-16a": {
+   "facts": {
+    "cast": "Peter Vogel, C.A. Tichy, Walter Davy, Irene Kargl",
+    "description": "Im Sommer 1976 lief der allererste Kottan-Film „Hartlgasse 16a“ im österreichischen Fernsehen. Diesem Jubiläum widmen die Breitenseer Lichtspiele, gemeinsam mit Helmuth M. Wolf („Wiener Drehorte“), einen besonderen Abend: Wir zeigen „Hartlgasse 16a“, die bis heute unübertroffene Milieustudie eines Zinshauses im Wien der 70er Jahre (Regie: Peter Patzak / Buch: Helmut Zenker) und im Anschluss daran, den Wiener Drehorte-Kurzfilm „Mord in der Hartlgasse / 50 Jahre danach“. Und weil Georg Danzer heuer 80 Jahre alt geworden wäre, wird seine Platte aufgelegt: 1975 erschien das legendäre Danzer-Album „Ollas leiwaund“, das den ersten beiden Kottan-Filmen den perfekten Soundtrack bot.",
+    "director": "Peter Patzak",
+    "language": "Deutsch",
+    "runtime": 94,
+    "title": "50 Jahre Kottan Ermittelt: Hartlgasse 16a",
+    "year": 1976
+   },
+   "factsAt": "2026-11-24T14:51:46+01:00",
+   "ics": {
+    "2026-12-02T19:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=202830"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:47+01:00"
+  },
   "50-oskar-und-otto": {
    "facts": {
     "cast": "Otto Waalkes, Elisabeth Wiedemann, Sky du Mont, Jessika Cardinahl, Gottfried John, Karl Lieffen, Karl Schönböck, Johannes Heesters",
@@ -178,8 +195,8 @@
    "ics": {
     "2026-12-18T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202131"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:27+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:47+01:00"
   },
   "a-chump-at-oxford": {
    "facts": {
@@ -203,7 +220,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:29+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -238,8 +255,8 @@
     "2026-12-26T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202104",
     "2027-01-03T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202103"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:30+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:48+01:00"
   },
   "a-goodnight-kiss-irena": {
    "facts": {
@@ -302,10 +319,10 @@
     "imdbRating": 6.4,
     "imdbVotes": 124052,
     "metascore": 75,
-    "rt": 75
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -347,7 +364,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -463,10 +480,10 @@
     "imdbRating": 7.8,
     "imdbVotes": 36850,
     "metascore": null,
-    "rt": 97
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:54+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -505,10 +522,10 @@
     "imdbRating": 6.9,
     "imdbVotes": 8178,
     "metascore": null,
-    "rt": 63
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:54+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:49+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -542,7 +559,7 @@
    "ics": {
     "2026-12-02T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201673"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "ZA"
@@ -621,7 +638,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -746,10 +763,10 @@
     "imdbRating": 7.6,
     "imdbVotes": 101233,
     "metascore": 89,
-    "rt": 90
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:54+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:49+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -791,8 +808,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:54+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:49+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -832,10 +849,10 @@
     "imdbRating": 8.4,
     "imdbVotes": 1079153,
     "metascore": 89,
-    "rt": 93
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:49+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -957,7 +974,7 @@
     "2026-11-27T18:00|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=199850",
     "2026-12-01T20:15|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=199841"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -1027,8 +1044,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:50+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -1150,10 +1167,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 9536,
     "metascore": 79,
-    "rt": 96
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:50+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NZ",
@@ -1189,8 +1206,8 @@
    "ics": {
     "2026-12-15T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202152"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:32+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:50+01:00"
   },
   "angry-spirits": {
    "facts": {
@@ -1227,10 +1244,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 15486,
     "metascore": 77,
-    "rt": 97
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:56+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:50+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -1314,7 +1331,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -1369,7 +1386,7 @@
     "2026-11-19T20:45|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198988",
     "2026-11-30T20:00|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=194966"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -1414,8 +1431,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:33:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -1457,8 +1474,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:33:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -1503,7 +1520,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "LV",
@@ -1623,8 +1640,8 @@
    "ics": {
     "2026-12-01T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198544"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:35+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:52+01:00"
   },
   "baaf-2026-auftragsarbeiten": {
    "facts": {
@@ -1640,8 +1657,8 @@
    "ics": {
     "2026-11-25T17:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200555"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:35+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:52+01:00"
   },
   "baaf-2026-wettbewerb-musikvideos": {
    "facts": {
@@ -1657,8 +1674,8 @@
    "ics": {
     "2026-11-26T21:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200642"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:36+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:52+01:00"
   },
   "baaf-2026-wettbewerb-studentische-arbeiten-1": {
    "facts": {
@@ -1674,8 +1691,8 @@
    "ics": {
     "2026-11-25T19:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200554"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:37+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:53+01:00"
   },
   "baaf-2026-wettbewerb-studentische-arbeiten-2": {
    "facts": {
@@ -1691,8 +1708,8 @@
    "ics": {
     "2026-11-26T15:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200587"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:37+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:53+01:00"
   },
   "baaf-2026-wettbewerb-unabhaengige-arbeiten-1": {
    "facts": {
@@ -1708,8 +1725,8 @@
    "ics": {
     "2026-11-25T21:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200588"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:38+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:54+01:00"
   },
   "baaf-2026-wettbewerb-unabhaengige-arbeiten-2": {
    "facts": {
@@ -1725,8 +1742,8 @@
    "ics": {
     "2026-11-26T17:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200640"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:38+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:54+01:00"
   },
   "baaf-2026-wettbewerb-unabhaengige-arbeiten-3": {
    "facts": {
@@ -1742,8 +1759,8 @@
    "ics": {
     "2026-11-26T19:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200641"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:39+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:55+01:00"
   },
   "baba-whats-your-plan": {
    "facts": {
@@ -1769,7 +1786,7 @@
     "2026-12-18T19:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202297",
     "2026-12-20T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202296"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -1828,8 +1845,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:56+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -1945,10 +1962,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 18808,
     "metascore": 91,
-    "rt": 88
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:56+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -1987,10 +2004,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 385189,
     "metascore": 79,
-    "rt": 100
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -2032,8 +2049,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:56+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2053,6 +2070,39 @@
    },
    "tmdbAt": "2026-11-10T20:48:57+01:00",
    "tmdbId": 1452168
+  },
+  "benis-noise": {
+   "facts": {
+    "cast": "",
+    "description": "Valérie Pelets poetischer Film erinnert an französische Kinoessays. Während ihre Mutter arbeitet sammelt die zehnjährige Béni Töne. Für Béni existiert Lärm nicht. Vogelgezwitscher, das Brummen der Hochspannungsleitung, das Vibrieren des Asphalts oder das Rollen der Perlen einer zerrissenen Halskette. Béni kann die Töne sehen. Die akustischen Impressionen, die den Film zu einem Großteil tragen laden dazu ein, wie Béni die Augen zu schließen und sich das Gezeigte vorzustellen. Auch in den eigenen Körper hört das Mädchen konzentriert hinein: „Ich höre mein Herz schlagen.“ Doch das ist ein Klang, den nur Béni zu vernehmen mag. Ein Film über das Suchen und Finden des Zufälligen – im Kino und im Alltag.",
+    "director": "Valérie Pelet",
+    "language": "Französisch",
+    "runtime": 44,
+    "title": "Beni’s Noise",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:51:56+01:00",
+   "ics": {
+    "2026-11-26T17:00|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202505"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "AT",
+     "FR"
+    ],
+    "genres": [],
+    "imdbId": "",
+    "origin": "at",
+    "originalTitle": "Béni's Noise",
+    "overview": "",
+    "poster": "/ocj8n9vr7seaA57i0g3vjOIjNrW.jpg",
+    "runtime": 44,
+    "trailer": "",
+    "year": 2026
+   },
+   "tmdbAt": "2026-11-24T14:51:57+01:00",
+   "tmdbId": 1655410
   },
   "berlinguer-la-grande-ambizione": {
    "facts": {
@@ -2190,8 +2240,8 @@
    "ics": {
     "2026-12-01T17:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198657"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:40+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:57+01:00"
   },
   "biermann": {
    "facts": {
@@ -2221,8 +2271,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:57+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -2333,8 +2383,8 @@
     "2026-12-06T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202259",
     "2026-12-20T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202260"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:42+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:58+01:00"
   },
   "bloede-muetze": {
    "facts": {
@@ -2351,8 +2401,8 @@
     "2026-11-28T16:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198524",
     "2026-11-29T16:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198523"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:42+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:51:58+01:00"
   },
   "blonde-venus": {
    "facts": {
@@ -2376,7 +2426,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:44+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2460,7 +2510,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:45+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -2585,10 +2635,10 @@
     "imdbRating": 7.9,
     "imdbVotes": 655613,
     "metascore": 49,
-    "rt": 60
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:58+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2627,10 +2677,10 @@
     "imdbRating": 5.0,
     "imdbVotes": 277647,
     "metascore": 45,
-    "rt": 25
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:57+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2670,10 +2720,10 @@
     "imdbRating": 5.6,
     "imdbVotes": 286578,
     "metascore": 52,
-    "rt": 49
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -2714,10 +2764,10 @@
     "imdbRating": 6.9,
     "imdbVotes": 30010,
     "metascore": 81,
-    "rt": 83
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -2759,8 +2809,8 @@
     "metascore": null,
     "rt": 88
    },
-   "omdbAt": "2026-11-21T20:22:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -2849,8 +2899,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:51:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -2909,7 +2959,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IT"
@@ -3078,7 +3128,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:46+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -3122,8 +3172,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:00+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR",
@@ -3161,6 +3211,66 @@
    },
    "seenAt": "2026-11-20T21:27:53+01:00",
    "tmdbAt": "2026-11-19T21:43:16+01:00"
+  },
+  "carol": {
+   "facts": {
+    "cast": "Cate Blanchett, Rooney Mara, Sarah Paulson, Jake Lacy, Kyle Chandler",
+    "description": "Weihnachten 1952, Manhattan, New York: Eine Dame geht einkaufen. Die Verkäuferin kann den Blick nicht von ihr wenden. Die Dame nicht aufhören, ihn zu erwidern. Schon ist es um Carol und Therese geschehen und die Schwierigkeiten lassen nicht lange auf sich warten. Denn Carol hat eine Tochter, die der Mann, von dem sich scheiden zu lassen sie im Begriff steht, als Druckmittel einsetzt. Und Therese ist jung und es ist ihre erste Liebe und sie steht den Turbulenzen, die mit dieser einhergehen, etwas ratlos gegenüber. Mitunter wirkt Cate Blanchetts Carol wie eine elegante Raubkatze und Rooney Maras Therese wie das Kaninchen vor der Schlange und beides ist gleichermaßen faszinierend anzusehen; mitunter auch drohen die Kader vor der Intensität der Gefühle zu kapitulieren und schier zu bersten. Ob die lesbische Liebe, die sich hier mit solcher Dringlichkeit darstellt und mit solcher Selbstverständlichkeit ihr Recht fordert, den Druck des heteronormativen Patriarchats wohl überlebt? Nicht, wenn es nach den narrativen Klischees des Mainstreamkinos geht, die auf den homosexuellen Lebensentwurf meist nur mit einem tragischen Schicksal antworten. Zum Glück hat sich mit Haynes ein Filmemacher des Stoffs angenommen - CAROL ist die Adaption des 1952 unter Pseudonym erschienenen, autobiografisch inspirierten Romans „The Price of Salt“ von Patricia Highsmith -, der dergleichen erzählerische Konventionen ebenso kunstvoll wie subversiv ad absurdum zu führen versteht. Also dichtet er den Heldinnen keine Zerknirschung an, lässt es vielmehr knirschen an den Hebeln der Macht; CAROL ist kein Film-mit-Auftrag, keine Predigt, keine Ermahnung. Es ist was es ist … sagt die Liebe. Dass der mit Preisen förmlich überschüttete Film von den alten weißen Männern der Academy weder in der Kategorie Bester Film noch Beste Regie für einen Oscar nominiert wurde, sorgte seinerzeit für Skandal. Zumal vermutet wird, dass weniger die gleichgeschlechtliche Liebe der Grund dafür war, als vielmehr der Umstand, dass die Männer lediglich Nebenrollen spielen. (Text: Alexandra Seitz)",
+    "director": "Todd Haynes",
+    "language": "Englisch",
+    "runtime": 119,
+    "title": "Carol",
+    "year": 2015
+   },
+   "factsAt": "2026-11-24T14:52:00+01:00",
+   "ics": {
+    "2026-11-28T15:30|Gartenbaukino": "https://nonstopkino.at/feed/calendar/?id=202824"
+   },
+   "omdb": {
+    "imdbRating": 7.3,
+    "imdbVotes": 155238,
+    "metascore": 94,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:52:01+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "US",
+     "GB"
+    ],
+    "genres": [
+     "Liebesfilm",
+     "Drama"
+    ],
+    "imdbId": "tt2402927",
+    "origin": "us",
+    "originalTitle": "Carol",
+    "overview": "Therese träumt von einem Job als Setdesignerin beim Theater, doch stattdessen ist sie mit Richard zusammen, den sie eigentlich gar nicht liebt. So schlägt sie sich durchs New York der 1950er Jahre und versucht, sich mit einem Job in einem Kaufhaus über Wasser zu halten. Eines Tages trifft sie Carol, die Therese sogleich ihre Adresse gibt, damit ihre Einkäufe dorthin geliefert werden können. Aus einem Impuls heraus schickt Therese Carol eine Karte zu Weihnachten, auf die sie wider Erwarten eine Antwort erhält. Verbunden durch das Gefühl der Einsamkeit, beginnen die beiden Frauen immer mehr Zeit miteinander zu verbringen. Dabei entwickelt Therese starke Gefühle für Carol – sehr zum Missfallen von Carols Mann Harge. Dieser droht, seiner Frau das Sorgerecht für die gemeinsame Tochter zu entziehen. Alles, was er dazu braucht, sind handfeste Beweise für die geheime Liebschaft der Frauen. Harge zieht alle Register und engagiert einen Privatdetektiv, den er auf Therese und Carol ansetzt.",
+    "poster": "/cJeled7EyPdur6TnCA5GYg0UVna.jpg",
+    "runtime": 118,
+    "trailer": "https://www.youtube.com/watch?v=CIQ9zx2GquM",
+    "year": 2015
+   },
+   "tmdbAt": "2026-11-24T14:52:01+01:00",
+   "tmdbId": 258480
+  },
+  "carol-of-the-bells-shchedryk": {
+   "facts": {
+    "cast": "Miroslaw Haniszewski, Alla Bineeva, Volodymyr Kravchuk, Joanna Opozda",
+    "description": "In der westukrainischen Stadt ehemals bekannt als Stanislaviv leben ukrainische, polnische und jüdische Familien friedlich Tür an Tür. Ihre Kinder wachsen gemeinsam auf, ihre Eltern teilen musikalische Abende und die Freude an gemeinsamen Weihnachtstraditionen. Doch mit der sowjetischen Besatzung 1939 und dem Einmarsch der Nationalsozialisten zerbricht diese Welt. Verfolgung, Deportation und Gewalt reißen die Familien auseinander. Die ukrainische Gesangslehrerin Sofia versucht, die bedrohten Kinder der Nachbarschaft zu retten und ihnen ein Zuhause zu geben. Doch auch nach dem Ende der NS-Herrschaft bringt die Rückkehr der sowjetischen Macht neues Leid. Die ukrainische Regisseurin Olesia Morhunets-Isaienko erzählt in diesem bewegenden Historiendrama von Freundschaft, Menschlichkeit und dem Überleben in Zeiten zweier totalitärer Regime. Im Zentrum steht das ukrainische Weihnachtslied „Shchedryk“, das als „Carol of the Bells“ weltberühmt wurde. Seine Melodie verbindet die Schicksale der Kinder über Krieg, Verlust und politische Grenzen hinweg. Ein eindringlicher Film über die zerstörerische Kraft von Hass und Unterdrückung und über die Hoffnung, dass Musik und Zusammenhalt selbst in dunkelsten Zeiten weiterleben.",
+    "director": "Olesia Morhunets-Isaienko",
+    "language": "",
+    "runtime": 122,
+    "title": "Carol of the Bells (Shchedryk)",
+    "year": 2022
+   },
+   "factsAt": "2026-11-24T14:52:01+01:00",
+   "ics": {
+    "2026-12-03T19:45|URANIA CEE🧡NEMA": "https://nonstopkino.at/feed/calendar/?id=202716"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:02+01:00"
   },
   "cartografia-del-tropico-terco-viaje-de-iniciacion-un-bananero-en-su-laberinto": {
    "facts": {
@@ -3201,7 +3311,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:48+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3244,7 +3354,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:49+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -3344,10 +3454,10 @@
     "imdbRating": 7.8,
     "imdbVotes": 247477,
     "metascore": 67,
-    "rt": 84
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:02+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3409,8 +3519,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -3469,8 +3579,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "CZ",
@@ -3510,10 +3620,10 @@
     "imdbRating": 7.9,
     "imdbVotes": 114344,
     "metascore": 78,
-    "rt": 89
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:22:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "HK"
@@ -3553,10 +3663,10 @@
     "imdbRating": 8.5,
     "imdbVotes": 218620,
     "metascore": 99,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3596,10 +3706,10 @@
     "imdbRating": 7.0,
     "imdbVotes": 8480,
     "metascore": 65,
-    "rt": 61
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:04+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3635,8 +3745,8 @@
     "2026-11-24T20:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=182018",
     "2026-12-30T20:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=200148"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:50+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:04+01:00"
   },
   "cloak-and-dagger": {
    "facts": {
@@ -3704,7 +3814,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:51+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -3747,8 +3857,8 @@
     "metascore": 84,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:04+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -3783,8 +3893,8 @@
    "ics": {
     "2026-12-17T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202134"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:52+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:05+01:00"
   },
   "coffee-and-cigarettes": {
    "facts": {
@@ -3851,7 +3961,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4083,10 +4193,10 @@
     "imdbRating": 8.0,
     "imdbVotes": 77116,
     "metascore": null,
-    "rt": 96
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4170,10 +4280,10 @@
     "imdbRating": 6.6,
     "imdbVotes": 3300,
     "metascore": null,
-    "rt": 88
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -4213,7 +4323,7 @@
     "2026-11-30T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198521",
     "2026-12-02T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198520"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4251,8 +4361,8 @@
     "metascore": null,
     "rt": 0
    },
-   "omdbAt": "2026-11-22T12:34:03+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4339,10 +4449,10 @@
     "imdbRating": 8.2,
     "imdbVotes": 523168,
     "metascore": 82,
-    "rt": 88
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:06+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -4385,8 +4495,8 @@
     "metascore": null,
     "rt": 80
    },
-   "omdbAt": "2026-11-21T20:23:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:06+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR",
@@ -4483,8 +4593,8 @@
     "2026-12-27T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202257",
     "2027-01-01T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202256"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:53+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:06+01:00"
   },
   "der-dieb-von-bagdad": {
    "facts": {
@@ -4554,7 +4664,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -4621,8 +4731,8 @@
     "2026-11-28T15:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199142",
     "2026-11-29T15:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199139"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:56+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:07+01:00"
   },
   "der-leichenverbrenner-spalovac-mrtvol": {
    "facts": {
@@ -4874,8 +4984,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:07+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -4915,8 +5025,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:07+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -4952,8 +5062,8 @@
     "2026-12-22T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202116",
     "2027-01-05T20:15|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202115"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:57+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:08+01:00"
   },
   "der-tiger-von-eschnapur": {
    "facts": {
@@ -4969,8 +5079,8 @@
    "ics": {
     "2026-12-02T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198399"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:58:58+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:08+01:00"
   },
   "der-unsichtbare-dritte-north-by-northwest": {
    "facts": {
@@ -4996,7 +5106,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:58:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5077,10 +5187,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 473551,
     "metascore": 92,
-    "rt": 98
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:05+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:08+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5166,7 +5276,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5209,10 +5319,10 @@
     "imdbRating": 6.2,
     "imdbVotes": 29564,
     "metascore": 71,
-    "rt": 86
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:09+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5298,7 +5408,7 @@
     "rt": 96
    },
    "omdbAt": "2026-11-23T13:59:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5340,7 +5450,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:02+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -5376,8 +5486,8 @@
    "ics": {
     "2026-11-29T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198551"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:03+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:09+01:00"
   },
   "die-727-tage-ohne-karamo": {
    "facts": {
@@ -5428,12 +5538,12 @@
     "title": "Die Al Cook Gala",
     "year": 2026
    },
-   "factsAt": "2026-11-10T12:20:00+01:00",
+   "factsAt": "2026-11-24T14:52:09+01:00",
    "ics": {
     "2026-11-29T18:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199136"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:03+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:10+01:00"
   },
   "die-blutgraefin": {
    "facts": {
@@ -5531,8 +5641,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:03+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:10+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -5571,8 +5681,8 @@
    "ics": {
     "2026-11-30T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198519"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:04+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:11+01:00"
   },
   "die-ente-klingelt-um-%c2%bd8": {
    "facts": {
@@ -5589,8 +5699,8 @@
     "2026-12-08T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202229",
     "2026-12-15T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202228"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:05+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:11+01:00"
   },
   "die-frau-nach-der-man-sich-sehnt": {
    "facts": {
@@ -5613,7 +5723,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -5713,8 +5823,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:06+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:11+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "BE",
@@ -5756,8 +5866,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:03+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:12+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -5818,6 +5928,51 @@
    "tmdbAt": "2026-11-14T11:34:53+01:00",
    "tmdbId": 1604702
   },
+  "die-schlacht-an-der-neretva-bitka-na-neretvi": {
+   "facts": {
+    "cast": "Sergei Bondarchuk, Yul Brynner, Curd Jürgens, Velimir 'Bata' Živojinović",
+    "description": "Ein episches Meisterwerk des europäischen Nachkriegskinos – Spannend, bildgewaltig und filmhistorisch bedeutend. Jugoslawien, Anfang 1943: Im Tal des Flusses Neretva kommt es zu einer der entscheidendsten Wendepunkte des Zweiten Weltkriegs auf dem Balkan. Die jugoslawischen Partisanen sehen sich einer erdrückenden Übermacht aus deutschen, italienischen und kollaborierenden Truppen gegenüber. Eingeschlossen in den steilen Schluchten der Neretva und belastet durch Tausende verwundete Zivilisten, bleibt den Freischärlern nur ein scheinbar unmöglicher Ausweg: Ein hochriskantes Finte-Manöver, bei dem die einzige strategische Brücke über den Reißfluss gesprengt wird, um den Vormarsch des Feindes zu täuschen. Regisseur Veljko Bulajić schuf mit „Die Schlacht an der Neretva“ den aufwendigsten und teuersten Film der jugoslawischen Kinogeschichte. Mit einem internationalen Ensemble der Weltsportsklasse – darunter Yul Brynner als Sprengmeister, Orson Welles, Curd Jürgens und Hardy Krüger – verbindet das Epos packende Actionszenen mit menschlichen Dramen vor spektakulärer Naturkulisse. Der Film wurde 1970 für den Oscar als Bester fremdsprachiger Film nominiert. Ein besonderes filmhistorisches Detail: Kein Geringerer als Pablo Picasso gestaltete das englischsprachige Plakat für die internationale Veröffentlichung – als Bezahlung verlangte der Künstler lediglich kistenweise jugoslawischen Spitzenwein.",
+    "director": "Veljko Bulajić",
+    "language": "",
+    "runtime": 140,
+    "title": "Die Schlacht an der Neretva (Bitka na Neretvi)",
+    "year": 1969
+   },
+   "factsAt": "2026-11-24T14:52:12+01:00",
+   "ics": {
+    "2026-11-27T18:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=202835"
+   },
+   "omdb": {
+    "imdbRating": 7.0,
+    "imdbVotes": 4507,
+    "metascore": null,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:52:13+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "YU",
+     "DE",
+     "IT",
+     "US"
+    ],
+    "genres": [
+     "Drama",
+     "Kriegsfilm"
+    ],
+    "imdbId": "tt0064091",
+    "origin": "intl",
+    "originalTitle": "Bitka na Neretvi",
+    "overview": "Im Jahre 1943 wird das enge Tal an der Neretva in Jugoslawien zum Schauplatz einer der schlimmsten Schlachten des Zweiten Weltkrieges. Josip Broz Tito erzwang an diesem Ort mit seiner Partisanenarmee den Ausbruch aus dem Kessel, den die deutsche Armee, das italienische Heer und die königsergebenen Tschetniks sowie die faschistischen Ustaschi formiert haben. Nun muss sich der Anführer der Partisanen einer schweren Entscheidung stellen und schauen ob er sich dem militärischen Denken oder dem menschlichen Fühlen hingeben soll.",
+    "poster": "/2Jtz0k2VWqlgWNFOI9QsRMZ1obf.jpg",
+    "runtime": 145,
+    "trailer": "https://www.youtube.com/watch?v=cLJeOgkSQ7c",
+    "year": 1969
+   },
+   "tmdbAt": "2026-11-24T14:52:13+01:00",
+   "tmdbId": 34449
+  },
   "die-tribute-von-panem-the-ballad-of-songbirds-snakes": {
    "facts": {
     "cast": "Tom Blyth, Rachel Zegler, Hunter Schafer, Jason Schwartzman, Peter Dinklage.",
@@ -5875,8 +6030,8 @@
    "ics": {
     "2026-12-13T16:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202177"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:08+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:14+01:00"
   },
   "die-unendliche-geschichte": {
    "facts": {
@@ -5898,10 +6053,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 172959,
     "metascore": 49,
-    "rt": 84
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:03+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:14+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -5941,10 +6096,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 11128,
     "metascore": null,
-    "rt": 82
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:04+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:14+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -5980,8 +6135,8 @@
    "ics": {
     "2026-12-29T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179736"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:08+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:14+01:00"
   },
   "die-wolle-der-mensch-das-schaf": {
    "facts": {
@@ -6086,8 +6241,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:04+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:15+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6135,9 +6290,8 @@
     "title": "Dip huet seung hung (The Killer)",
     "year": 1989
    },
-   "factsAt": "2026-11-10T12:20:01+01:00",
+   "factsAt": "2026-11-24T14:52:15+01:00",
    "ics": {
-    "2026-11-22T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198054",
     "2026-11-26T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198053",
     "2026-12-03T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198052"
    },
@@ -6145,10 +6299,10 @@
     "imdbRating": 7.7,
     "imdbVotes": 56323,
     "metascore": 82,
-    "rt": 96
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:04+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "HK"
@@ -6168,7 +6322,7 @@
     "trailer": "https://www.youtube.com/watch?v=nWialc0CxMI",
     "year": 1989
    },
-   "tmdbAt": "2026-11-10T12:20:02+01:00",
+   "tmdbAt": "2026-11-24T14:52:16+01:00",
    "tmdbId": 10835
   },
   "dishonored": {
@@ -6186,8 +6340,8 @@
     "2026-12-16T17:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202146",
     "2026-12-23T20:15|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202145"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:09+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:16+01:00"
   },
   "dracula": {
    "facts": {
@@ -6271,10 +6425,10 @@
     "imdbRating": 7.7,
     "imdbVotes": 64524,
     "metascore": 93,
-    "rt": 91
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:04+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6317,7 +6471,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:11+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6378,8 +6532,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:05+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6419,10 +6573,10 @@
     "imdbRating": 7.9,
     "imdbVotes": 477704,
     "metascore": 92,
-    "rt": 99
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:05+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6547,10 +6701,10 @@
     "imdbRating": 7.8,
     "imdbVotes": 571501,
     "metascore": 74,
-    "rt": 92
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6586,8 +6740,8 @@
    "ics": {
     "2026-12-10T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202205"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:12+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:18+01:00"
   },
   "eighty-plus-restitucija-ili-san-i-java-stare-garde": {
    "facts": {
@@ -6611,7 +6765,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:12+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "RS",
@@ -6674,7 +6828,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:54+01:00",
-   "seenAt": "2026-11-22T20:46:01+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IS",
@@ -6748,8 +6902,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:05+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -6797,8 +6951,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:05+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -6834,8 +6988,8 @@
    "ics": {
     "2026-11-18T17:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=199123"
    },
-   "seenAt": "2026-11-22T20:46:01+01:00",
-   "tmdbAt": "2026-11-22T20:45:54+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:19+01:00"
   },
   "eine-hochzeit": {
    "facts": {
@@ -6859,7 +7013,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:14+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -6956,10 +7110,10 @@
     "imdbRating": 7.2,
     "imdbVotes": 7847,
     "metascore": null,
-    "rt": 67
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:06+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:19+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7004,7 +7158,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:15+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7105,10 +7259,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 6481,
     "metascore": 95,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:19+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "RO",
@@ -7131,6 +7285,23 @@
    },
    "tmdbAt": "2026-11-10T20:49:11+01:00",
    "tmdbId": 937085
+  },
+  "etched-in-memory": {
+   "facts": {
+    "cast": "",
+    "description": "Etched in Memory follows Crimean Tatar activists Zarema and Eskender Bariiev, who are raising their three children in war-torn Kyiv under constant rocket attacks while fighting for the liberation of their homeland, Crimea, occupied by Russia. Amid air raids, they campaign for the release of political prisoners and support members of their community whose lives have been marked by loss, displacement and the struggle for justice. Through intimate glimpses into family life, personal interviews and historical archive footage, the film connects the ongoing war with the long history of the Crimean Tatars. A moving portrait of a threatened community and its fight for survival, self-determination and the right to return to its homeland.",
+    "director": "Christina Paschyn",
+    "language": "",
+    "runtime": 94,
+    "title": "Etched in Memory",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:52:19+01:00",
+   "ics": {
+    "2026-11-26T18:30|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202504"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:20+01:00"
   },
   "eternal-sunshine-of-the-spotless-mind": {
    "facts": {
@@ -7193,10 +7364,10 @@
     "imdbRating": 6.9,
     "imdbVotes": 69185,
     "metascore": 58,
-    "rt": 76
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:09+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:20+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7304,6 +7475,23 @@
    "tmdbAt": "2026-11-09T23:26:54+01:00",
    "tmdbId": 1255582
   },
+  "everest-die-andere-seite": {
+   "facts": {
+    "cast": "",
+    "description": "Wir freuen uns auf den neuen Film von Jimmy Chin, der in großen Bildern an die Nordseite des Everest führt. Jim Morrison und Hilaree Nelson gehören zur Weltelite des Skibergsteigens. Gemeinsam träumen sie davon, die direkte Nordwand des Everest zu durchsteigen und auf Ski abzufahren – eine der schwierigsten Linien im Himalaya. Doch 2022 stirbt Nelson bei der Abfahrt vom Manaslu. Aus dem Film über ein spektakuläres Abenteuer wird eine persönliche Geschichte über Liebe, Verlust und die Frage, wie man nach einem Schicksalsschlag weiterlebt. Drei Jahre später kehrt Morrison an den Everest zurück. Am 15. Oktober 2025 gelingt ihm, was zuvor niemand geschafft hat: Er steigt über die „Everest Super Direct“ zum Gipfel und fährt anschließend durch das legendäre Hornbein-Couloir ab – rund 2.700 Höhenmeter, bis zu 50 Grad steil. Jimmy Chin ist mit der Kamera hautnah dabei. Die Oscar-prämierten Macher von „Free Solo“ verbinden spektakuläre Bilder mit dem intimen Porträt zweier Menschen, deren gemeinsamer Traum über den Tod hinausreicht.",
+    "director": "Elizabeth Chai Vasarhelyi, Jimmy Chin",
+    "language": "Englisch",
+    "runtime": 115,
+    "title": "Everest – Die andere Seite",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:52:21+01:00",
+   "ics": {
+    "2027-01-06T15:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=201871"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:21+01:00"
+  },
   "everyones-child": {
    "facts": {
     "cast": "Nomsa Mlambo, Thulani Sandhla, Walter Maparutsa, Elijah Madzikatire, Killness Nyati",
@@ -7380,8 +7568,8 @@
     "metascore": 82,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:06+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:22+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -7424,7 +7612,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7467,10 +7655,10 @@
     "imdbRating": 7.2,
     "imdbVotes": 3025,
     "metascore": null,
-    "rt": 83
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:06+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:22+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "HU",
@@ -7516,7 +7704,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:18+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -7564,7 +7752,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7601,8 +7789,8 @@
    "ics": {
     "2026-11-24T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198426"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:21+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:22+01:00"
   },
   "female-trouble": {
    "facts": {
@@ -7622,10 +7810,10 @@
     "imdbRating": 7.1,
     "imdbVotes": 10935,
     "metascore": null,
-    "rt": 90
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:23+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7766,10 +7954,10 @@
     "imdbRating": 6.5,
     "imdbVotes": 67154,
     "metascore": 58,
-    "rt": 83
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:23+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7830,10 +8018,10 @@
     "imdbRating": 7.2,
     "imdbVotes": 8649,
     "metascore": 89,
-    "rt": 100
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:23+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -7872,10 +8060,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 103641,
     "metascore": 82,
-    "rt": 92
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:08+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:23+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -7982,8 +8170,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:08+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:24+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -8051,8 +8239,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:08+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:24+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -8102,8 +8290,8 @@
     "metascore": 70,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:08+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:24+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -8190,8 +8378,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:24+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -8226,8 +8414,8 @@
     "2026-11-25T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198529",
     "2026-12-03T19:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198528"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:22+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:25+01:00"
   },
   "gianni-e-le-donne": {
    "facts": {
@@ -8250,7 +8438,7 @@
     "rt": 84
    },
    "omdbAt": "2026-11-22T20:45:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IT"
@@ -8293,7 +8481,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:55+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -8331,10 +8519,10 @@
     "imdbRating": 6.5,
     "imdbVotes": 213944,
     "metascore": 48,
-    "rt": 44
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:09+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:25+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -8375,10 +8563,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 124164,
     "metascore": 72,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:09+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:25+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -8424,8 +8612,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:09+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:25+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -8467,8 +8655,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:26+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "SI"
@@ -8507,10 +8695,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 278165,
     "metascore": 70,
-    "rt": 86
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:09+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:26+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8671,7 +8859,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:23+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -8708,8 +8896,8 @@
     "2026-11-25T20:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198061",
     "2026-11-29T21:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198062"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:24+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:27+01:00"
   },
   "halbe-welt": {
    "facts": {
@@ -8731,8 +8919,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:27+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -8840,7 +9028,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "HK"
@@ -8883,7 +9071,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -8952,58 +9140,62 @@
     "director": "Volker Schlöndorff",
     "language": "Deutsch",
     "runtime": 118,
-    "title": "Heimsuchung – Eine Jahrhundergeschichte",
+    "title": "Heimsuchung",
     "year": 2026
    },
-   "factsAt": "2026-11-10T12:20:05+01:00",
+   "factsAt": "2026-11-24T14:52:27+01:00",
    "ics": {
-    "2026-11-13T18:00|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196687",
-    "2026-11-13T18:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195072",
-    "2026-11-13T18:30|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198932",
-    "2026-11-13T20:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199202",
-    "2026-11-13T20:00|Leokino": "https://nonstopkino.at/feed/calendar/?id=198927",
-    "2026-11-13T20:20|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199243",
-    "2026-11-14T15:20|Leokino": "https://nonstopkino.at/feed/calendar/?id=198928",
-    "2026-11-14T17:45|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199201",
-    "2026-11-14T17:45|Leokino": "https://nonstopkino.at/feed/calendar/?id=198925",
-    "2026-11-14T18:45|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196684",
-    "2026-11-14T19:15|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198929",
-    "2026-11-14T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195070",
-    "2026-11-14T20:20|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199242",
-    "2026-11-15T12:45|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195128",
-    "2026-11-15T16:00|Leokino": "https://nonstopkino.at/feed/calendar/?id=198931",
-    "2026-11-15T17:20|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195069",
-    "2026-11-15T17:55|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199241",
-    "2026-11-15T18:30|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198926",
-    "2026-11-15T20:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199200",
-    "2026-11-15T20:00|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198924",
-    "2026-11-15T20:30|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196680",
-    "2026-11-16T18:15|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198930",
-    "2026-11-16T19:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199199",
-    "2026-11-16T19:55|Leokino": "https://nonstopkino.at/feed/calendar/?id=198923",
-    "2026-11-16T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195068",
-    "2026-11-16T20:15|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196678",
-    "2026-11-16T20:20|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199240",
-    "2026-11-17T16:35|Leokino": "https://nonstopkino.at/feed/calendar/?id=198921",
-    "2026-11-17T17:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199198",
-    "2026-11-17T18:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195071",
-    "2026-11-17T20:20|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199239",
-    "2026-11-18T15:30|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195067",
-    "2026-11-18T17:30|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199238",
-    "2026-11-18T19:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199197",
-    "2026-11-18T20:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198920",
-    "2026-11-19T15:40|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195066",
-    "2026-11-19T17:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=199196",
-    "2026-11-19T17:30|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199237",
-    "2026-11-19T18:00|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196673",
-    "2026-11-19T18:30|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=198922",
-    "2026-11-19T20:30|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198919",
-    "2026-11-20T16:15|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196671",
-    "2026-11-21T15:45|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196668",
-    "2026-11-22T13:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=195127",
-    "2026-11-22T15:45|Filmstudio Villach": "https://nonstopkino.at/feed/calendar/?id=196665",
-    "2026-11-22T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195065",
-    "2026-11-23T18:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195064"
+    "2026-11-24T16:00|CineCenter": "https://nonstopkino.at/feed/calendar/?id=201044",
+    "2026-11-24T16:00|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=200617",
+    "2026-11-24T16:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=200308",
+    "2026-11-24T17:45|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=201233",
+    "2026-11-24T17:45|Leokino": "https://nonstopkino.at/feed/calendar/?id=200806",
+    "2026-11-24T18:15|De France": "https://nonstopkino.at/feed/calendar/?id=201143",
+    "2026-11-24T19:30|Schubert Kino": "https://nonstopkino.at/feed/calendar/?id=201302",
+    "2026-11-24T19:45|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=200973",
+    "2026-11-24T20:00|Geidorf Kunstkino": "https://nonstopkino.at/feed/calendar/?id=201537",
+    "2026-11-24T20:00|Moviemento": "https://nonstopkino.at/feed/calendar/?id=201337",
+    "2026-11-24T20:15|KINOLA": "https://nonstopkino.at/feed/calendar/?id=200918",
+    "2026-11-24T20:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201207",
+    "2026-11-25T16:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=200301",
+    "2026-11-25T16:35|Leokino": "https://nonstopkino.at/feed/calendar/?id=200802",
+    "2026-11-25T17:00|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=201235",
+    "2026-11-25T17:00|Geidorf Kunstkino": "https://nonstopkino.at/feed/calendar/?id=201536",
+    "2026-11-25T17:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=200972",
+    "2026-11-25T17:30|CineCenter": "https://nonstopkino.at/feed/calendar/?id=201043",
+    "2026-11-25T17:45|KINOLA": "https://nonstopkino.at/feed/calendar/?id=200916",
+    "2026-11-25T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201206",
+    "2026-11-25T18:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=200414",
+    "2026-11-25T19:30|Schubert Kino": "https://nonstopkino.at/feed/calendar/?id=201304",
+    "2026-11-25T20:00|De France": "https://nonstopkino.at/feed/calendar/?id=201149",
+    "2026-11-26T07:15|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=200971",
+    "2026-11-26T15:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=200694",
+    "2026-11-26T15:15|CineCenter": "https://nonstopkino.at/feed/calendar/?id=201042",
+    "2026-11-26T15:15|Leokino": "https://nonstopkino.at/feed/calendar/?id=200800",
+    "2026-11-26T16:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201205",
+    "2026-11-26T16:40|Schubert Kino": "https://nonstopkino.at/feed/calendar/?id=201301",
+    "2026-11-26T17:15|Geidorf Kunstkino": "https://nonstopkino.at/feed/calendar/?id=201535",
+    "2026-11-26T17:30|Moviemento": "https://nonstopkino.at/feed/calendar/?id=201326",
+    "2026-11-26T17:45|DAS KINO": "https://nonstopkino.at/feed/calendar/?id=201237",
+    "2026-11-26T17:45|De France": "https://nonstopkino.at/feed/calendar/?id=201142",
+    "2026-11-27T15:30|Leokino": "https://nonstopkino.at/feed/calendar/?id=202502",
+    "2026-11-27T17:15|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=202851",
+    "2026-11-27T19:30|Stadtkino Bruck an der Mur": "https://nonstopkino.at/feed/calendar/?id=201252",
+    "2026-11-28T15:00|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=202624",
+    "2026-11-28T17:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=202850",
+    "2026-11-28T17:50|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=202403",
+    "2026-11-28T18:20|Leokino": "https://nonstopkino.at/feed/calendar/?id=202493",
+    "2026-11-29T12:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=194992",
+    "2026-11-29T15:00|Cinema Paradiso Baden": "https://nonstopkino.at/feed/calendar/?id=202417",
+    "2026-11-29T17:20|Leokino": "https://nonstopkino.at/feed/calendar/?id=202483",
+    "2026-11-30T17:30|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=202849",
+    "2026-11-30T18:15|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=202683",
+    "2026-12-01T16:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=202679",
+    "2026-12-01T17:15|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=202848",
+    "2026-12-01T17:30|Cinema Paradiso St. Pölten": "https://nonstopkino.at/feed/calendar/?id=202622",
+    "2026-12-02T16:00|Programmkino Wels": "https://nonstopkino.at/feed/calendar/?id=202674",
+    "2026-12-03T15:55|Leokino": "https://nonstopkino.at/feed/calendar/?id=202461",
+    "2026-12-03T17:00|Actors Studio": "https://nonstopkino.at/feed/calendar/?id=202847"
    },
    "omdb": {
     "imdbRating": 6.8,
@@ -9012,7 +9204,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:28+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -9126,8 +9318,8 @@
    "ics": {
     "2026-11-27T20:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198560"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:28+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:28+01:00"
   },
   "highway-to-hofburg": {
    "facts": {
@@ -9149,8 +9341,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:28+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -9226,8 +9418,8 @@
    "ics": {
     "2026-12-12T12:15|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=199908"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:29+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:29+01:00"
   },
   "hitlerjunge-quex": {
    "facts": {
@@ -9250,7 +9442,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:30+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -9419,10 +9611,10 @@
     "imdbRating": 5.9,
     "imdbVotes": 15833,
     "metascore": 57,
-    "rt": 47
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:29+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AU",
@@ -9521,10 +9713,10 @@
     "imdbRating": 7.5,
     "imdbVotes": 14288,
     "metascore": 83,
-    "rt": 97
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:29+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9555,9 +9747,10 @@
     "title": "Hotel",
     "year": 2004
    },
-   "factsAt": "2026-11-10T12:20:06+01:00",
+   "factsAt": "2026-11-24T14:52:30+01:00",
    "ics": {
-    "2027-01-09T21:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=196725"
+    "2027-01-09T21:15|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=196725",
+    "2027-01-15T22:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=198514"
    },
    "omdb": {
     "imdbRating": 5.6,
@@ -9565,8 +9758,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:11+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:31+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -9586,7 +9779,7 @@
     "trailer": "https://www.youtube.com/watch?v=ddy2-NpYxIU",
     "year": 2004
    },
-   "tmdbAt": "2026-11-10T12:20:07+01:00",
+   "tmdbAt": "2026-11-24T14:52:30+01:00",
    "tmdbId": 52251
   },
   "house-by-the-river": {
@@ -9646,8 +9839,8 @@
    "ics": {
     "2026-11-27T20:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198525"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:31+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:31+01:00"
   },
   "human-desire": {
    "facts": {
@@ -9667,10 +9860,10 @@
     "imdbRating": 7.1,
     "imdbVotes": 7418,
     "metascore": null,
-    "rt": 60
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:11+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:31+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9691,6 +9884,48 @@
    },
    "tmdbAt": "2026-11-19T21:43:32+01:00",
    "tmdbId": 21564
+  },
+  "hungrig": {
+   "facts": {
+    "cast": "Irakli Loladze, Lewis Ziska, Jonathan Lynch, Kristen DeAngelis,",
+    "description": "Ein geheimnisvolles Wesen entdeckt in naher Zukunft eine Welt ohne Menschen und macht sich daran, die Ursache für das Verschwinden der Menschheit aufzuklären. Es folgt Spuren aus der Vergangenheit – Tonaufzeichnungen von Gesprächen mit renommierten Wissenschaftlern, aufgenommen vor dem Aussterben – und erschafft daraus seinen eigenen Dokumentarfilm: HUNGRIG. Was zunächst wie ein Umweltfilm anmutet, wird schnell zum „Krimi“ – zur Ermittlung, die verborgene Zusammenhänge ans Licht bringt. Experten erörtern die verhängnisvolle Entwicklung der Lebensmittelpolitik, den Rückgang der landwirtschaftlichen Vielfalt und die Macht der Konzernmonopole – bis das beklemmende Bild einer Zukunft entsteht, die zunehmend von wirtschaftlichen und politischen Mächten kontrolliert wird. Während das Wesen nach Verantwortlichen für das Aussterben sucht, zeigt der Film, was die Lebensmittelversorgung zerstörte, Arbeitsmärkte zerrüttete und zum Verfall der Demokratien geführt hat – bis eine finale Wendung alles Gezeigte in ein neues Licht rückt. Könnte die Menschheit doch noch gerettet werden?",
+    "director": "Susanne Brandstätter",
+    "language": "Englisch",
+    "runtime": 95,
+    "title": "Hungrig",
+    "year": 2024
+   },
+   "factsAt": "2026-11-24T14:52:32+01:00",
+   "ics": {
+    "2026-12-01T20:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=202833"
+   },
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:52:33+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "AT"
+    ],
+    "genres": [
+     "Dokumentarfilm",
+     "Science Fiction"
+    ],
+    "imdbId": "tt39398858",
+    "origin": "at",
+    "originalTitle": "Hungrig",
+    "overview": "Als ein mysteriöses Wesen eine Welt ohne Menschen entdeckt, macht es sich auf, das Geschehene zu ergründen. Auf der Suche nach Hinweisen erstellt es den Film „Hungry“ anhand von Interviews mit Wissenschaftlern, die vor dem Aussterben geführt wurden. Die Fakten scheinen zu beweisen, dass es keine Möglichkeit gab, die Menschheit oder die Welt zu retten. Oder etwa doch?",
+    "poster": "/AoqheFF9uke1b0GJXOvdyGDDyG0.jpg",
+    "runtime": 95,
+    "trailer": "https://www.youtube.com/watch?v=hehJDBp6K-o",
+    "year": 2026
+   },
+   "tmdbAt": "2026-11-24T14:52:32+01:00",
+   "tmdbId": 1600601
   },
   "hush-hush-sweet-charlotte": {
    "facts": {
@@ -9753,10 +9988,10 @@
     "imdbRating": 6.2,
     "imdbVotes": 3278,
     "metascore": 77,
-    "rt": 50
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:12+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:33+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -9777,6 +10012,50 @@
    "tmdbAt": "2026-11-14T11:35:02+01:00",
    "tmdbId": 4990
   },
+  "i-love-boosters": {
+   "facts": {
+    "cast": "Keke Palmer, Demi Moore, Naomi Ackie, Taylour Paige",
+    "description": "Corvette (Keke Palmer) und ihre Freundinnen Sade und Mariah verdienen ihren Lebensunterhalt als professionelle Ladendiebinnen. Als sogenannte „Boosters“ stehlen sie teure Designerkleidung aus Boutiquen und verkaufen die Beute zu günstigen Preisen weiter. Ihr nächstes Ziel: die Modeimperium-Besitzerin Christie Smith (Demi Moore), die nicht nur für ihre skrupellose Geschäftspolitik bekannt ist, sondern auch Corvettes eigene Designs gestohlen hat. Die drei Freundinnen planen einen spektakulären Coup, bei dem sie gleich das gesamte Sortiment der Modemogulin ins Visier nehmen. Doch was als Racheaktion beginnt, entwickelt sich bald zu einer turbulenten Rebellion, die weit über die Modewelt hinausreicht und eine globale Bewegung gegen Ausbeutung und kapitalistische Gier entfacht.",
+    "director": "Boots Riley",
+    "language": "Englisch",
+    "runtime": 113,
+    "title": "I Love Boosters",
+    "year": 2024
+   },
+   "factsAt": "2026-11-24T14:52:33+01:00",
+   "ics": {
+    "2026-11-27T18:15|Filmzentrum im Rechbauerkino": "https://nonstopkino.at/feed/calendar/?id=202397",
+    "2026-11-28T22:30|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=199024"
+   },
+   "omdb": {
+    "imdbRating": 6.6,
+    "imdbVotes": 9901,
+    "metascore": 70,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:52:34+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "US"
+    ],
+    "genres": [
+     "Komödie",
+     "Science Fiction",
+     "Krimi"
+    ],
+    "imdbId": "tt30827810",
+    "origin": "us",
+    "originalTitle": "I Love Boosters",
+    "overview": "Eine Gruppe von professionellen Ladendiebinnen – die sogenannte Velvet Gang unter der Führung von Corvette (Keke Palmer) – stiehlt Kleidung aus Boutiquen und Kaufhäusern. Als die skrupellose Modeikone Christie Smith (Demi Moore) eines von Corvettes Designs stiehlt, nimmt die Gang das gesamte Inventar der Modemogulin ins Visier. Damit lösen sie versehentlich eine weltweite Bewegung für Einzelhandels- und Fabrikarbeiter aus.",
+    "poster": "/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg",
+    "runtime": 113,
+    "trailer": "https://www.youtube.com/watch?v=I1xZegSgN8w",
+    "year": 2026
+   },
+   "tmdbAt": "2026-11-24T14:52:34+01:00",
+   "tmdbId": 1227877
+  },
   "i-play-rocky": {
    "facts": {
     "cast": "Anthony Ippolito, Matt Dillon, AnnaSophia Robb",
@@ -9794,8 +10073,8 @@
     "2026-11-17T20:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=200114",
     "2026-11-18T20:30|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=200103"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:31+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:35+01:00"
   },
   "ich-bin-sockiert-im-double-feature-mit-meeresrausch-oder-wie-ein-stern-zu-sein": {
    "facts": {
@@ -9817,8 +10096,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:35+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -9850,27 +10129,20 @@
     "title": "Identitti",
     "year": 2026
    },
-   "factsAt": "2026-11-10T12:20:08+01:00",
+   "factsAt": "2026-11-24T14:52:35+01:00",
    "ics": {
-    "2026-11-13T16:00|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195081",
-    "2026-11-13T18:15|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198950",
-    "2026-11-13T18:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199234",
-    "2026-11-13T20:15|Filmhaus": "https://nonstopkino.at/feed/calendar/?id=199173",
-    "2026-11-14T18:15|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195079",
-    "2026-11-14T20:40|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199233",
-    "2026-11-15T11:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199231",
-    "2026-11-15T15:25|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195078",
-    "2026-11-15T16:30|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199232",
-    "2026-11-15T17:50|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198944",
-    "2026-11-16T16:30|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195077",
-    "2026-11-16T18:15|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198942",
-    "2026-11-16T18:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199230",
-    "2026-11-17T18:15|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198939",
-    "2026-11-17T18:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199229",
-    "2026-11-17T20:10|Volkskino": "https://nonstopkino.at/feed/calendar/?id=195076",
-    "2026-11-18T18:40|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199227",
-    "2026-11-18T20:25|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=198935",
-    "2026-11-19T18:15|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=199228"
+    "2026-11-24T15:45|KIZ Royalkino": "https://nonstopkino.at/feed/calendar/?id=200418",
+    "2026-11-24T17:30|Top Kino": "https://nonstopkino.at/feed/calendar/?id=201839",
+    "2026-11-24T18:00|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=200831",
+    "2026-11-25T17:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=201838",
+    "2026-11-25T18:00|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=200828",
+    "2026-11-26T20:20|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=200825",
+    "2026-11-27T21:30|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202807",
+    "2026-12-01T15:50|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=202444",
+    "2026-12-01T19:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202793",
+    "2026-12-02T15:05|Cinematograph": "https://nonstopkino.at/feed/calendar/?id=202441",
+    "2026-12-02T21:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202789",
+    "2026-12-03T17:45|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202788"
    },
    "omdb": {
     "imdbRating": null,
@@ -9878,8 +10150,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:14+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:36+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -9897,7 +10169,7 @@
     "trailer": "https://www.youtube.com/watch?v=W_-9g2aWO74",
     "year": 2026
    },
-   "tmdbAt": "2026-11-10T12:20:09+01:00",
+   "tmdbAt": "2026-11-24T14:52:36+01:00",
    "tmdbId": 1466007
   },
   "il-pranzo-di-ferragosto": {
@@ -9914,8 +10186,8 @@
    "ics": {
     "2026-12-13T14:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=200940"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:56+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:36+01:00"
   },
   "in-der-ferne-liegt-das-glueck": {
    "facts": {
@@ -9931,8 +10203,8 @@
    "ics": {
     "2026-12-12T18:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=200937"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:56+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:37+01:00"
   },
   "ingeborg-bachmann-jemand-der-einmal-ich-war": {
    "facts": {
@@ -9960,8 +10232,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:37+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT",
@@ -10048,8 +10320,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:14+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:37+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AU",
@@ -10146,8 +10418,8 @@
     "2026-12-07T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202241",
     "2027-01-04T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202242"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:32+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:38+01:00"
   },
   "jaws": {
    "facts": {
@@ -10173,7 +10445,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -10218,7 +10490,7 @@
     "rt": 90
    },
    "omdbAt": "2026-11-23T13:59:35+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -10261,8 +10533,8 @@
     "metascore": 61,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:38+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -10304,8 +10576,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:38+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -10348,7 +10620,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:37+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -10387,10 +10659,10 @@
     "imdbRating": 6.7,
     "imdbVotes": 73065,
     "metascore": 58,
-    "rt": 60
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:38+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -10430,8 +10702,8 @@
    "ics": {
     "2026-12-09T17:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186623"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:38+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:39+01:00"
   },
   "ken-russells-the-devils-directors-cut": {
    "facts": {
@@ -10501,8 +10773,8 @@
     "metascore": 85,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:14+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:40+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -10617,8 +10889,8 @@
    "ics": {
     "2026-12-06T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=186624"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:38+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:40+01:00"
   },
   "kino-fuer-die-kleinsten-das-kann-ich-schon-allein": {
    "facts": {
@@ -10651,8 +10923,8 @@
    "ics": {
     "2026-11-28T11:00|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=183580"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:39+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:40+01:00"
   },
   "kino-fuer-die-kleinsten-oh-was-hast-du-denn-entdeckt": {
    "facts": {
@@ -10668,8 +10940,8 @@
    "ics": {
     "2026-12-13T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179466"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:39+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:41+01:00"
   },
   "kino-fuer-die-kleinsten-platz-fuer-alle": {
    "facts": {
@@ -10702,8 +10974,8 @@
    "ics": {
     "2026-12-13T14:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201624"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:57+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:41+01:00"
   },
   "kino-fuer-die-kleinsten-tierisch-was-los": {
    "facts": {
@@ -10736,8 +11008,8 @@
    "ics": {
     "2026-12-27T11:00|Stadtkino Wien": "https://nonstopkino.at/feed/calendar/?id=179464"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:40+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:42+01:00"
   },
   "kiss-me-deadly": {
    "facts": {
@@ -10757,10 +11029,10 @@
     "imdbRating": 7.5,
     "imdbVotes": 24017,
     "metascore": null,
-    "rt": 98
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:15+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:42+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -10804,7 +11076,7 @@
     "rt": 67
    },
    "omdbAt": "2026-11-23T13:59:41+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -10872,8 +11144,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:15+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:42+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -11003,7 +11275,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:43+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -11044,8 +11316,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:16+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:42+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -11097,8 +11369,8 @@
    "ics": {
     "2026-12-02T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201672"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:58+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:43+01:00"
   },
   "kurzfilmprogramm-from-ground-zero": {
    "facts": {
@@ -11114,8 +11386,8 @@
    "ics": {
     "2026-12-03T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201965"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:44+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:43+01:00"
   },
   "kurzfilmprogramm-kurdische-filmtage": {
    "facts": {
@@ -11180,8 +11452,8 @@
     "metascore": 86,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:43+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -11306,8 +11578,8 @@
     "metascore": 100,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:44+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -11342,8 +11614,8 @@
    "ics": {
     "2026-12-10T19:30|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=200942"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-22T20:45:58+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:44+01:00"
   },
   "la-pianiste": {
    "facts": {
@@ -11384,7 +11656,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:46+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -11470,7 +11742,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:47+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -11512,8 +11784,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:44+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -11609,10 +11881,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 39810,
     "metascore": null,
-    "rt": 92
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:44+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -11654,8 +11926,8 @@
     "2026-12-17T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202209",
     "2026-12-19T20:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202208"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:48+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:45+01:00"
   },
   "leica-ein-jahrhundert-in-bildern": {
    "facts": {
@@ -11674,7 +11946,7 @@
     "2026-12-16T16:20|Volkskino": "https://nonstopkino.at/feed/calendar/?id=200226",
     "2026-12-17T18:30|Volkskino": "https://nonstopkino.at/feed/calendar/?id=200225"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -11752,8 +12024,8 @@
    "ics": {
     "2026-12-10T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202216"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:49+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:45+01:00"
   },
   "liebhaberinnen": {
    "facts": {
@@ -11781,8 +12053,8 @@
     "2026-11-22T17:40|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199153",
     "2026-11-23T19:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199150"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:50+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:46+01:00"
   },
   "lieblingsmenschen": {
    "facts": {
@@ -11798,8 +12070,8 @@
    "ics": {
     "2026-12-12T12:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=199907"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:50+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:46+01:00"
   },
   "lincoln": {
    "facts": {
@@ -11823,7 +12095,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:52+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -11855,12 +12127,12 @@
     "title": "Listening with Anthropocene",
     "year": 2026
    },
-   "factsAt": "2026-11-10T12:20:10+01:00",
+   "factsAt": "2026-11-24T14:52:47+01:00",
    "ics": {
     "2026-11-25T19:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199147"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:52+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:47+01:00"
   },
   "little-women": {
    "facts": {
@@ -11880,10 +12152,10 @@
     "imdbRating": 7.7,
     "imdbVotes": 289485,
     "metascore": 91,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:19+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -11930,8 +12202,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:18+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -11978,10 +12250,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 5338,
     "metascore": null,
-    "rt": 100
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:18+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "ES",
@@ -12174,8 +12446,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:19+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:48+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NO",
@@ -12284,6 +12556,23 @@
    "tmdbAt": "2026-11-14T11:35:08+01:00",
    "tmdbId": 9653
   },
+  "magical-mystery-movie-ueberraschungsfilm": {
+   "facts": {
+    "cast": "???",
+    "description": "Filmnächte ohne Netz und doppelten Boden - die Überraschungsfilmreihe im Gartenbaukino. Zuerst die Magie. Gibt es Worte die besser harmonieren als Kino und Magie? Beziehungsweise, sind diese beiden nicht untrennbar? Die Magie die da von der Leinwand auf uns überspringt, lässt uns vergessen, staunen, nicht mehr los, uns mit dem Verlangen nach mehr zurück und doch entlässt sie uns verzaubert wieder in die Realität. Irgendwie sind wir danach andere. Wollen das Erlebte teilen, darüber diskutieren, gemeinsam schwärmen oder einfach nur schweigend verarbeiten. Wozu das Mysterium? Wenn wir ins Kino gehen, legen wir uns sowieso bereits in die Hände anderer. Aber immerhin wissen wir teilweise was uns erwartet. Die Trailer, Werbungen, Rezensionen, Erzählungen und Empfehlungen der anderen haben uns ein klein wenig darauf vorbereitet, was da auf uns zukommt. Und uns damit ein klein wenig der Magie beraubt. Warum also nicht diese Kontrolle abgeben? Nicht wissen, was gesehen und um uns geschehen wird? Gehen wir einfach ins Kino. Ob diese Reise im dunklen Saal über die Yellow Brick Road führt? Oder überhaupt über Straßen? Denn vielleicht gibt es da, wo wir hingehen, keine Straßen ... After all ... it‘s about the movies Ja richtig, Mehrzahl. Aber keine Sorge, hier warten keine Double oder Triple Features. Wir alle kommen rechtzeitig nach Hause. Aber Kino ist ein kollektives Erlebnis und da darf auch eine kollektive Entscheidung getroffen werden. Drei Kuverts, drei Filme, Aufregung, Verzweiflung, Freude, Möglichkeiten - eine Entscheidung. Tadaa! Das Licht geht aus, die silberne Leinwand enthüllt das Geheimnis. Die beiden nicht gewählten Filme? Wer weiß. Ein Mysterium. P.S.: FOR THE FAINT OF HEART Eine kleine Vorwarnung: Es bedarf keiner Vorwarnung. Magical Mystery Movie ist ein Safe Space. Die Reihe selbst ist die Aufregung. Dafür verzichten wir auf Jump Scares, übermäßigen Gore und Szenen, bei denen die weniger Mutigen die Augen schließen müssten. Wozu haben wir die Nachtblende...",
+    "director": "???",
+    "language": "",
+    "runtime": null,
+    "title": "Magical Mystery Movie",
+    "year": null
+   },
+   "factsAt": "2026-11-24T14:52:49+01:00",
+   "ics": {
+    "2026-11-27T20:30|Gartenbaukino": "https://nonstopkino.at/feed/calendar/?id=202826"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:49+01:00"
+  },
   "making-dust-fiona-hallinan-all-buildings-are-beautiful-christoph-schwarz": {
    "facts": {
     "cast": "",
@@ -12322,7 +12611,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -12355,18 +12644,19 @@
     "title": "Mary Poppins",
     "year": 1964
    },
-   "factsAt": "2026-11-09T23:27:08+01:00",
+   "factsAt": "2026-11-24T14:52:50+01:00",
    "ics": {
-    "2026-11-18T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=192321"
+    "2027-01-01T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=199879",
+    "2027-01-06T15:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=199873"
    },
    "omdb": {
     "imdbRating": 7.8,
     "imdbVotes": 200735,
     "metascore": 88,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:19+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -12385,7 +12675,7 @@
     "trailer": "https://www.youtube.com/watch?v=Ss50nLzsEXc",
     "year": 1964
    },
-   "tmdbAt": "2026-11-09T23:27:09+01:00",
+   "tmdbAt": "2026-11-24T14:52:50+01:00",
    "tmdbId": 433
   },
   "mathilda": {
@@ -12526,10 +12816,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 441040,
     "metascore": 87,
-    "rt": 94
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:19+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -12757,8 +13047,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:19+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR",
@@ -12801,8 +13091,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:51+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NO"
@@ -12846,8 +13136,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:52+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -12887,8 +13177,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:52+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -12930,8 +13220,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:52+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR"
@@ -13013,10 +13303,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 13872,
     "metascore": 74,
-    "rt": 90
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:21+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:52+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -13106,10 +13396,10 @@
     "imdbRating": 6.6,
     "imdbVotes": 4444,
     "metascore": null,
-    "rt": 64
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:21+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:52+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -13151,8 +13441,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:53+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "SE",
@@ -13190,8 +13480,8 @@
     "2026-12-11T19:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202200",
     "2026-12-21T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202201"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:54+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:53+01:00"
   },
   "moscas": {
    "facts": {
@@ -13213,8 +13503,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:53+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -13394,8 +13684,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:21+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:54+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -13436,8 +13726,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:54+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -13473,8 +13763,8 @@
     "2026-12-12T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179740",
     "2026-12-20T13:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=179739"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:54+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:54+01:00"
   },
   "naza": {
    "facts": {
@@ -13514,8 +13804,8 @@
     "metascore": 94,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:54+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -13557,10 +13847,10 @@
     "imdbRating": 6.9,
     "imdbVotes": 50264,
     "metascore": 78,
-    "rt": 80
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -13649,10 +13939,10 @@
     "imdbRating": 7.8,
     "imdbVotes": 683715,
     "metascore": 76,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -13801,8 +14091,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:23+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:55+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -13827,6 +14117,23 @@
    },
    "tmdbAt": "2026-11-14T11:35:13+01:00",
    "tmdbId": 1241574
+  },
+  "no-madinnen-wiens-kinokonzert": {
+   "facts": {
+    "cast": "",
+    "description": "5€ Aufpreis „Wir sind nicht verrückt, wir werden verrückt“ Eine musikalische, politisch-poetische, feministische Spurensuche Moderne Nomadinnen erkunden die Folgen eines flexiblen Lebens im modernen Kapitalismus. Das verlangt auch ein Denken in Bewegung, das sich nicht hinter heteronormativen Systemen versteckt. Der Film zeigt die Arbeit des interdisziplinären KünsterInnenkollektivs „No.MadInnen Wiens“ von Tini Trampler & Playbackdolls gegründet,, das nach ungehörten Stimmen im patriachal-kapitalistischen System sucht und deren Wünsche, Strategien und Visionen in Menschenrechtslieder und Texte übersetzt. Es wurde mit Frauen* in verschiedensten Lebens- und Arbeitswelten über ihre Lebensrealitäten gesprochen um ihre Geschichten, Anliegen, Gedanken, ihr Ringen um ein selbstbestimmtes Leben, ihre Wünsche und Visionen zur Sprache zu bringen. Gerade die unmittelbaren, persönlichen Geschichten erscheinen im Film als möglicher Schlüssel, dass Gleichberechtigung die eigentliche Grundlage demokratischen Denkens ist. Ausgehend von diesen Interviews haben Tini Trampler & Playbackdolls Menschenrechtslieder komponiert, die Literatin Eva Schörkhuber Texte geschrieben. Die Strategien und Wege von Menschen in prekären Situationen wurden in Musik und Poesie übertragen, als Antwort, die die Demokratie ständig sucht - eine Suche nach Noten, die Nöten die nötige Sprengkraft geben. Interviews, Kompositions- und Probenarbeit, Studioaufnahmen, partizipative Konzerten in Imbissen Wiens und Theaterräumen, Lesungen, Wunschbücher-Performances und Open Mics wurden von Reinhard Mayr seit 2023 dokumentiert. Im Anschluss an den Film spielen Tini Trampler & Playbackdolls ein Live-Konzert mit den entstandenen Liedern, die auch als Musikalbum veröffentlicht werden (das am 4.2.2027 im Porgy&Bess präsentiert wird).",
+    "director": "Reinhard Mayr",
+    "language": "",
+    "runtime": 90,
+    "title": "No.Mad*Innen Wiens + Kinokonzert",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:52:55+01:00",
+   "ics": {
+    "2026-12-03T19:00|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=202829"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:56+01:00"
   },
   "noch-lange-keine-lipizzaner": {
    "facts": {
@@ -13907,7 +14214,7 @@
     "2026-11-23T17:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199151",
     "2026-11-26T16:15|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199146"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -13924,6 +14231,23 @@
    },
    "tmdbAt": "2026-11-14T11:35:13+01:00",
    "tmdbId": 1706099
+  },
+  "nomade-auf-zeit": {
+   "facts": {
+    "cast": "",
+    "description": "„Das Nomadenleben ist wie ein freier Tanz, das Leben in der Stadt wie im Gefängnis“, sagt der achtjährige Ilia in Valentin Mackes erstem abendfüllenden Dokumentarfilm NOMADE AUF ZEIT. Zwei Jahre reist der junge Österreicher ohne festen Plan per Anhalter Richtung Osten, schläft auf fremden Sofas und unter freiem Himmel. Das Herzstück des Films ist jedoch seine Zeit mit einer Nomadenfamilie tief in den Bergen des Irans. Es gelingt Valentin, ganz nah in ihren Alltag einzutauchen. Zwischen Faszination und Ernüchterung entsteht ein Bild voller Widersprüche, das seinen eigenen Traum vom freien Leben in ein neues Licht rückt. Eine Einladung, den eigenen Platz in der Welt zu hinterfragen und gleichzeitig ein ungewöhnlicher, überraschender Reisefilm.",
+    "director": "Valentin Macke",
+    "language": "Deutsch",
+    "runtime": 92,
+    "title": "NOMADE AUF ZEIT",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:52:57+01:00",
+   "ics": {
+    "2026-11-26T20:30|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=202508"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:57+01:00"
   },
   "nome": {
    "facts": {
@@ -14075,10 +14399,10 @@
     "imdbRating": 7.8,
     "imdbVotes": 392842,
     "metascore": 77,
-    "rt": 93
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:23+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:58+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -14114,8 +14438,8 @@
    "ics": {
     "2026-11-26T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198527"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T13:59:56+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:52:58+01:00"
   },
   "oh-wie-schoen-ist-panama": {
    "facts": {
@@ -14137,8 +14461,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:58+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -14183,7 +14507,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T13:59:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -14245,7 +14569,7 @@
     "rt": 71
    },
    "omdbAt": "2026-11-23T14:00:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -14290,7 +14614,7 @@
     "rt": 93
    },
    "omdbAt": "2026-11-23T14:00:01+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -14466,7 +14790,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:03+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -14559,7 +14883,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:04+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -14600,7 +14924,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:06+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PS",
@@ -14707,8 +15031,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:24+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:52:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -14743,6 +15067,23 @@
    },
    "seenAt": "2026-10-31T20:41:20+01:00",
    "tmdbAt": "2026-10-31T11:49:24+01:00"
+  },
+  "piliji": {
+   "facts": {
+    "cast": "",
+    "description": "Samira Fux beschäftigt sich in dem Dokumentarfilm „Piliji“ sich mit zweisprachiger Identität im Grenzgebiet von Österreich und Slowenien Der Film führt uns in die Heimatregion der Regisseurin, eine kleine Stadt an der Südgrenze Österreichs, in Kärnten, in der seit Jahrhunderten Büchsen/Jagdwaffen gefertigt werden. In vielen Werkstätten wird auch heute noch gefeilt und geschmirgelt, um Luxusjagdwaffen für den globalen Markt zu produzieren. Vor dem wirtschaftlichen Hintergrund des traditionsreichen Büchsenmacherhandwerks entfalten sich Lebensgeschichten, die die dunklen Kapitel der slowenischen Volksgruppe dieser Region zum Vorschein bringen.",
+    "director": "Samira Fux",
+    "language": "Slowenisch, Deutsch",
+    "runtime": 78,
+    "title": "Piliji",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:52:59+01:00",
+   "ics": {
+    "2026-11-26T21:00|Top Kino": "https://nonstopkino.at/feed/calendar/?id=202506"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:00+01:00"
   },
   "pippi-in-taka-tuka-land-1970": {
    "facts": {
@@ -14805,10 +15146,10 @@
     "imdbRating": 7.0,
     "imdbVotes": 6045,
     "metascore": null,
-    "rt": 43
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:00+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "SE",
@@ -14893,10 +15234,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 230308,
     "metascore": 60,
-    "rt": 68
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:24+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:00+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -14945,8 +15286,8 @@
     "metascore": 96,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:25+01:00",
-   "seenAt": "2026-11-22T20:46:01+01:00",
+   "omdbAt": "2026-11-24T14:53:00+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "KR",
@@ -15119,8 +15460,8 @@
     "metascore": 68,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:25+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:01+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -15164,7 +15505,7 @@
     "rt": 94
    },
    "omdbAt": "2026-11-22T20:45:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "JP"
@@ -15186,6 +15527,23 @@
    "tmdbAt": "2026-11-20T12:48:42+01:00",
    "tmdbId": 128
   },
+  "q-the-winged-serpent-35mm": {
+   "facts": {
+    "cast": "Michael Moriarty, Candy Clark, David Carradine, Richard Roundtree",
+    "description": "Ein geflügeltes Monster macht New York unsicher und schnappt sich seine Opfer direkt von den Hochhausdächern. Während Detective Shepard (David Carradine) und Sergeant Powell (Richard Roundtree) versuchen, die Bestie aufzuspüren, haben sie noch mit einer mysteriösen Mordserie zu kämpfen. Der Kleinkriminelle Jimmy Quinn (Michael Moriarty) hat unterdessen ganz andere Sorgen: Nach einem missglückten Juwelenraub landen die erbeuteten Diamanten durch einen bizarren Zufall im Chrysler Building. Also genau dort, wo sich auch das Nest des Monsters befindet…",
+    "director": "Larry Cohen",
+    "language": "Englisch",
+    "runtime": 93,
+    "title": "Q – The Winged Serpent (35mm)",
+    "year": 1982
+   },
+   "factsAt": "2026-11-24T14:53:01+01:00",
+   "ics": {
+    "2026-11-28T22:30|Gartenbaukino": "https://nonstopkino.at/feed/calendar/?id=202821"
+   },
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:02+01:00"
+  },
   "queen-champions-of-the-world": {
    "facts": {
     "cast": "Freddie Mercury, Brian May, Roger Taylor, John Deacon",
@@ -15206,8 +15564,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:25+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:02+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -15364,7 +15722,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:07+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -15492,10 +15850,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 703457,
     "metascore": 70,
-    "rt": 93
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:22+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -15529,8 +15887,8 @@
    "ics": {
     "2026-12-08T19:30|Admiral Kino": "https://nonstopkino.at/feed/calendar/?id=190645"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:08+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:03+01:00"
   },
   "romeria": {
    "facts": {
@@ -15604,8 +15962,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:03+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "SE",
@@ -15643,8 +16001,8 @@
    "ics": {
     "2026-11-25T14:00|Filmcasino": "https://nonstopkino.at/feed/calendar/?id=200556"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:08+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:04+01:00"
   },
   "sacrifice": {
    "facts": {
@@ -15719,7 +16077,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:10+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -15740,6 +16098,49 @@
    },
    "tmdbAt": "2026-11-23T14:00:09+01:00",
    "tmdbId": 857
+  },
+  "scrooged": {
+   "facts": {
+    "cast": "Danny Elfman Mit Bill Murray, Karen Allen, John Forsythe, John Glover, Bobcat Goldthwait, Carol Kane, Robert Mitchum",
+    "description": "Quote und Karriere – mehr scheint für Fernsehmacher Frank (Bill Murray in Höchstform) nicht zu zählen. Zu Weihnachten erhält er daher Besuch von drei Geistern, die ihn mit Vergangenheit, Gegenwart und Zukunft konfrontieren. Wird er die Chance nutzen, um zu einem besseren Menschen zu werden? Das klassische Charles-Dickens-Märchen erfährt eine Modernisierung in die 1980er-Jahre – inklusive bissigem Kommentar zur amerikanischen Medienbesessenheit. (Florian Widegger)",
+    "director": "Richard Donner",
+    "language": "Englisch",
+    "runtime": 101,
+    "title": "Scrooged",
+    "year": 1988
+   },
+   "factsAt": "2026-11-24T14:53:04+01:00",
+   "ics": {
+    "2026-11-29T15:00|Gartenbaukino": "https://nonstopkino.at/feed/calendar/?id=202820"
+   },
+   "omdb": {
+    "imdbRating": 6.9,
+    "imdbVotes": 129814,
+    "metascore": 38,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:53:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "US"
+    ],
+    "genres": [
+     "Fantasy",
+     "Komödie",
+     "Drama"
+    ],
+    "imdbId": "tt0096061",
+    "origin": "us",
+    "originalTitle": "Scrooged",
+    "overview": "Frank Cross ist der jüngste Fernsehchef Amerikas. Er ist karrieresüchtig und gefühlskalt. Für ihn zählen nur Einschaltquoten – und die will er Weihnachten auf die Spitze treiben. Er plant eine Blut- und Action-Horrorshow, wie sie noch keiner kennt. Die Zuschauer werden total begeistert sein, so spekuliert der Einschaltquoten-Technokrat. Die Einnahmen aus der Werbung steigen schnell ins Astronomische. Doch bevor er sein Weihnachtsgeschenk präsentieren kann, geschieht Außergewöhnliches Ein ehemaliger Bekannter, der seit sieben Jahren verstorben ist, taucht plötzlich in seinem Büro auf. Der Geist kündigt ihm Besuch von drei weiteren Geistern an. Kein angenehmer Besuch für Frank, denn diese drei haben eine gespenstische Radikalkur mit dem egoistischen Menschenfeind Frank vor.",
+    "poster": "/p48rmU1oZfNIS0i5wY0dKkXYiKe.jpg",
+    "runtime": 101,
+    "trailer": "https://www.youtube.com/watch?v=paskVcxactY",
+    "year": 1988
+   },
+   "tmdbAt": "2026-11-24T14:53:05+01:00",
+   "tmdbId": 9647
   },
   "secret-beyond-the-door": {
    "facts": {
@@ -15807,8 +16208,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR"
@@ -15870,8 +16271,8 @@
     "metascore": 72,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:05+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -15909,8 +16310,8 @@
     "2026-12-18T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202192",
     "2026-12-26T20:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202193"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:11+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:06+01:00"
   },
   "shaun-das-schaf-der-film": {
    "facts": {
@@ -16029,8 +16430,8 @@
     "2026-11-25T18:00|Kino im Kesselhaus": "https://nonstopkino.at/feed/calendar/?id=195311",
     "2026-11-26T18:30|Breitenseer Lichtspiele": "https://nonstopkino.at/feed/calendar/?id=199145"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:11+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:06+01:00"
   },
   "sichtbares-und-verborgenes": {
    "facts": {
@@ -16072,7 +16473,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:13+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -16109,8 +16510,8 @@
     "2026-12-04T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202309",
     "2026-12-28T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202308"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:14+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:07+01:00"
   },
   "silent-shorts-ii": {
    "facts": {
@@ -16127,8 +16528,8 @@
     "2026-12-07T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202244",
     "2026-12-30T18:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202243"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:15+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:07+01:00"
   },
   "skiff": {
    "facts": {
@@ -16150,8 +16551,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:07+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "NL",
@@ -16193,8 +16594,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:07+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -16275,10 +16676,10 @@
     "imdbRating": 5.7,
     "imdbVotes": 2281,
     "metascore": null,
-    "rt": 50
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:08+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "IT",
@@ -16323,7 +16724,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:17+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -16358,8 +16759,8 @@
     "2026-12-16T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202143",
     "2026-12-21T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202144"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:18+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:08+01:00"
   },
   "sound-shorts-ii": {
    "facts": {
@@ -16376,8 +16777,8 @@
     "2026-12-18T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202133",
     "2027-01-04T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202132"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:19+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:08+01:00"
   },
   "spanien": {
    "facts": {
@@ -16400,8 +16801,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:09+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -16532,8 +16933,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:28+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:09+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE"
@@ -16575,7 +16976,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:20+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -16691,7 +17092,7 @@
     "2026-11-26T17:45|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201184",
     "2026-11-26T19:00|CineCenter": "https://nonstopkino.at/feed/calendar/?id=201026"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -16731,8 +17132,8 @@
     "metascore": 62,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:28+01:00",
-   "seenAt": "2026-11-21T20:23:40+01:00",
+   "omdbAt": "2026-11-24T14:53:09+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -16771,10 +17172,10 @@
     "imdbRating": 7.2,
     "imdbVotes": 86894,
     "metascore": 66,
-    "rt": 71
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:28+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:09+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -16934,10 +17335,10 @@
     "imdbRating": 6.7,
     "imdbVotes": 5506,
     "metascore": 81,
-    "rt": 90
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:28+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:10+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AU"
@@ -16978,8 +17379,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:29+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:10+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "HU"
@@ -17015,8 +17416,8 @@
    "ics": {
     "2026-12-03T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198403"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:21+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:10+01:00"
   },
   "szerelmesfilm-love-film": {
    "facts": {
@@ -17032,8 +17433,8 @@
    "ics": {
     "2026-11-28T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198563"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:22+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:11+01:00"
   },
   "sziget-a-szarazfoeldoen": {
    "facts": {
@@ -17049,8 +17450,8 @@
    "ics": {
     "2026-12-02T19:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198412"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:22+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:11+01:00"
   },
   "szindbad": {
    "facts": {
@@ -17175,7 +17576,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-22T20:45:59+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -17218,8 +17619,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:29+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:12+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -17260,8 +17661,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:29+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:12+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -17298,8 +17699,8 @@
    "ics": {
     "2026-12-01T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198076"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:23+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:12+01:00"
   },
   "the-altar-boys-ministranci": {
    "facts": {
@@ -17321,8 +17722,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:12+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -17361,10 +17762,10 @@
     "imdbRating": 7.9,
     "imdbVotes": 33277,
     "metascore": null,
-    "rt": 95
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:30+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:13+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17406,8 +17807,8 @@
     "metascore": null,
     "rt": 91
    },
-   "omdbAt": "2026-11-21T20:23:30+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:13+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17446,10 +17847,10 @@
     "imdbRating": 6.8,
     "imdbVotes": 6423,
     "metascore": null,
-    "rt": 85
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:30+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:13+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17537,7 +17938,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:24+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17572,8 +17973,8 @@
     "2026-12-19T18:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202124",
     "2027-01-06T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202125"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:25+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:13+01:00"
   },
   "the-dirty-dozen": {
    "facts": {
@@ -17726,7 +18127,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -17809,8 +18210,8 @@
     "metascore": 38,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:14+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17847,8 +18248,8 @@
    "ics": {
     "2026-11-25T20:00|Haydn Kino": "https://nonstopkino.at/feed/calendar/?id=201416"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:27+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:14+01:00"
   },
   "the-grinch": {
    "facts": {
@@ -17868,10 +18269,10 @@
     "imdbRating": 6.4,
     "imdbVotes": 336645,
     "metascore": 46,
-    "rt": 50
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:14+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -17912,10 +18313,10 @@
     "imdbRating": 6.7,
     "imdbVotes": 1640,
     "metascore": null,
-    "rt": 46
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:15+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -17959,7 +18360,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:29+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -18001,8 +18402,8 @@
     "metascore": 41,
     "rt": 50
    },
-   "omdbAt": "2026-11-21T20:23:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:15+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -18041,10 +18442,10 @@
     "imdbRating": 7.9,
     "imdbVotes": 274784,
     "metascore": 82,
-    "rt": 97
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:26+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:15+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -18127,13 +18528,13 @@
     "2026-11-19T19:45|Kino Freistadt": "https://nonstopkino.at/feed/calendar/?id=198692"
    },
    "omdb": {
-    "imdbRating": null,
-    "imdbVotes": null,
-    "metascore": null,
+    "imdbRating": 7.6,
+    "imdbVotes": 22802,
+    "metascore": 56,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:15+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -18219,10 +18620,10 @@
     "imdbRating": 7.3,
     "imdbVotes": 64199,
     "metascore": 72,
-    "rt": 86
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:32+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -18267,8 +18668,8 @@
     "metascore": 82,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:32+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -18562,8 +18963,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AT"
@@ -18777,10 +19178,10 @@
     "imdbRating": 7.5,
     "imdbVotes": 102655,
     "metascore": 89,
-    "rt": 90
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AU",
@@ -18826,10 +19227,10 @@
     "imdbRating": 7.2,
     "imdbVotes": 33733,
     "metascore": 75,
-    "rt": 94
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:16+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "CA",
@@ -18871,8 +19272,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:27+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PL"
@@ -18952,10 +19353,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 188663,
     "metascore": 65,
-    "rt": 82
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:17+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB",
@@ -18994,8 +19395,8 @@
     "2026-12-23T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202110",
     "2027-01-05T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202109"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:30+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:17+01:00"
   },
   "the-shop-around-the-corner": {
    "facts": {
@@ -19021,7 +19422,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:31+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19066,7 +19467,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19113,10 +19514,10 @@
     "imdbRating": null,
     "imdbVotes": null,
     "metascore": null,
-    "rt": 54
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19159,7 +19560,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19203,7 +19604,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:36+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19246,7 +19647,7 @@
     "rt": 90
    },
    "omdbAt": "2026-11-22T20:46:00+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -19331,10 +19732,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 197687,
     "metascore": 97,
-    "rt": 99
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -19377,7 +19778,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:37+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19421,7 +19822,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:38+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19459,10 +19860,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 473551,
     "metascore": 92,
-    "rt": 98
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19606,10 +20007,10 @@
     "imdbRating": 6.6,
     "imdbVotes": 4365,
     "metascore": null,
-    "rt": 57
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:35+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:18+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19655,7 +20056,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:40+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19692,8 +20093,8 @@
     "2026-12-13T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201642",
     "2027-01-02T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201643"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:40+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:19+01:00"
   },
   "trainspotting-4k-restauration": {
    "facts": {
@@ -19713,10 +20114,10 @@
     "imdbRating": 8.1,
     "imdbVotes": 775940,
     "metascore": 83,
-    "rt": 93
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:35+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:19+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GB"
@@ -19760,7 +20161,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:42+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -19957,10 +20358,10 @@
     "imdbRating": 6.7,
     "imdbVotes": 4246,
     "metascore": null,
-    "rt": 80
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:35+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:19+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -20052,8 +20453,8 @@
    "ics": {
     "2026-12-02T18:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201968"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:43+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:20+01:00"
   },
   "unsere-zeit-wird-kommen": {
    "facts": {
@@ -20115,10 +20516,10 @@
     "imdbRating": 7.0,
     "imdbVotes": 13832,
     "metascore": null,
-    "rt": 81
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:36+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:20+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "XC"
@@ -20160,8 +20561,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:36+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:20+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "ZA"
@@ -20217,8 +20618,8 @@
     "metascore": 90,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:36+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:20+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "PL",
@@ -20307,10 +20708,10 @@
     "imdbRating": null,
     "imdbVotes": null,
     "metascore": null,
-    "rt": 31
+    "rt": null
    },
-   "omdbAt": "2026-11-20T12:48:49+01:00",
-   "seenAt": "2026-11-21T20:23:40+01:00",
+   "omdbAt": "2026-11-24T14:53:20+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -20471,10 +20872,10 @@
     "imdbRating": 8.0,
     "imdbVotes": 28606,
     "metascore": null,
-    "rt": 97
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:36+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:21+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "MX",
@@ -20528,8 +20929,8 @@
     "2026-12-25T20:45|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202136",
     "2027-01-05T17:30|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=202135"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:44+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:21+01:00"
   },
   "was-haben-wir-gelacht": {
    "facts": {
@@ -20655,8 +21056,8 @@
    "ics": {
     "2026-11-24T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=193558"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:45+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:22+01:00"
   },
   "was-ist-film-programm-22": {
    "facts": {
@@ -20672,8 +21073,8 @@
    "ics": {
     "2026-12-01T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201616"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:45+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:22+01:00"
   },
   "was-ist-film-programm-23": {
    "facts": {
@@ -20689,8 +21090,8 @@
    "ics": {
     "2026-12-01T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201615"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:46+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:22+01:00"
   },
   "was-ist-film-programm-24": {
    "facts": {
@@ -20706,8 +21107,8 @@
    "ics": {
     "2026-12-08T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201614"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:46+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:23+01:00"
   },
   "was-ist-film-programm-25": {
    "facts": {
@@ -20723,8 +21124,8 @@
    "ics": {
     "2026-12-15T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201613"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:47+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:23+01:00"
   },
   "was-ist-film-programm-26": {
    "facts": {
@@ -20740,8 +21141,8 @@
    "ics": {
     "2026-12-15T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201612"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:48+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:24+01:00"
   },
   "was-ist-film-programm-27": {
    "facts": {
@@ -20757,8 +21158,8 @@
    "ics": {
     "2026-12-22T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201611"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:48+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:24+01:00"
   },
   "was-ist-film-programm-28": {
    "facts": {
@@ -20774,8 +21175,8 @@
    "ics": {
     "2026-12-22T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201610"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:49+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:25+01:00"
   },
   "was-ist-film-programm-29": {
    "facts": {
@@ -20791,8 +21192,8 @@
    "ics": {
     "2027-01-05T18:00|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201609"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:49+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:25+01:00"
   },
   "was-ist-film-programm-30": {
    "facts": {
@@ -20808,8 +21209,8 @@
    "ics": {
     "2027-01-05T20:30|Filmmuseum": "https://nonstopkino.at/feed/calendar/?id=201608"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:50+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:26+01:00"
   },
   "wax-gold": {
    "facts": {
@@ -20875,7 +21276,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:51+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -20895,6 +21296,49 @@
    },
    "tmdbAt": "2026-11-23T14:00:51+01:00",
    "tmdbId": 25599
+  },
+  "we-have-to-survive": {
+   "facts": {
+    "cast": "",
+    "description": "Eine filmische Reise rund um den Globus im Angesicht des Klimawandels. Von den fragilen Outer Banks in den USA, wo das Meer langsam das Land zurückerobert, über die weiten Wüsten der Mongolei, durch die unterirdischen Städten in Australien, wo Menschen leben um der sengenden Wüstenhitze zu entkommen bis hin zu den eisigen Küsten Grönlands, wo alte Traditionen im Wandel sind. Der Film öffnet Türen zu verschiedenen Räumen unseres globalen Zuhauses. In intimen Geschichten wird sichtbar, wie sich Communities anpassen, weiterleben und neue Wege finden, verbunden durch eine gemeinsame, fragile Welt und die Kraft, ihr mit Mut und Fürsorge zu begegnen. Die kraftvolle und hoffnungsvolle Message des Film zeigt, dass der Einfallsreichtum des Menschen eine Kraft der Widerstandsfähigkeit ist.",
+    "director": "Tomáš Krupa",
+    "language": "",
+    "runtime": 102,
+    "title": "We have to Survive",
+    "year": 2026
+   },
+   "factsAt": "2026-11-24T14:53:26+01:00",
+   "ics": {
+    "2026-11-26T18:00|Schikaneder": "https://nonstopkino.at/feed/calendar/?id=202507"
+   },
+   "omdb": {
+    "imdbRating": null,
+    "imdbVotes": null,
+    "metascore": null,
+    "rt": null
+   },
+   "omdbAt": "2026-11-24T14:53:27+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdb": {
+    "countries": [
+     "SK",
+     "FR",
+     "AT"
+    ],
+    "genres": [
+     "Dokumentarfilm"
+    ],
+    "imdbId": "tt21311250",
+    "origin": "intl",
+    "originalTitle": "We Have to Survive",
+    "overview": "",
+    "poster": "/52E7vA6NKQcrgsLptKqVkoZvrye.jpg",
+    "runtime": 102,
+    "trailer": "",
+    "year": 2026
+   },
+   "tmdbAt": "2026-11-24T14:53:27+01:00",
+   "tmdbId": 1649039
   },
   "weihnachten-der-tiere": {
    "facts": {
@@ -20916,8 +21360,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:27+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR",
@@ -21018,8 +21462,8 @@
    "ics": {
     "2026-12-03T18:00|Metro Kinokulturhaus": "https://nonstopkino.at/feed/calendar/?id=198518"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:52+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:27+01:00"
   },
   "werkstattgespraech-mit-tsitsi-dangarembga": {
    "facts": {
@@ -21060,7 +21504,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:53+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -21102,8 +21546,8 @@
     "metascore": null,
     "rt": 100
    },
-   "omdbAt": "2026-11-22T12:34:33+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:28+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "GE",
@@ -21218,10 +21662,10 @@
     "imdbRating": 6.9,
     "imdbVotes": 7367,
     "metascore": null,
-    "rt": 91
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:37+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:28+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -21262,8 +21706,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:37+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:28+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "ZA"
@@ -21297,8 +21741,8 @@
    "ics": {
     "2026-12-02T20:00|Votiv Kino": "https://nonstopkino.at/feed/calendar/?id=201967"
    },
-   "seenAt": "2026-11-23T14:00:59+01:00",
-   "tmdbAt": "2026-11-23T14:00:55+01:00"
+   "seenAt": "2026-11-24T14:53:31+01:00",
+   "tmdbAt": "2026-11-24T14:53:29+01:00"
   },
   "wie-der-wind-sich-hebt": {
    "facts": {
@@ -21365,7 +21809,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:56+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "DE",
@@ -21557,8 +22001,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:38+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:29+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -21621,8 +22065,8 @@
     "metascore": 88,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:38+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:29+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -21662,10 +22106,10 @@
     "imdbRating": 6.7,
     "imdbVotes": 264035,
     "metascore": 62,
-    "rt": 75
+    "rt": null
    },
-   "omdbAt": "2026-11-22T12:34:34+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:30+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US",
@@ -21709,8 +22153,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:38+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:30+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "FR"
@@ -21754,7 +22198,7 @@
     "rt": null
    },
    "omdbAt": "2026-11-23T14:00:58+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -21882,8 +22326,8 @@
     "metascore": null,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:38+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:30+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "AR"
@@ -21937,8 +22381,8 @@
     "metascore": 98,
     "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:39+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:30+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
@@ -22036,10 +22480,10 @@
     "imdbRating": 7.4,
     "imdbVotes": 345171,
     "metascore": 95,
-    "rt": 91
+    "rt": null
    },
-   "omdbAt": "2026-11-21T20:23:39+01:00",
-   "seenAt": "2026-11-23T14:00:59+01:00",
+   "omdbAt": "2026-11-24T14:53:30+01:00",
+   "seenAt": "2026-11-24T14:53:31+01:00",
    "tmdb": {
     "countries": [
      "US"
